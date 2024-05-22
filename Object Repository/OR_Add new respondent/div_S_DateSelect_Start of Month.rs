@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_S_DateSelect_Start of Month</name>
+   <tag></tag>
+   <elementGuidId>3343b12d-3342-4fc1-b234-c8d536a4000c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@class=&quot;rdrDay rdrDayStartOfMonth&quot;]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.DateSelect__BgDrop-sc-s4e42t-6.htWjlg</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>ae5e6bc2-4463-44db-881b-0bb0eb853e01</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>DateSelect__BgDrop-sc-s4e42t-6 htWjlg</value>
+      <webElementGuid>ce854205-0927-472b-aa92-e58148acca5f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[2]/div[@class=&quot;ContentRouter__Container-sc-ayudpc-0 kFILiX&quot;]/div[@class=&quot;ContentRouter__ContentContainer-sc-ayudpc-1 bDzahg&quot;]/div[@class=&quot;ContentRouter__StyledRouter-sc-ayudpc-2 cdCFNr&quot;]/div[@class=&quot;ContentRouter__RouteWrapper-sc-ayudpc-3 fVaimK&quot;]/div[1]/div[@class=&quot;PageWrapper__Container-sc-10mepnc-0 eLXHhm&quot;]/div[@class=&quot;rodal rodal-fade-enter&quot;]/div[@class=&quot;rodal-dialog rodal-fade-enter&quot;]/div[@class=&quot;NewModal__Container-sc-1b0fhaf-0 bASsOq AddRespondentModal__StyledModal-sc-gv2eix-0 cbZrEP&quot;]/form[@class=&quot;AddRespondentForm__Form-sc-nyr9r3-0 AQdLQ&quot;]/div[@class=&quot;AddRespondentForm__InputsHolder-sc-nyr9r3-1 jRoXFq&quot;]/div[6]/div[@class=&quot;DateSelect__OuterContainer-sc-s4e42t-0 deRUpa AddRespondentForm__DatePicker-sc-nyr9r3-5 bcNhJZ&quot;]/div[@class=&quot;DateSelect__BgDrop-sc-s4e42t-6 htWjlg&quot;]</value>
+      <webElementGuid>cc77e88d-27f8-4699-bcb9-7c5a25d4428e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/div/div/div/div/div/div/div[8]/div[2]/div/form/div/div[6]/div/div[2]</value>
+      <webElementGuid>a8bed2dc-c57c-458a-b6f7-76f6cfd81a5d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div/div[6]/div/div[2]</value>
+      <webElementGuid>bc263473-161d-4992-aa2b-2ec4698f45cb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

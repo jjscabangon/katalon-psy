@@ -23,13 +23,13 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(GlobalVariable.url)
 
-WebUI.setText(findTestObject('Object Repository/Login/Login/input_email'), GlobalVariable.email)
+WebUI.setText(findTestObject('Object Repository/OR_Login/input_email'), GlobalVariable.email)
 
-WebUI.click(findTestObject('Object Repository/Login/Login/button_Login'))
+WebUI.click(findTestObject('Object Repository/OR_Login/button_Login'))
 
-WebUI.setText(findTestObject('Object Repository/Login/Login/input_password'), GlobalVariable.password)
+WebUI.setText(findTestObject('Object Repository/OR_Login/input_password'), GlobalVariable.password)
 
-WebUI.click(findTestObject('Object Repository/Login/Login/button_Continue'))
+WebUI.click(findTestObject('Object Repository/OR_Login/button_Continue'))
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/Login/Login/leftside_menu'), 30)
+WebUI.waitForElementVisible(findTestObject('Object Repository/OR_Login/leftside_menu'), 30)
 

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Login</name>
+   <name>div_Bengali</name>
    <tag></tag>
-   <elementGuidId>1b860359-11b5-4702-8934-641e37dab441</elementGuidId>
+   <elementGuidId>2c350b2f-2e1d-487f-8daf-a47e1b800360</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@type='submit']</value>
+         <value>//div[@id='react-select-14-option-4']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>button.Login__SubmitButton-sc-118qs9o-7.kUJyVa</value>
+         <value>#react-select-14-option-4</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,111 +22,119 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>51689fdd-3617-4141-ba2f-652be1369eea</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>submit</value>
-      <webElementGuid>039eaf02-6a34-498f-9969-6d3e2ac43424</webElementGuid>
+      <value>div</value>
+      <webElementGuid>4dd59f1c-d1f4-4f28-8e71-ce3adee9fc4c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>Login__SubmitButton-sc-118qs9o-7 kUJyVa</value>
-      <webElementGuid>db177035-9e8e-4bbe-8e7e-07957f249d3c</webElementGuid>
+      <value> css-2d7khs-option</value>
+      <webElementGuid>0533e3b9-4a91-4245-8854-9cfbd34a88a9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>react-select-14-option-4</value>
+      <webElementGuid>0eb3b45e-2ce0-40a8-8a60-b221df024de0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>-1</value>
+      <webElementGuid>357982af-de6f-4d75-b04a-c28110173b03</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Login</value>
-      <webElementGuid>7a2bfe04-69cc-4c0d-ad13-1b98b3fef3ca</webElementGuid>
+      <value>Bengali</value>
+      <webElementGuid>b752b573-d42a-4137-873f-ddd311aef5e0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[2]/div[@class=&quot;Login__BgContainer-sc-118qs9o-0 bDvrPj&quot;]/div[@class=&quot;Login__LoginContainer-sc-118qs9o-1 iHwGlj&quot;]/form[@class=&quot;Login__StyledForm-sc-118qs9o-2 hYYuTD&quot;]/button[@class=&quot;Login__SubmitButton-sc-118qs9o-7 kUJyVa&quot;]</value>
-      <webElementGuid>93b32a01-e1f0-4f67-bef2-70850372842e</webElementGuid>
+      <value>id(&quot;react-select-14-option-4&quot;)</value>
+      <webElementGuid>6d967a5b-42b6-4ded-90a1-78a6421c39c3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@type='submit']</value>
-      <webElementGuid>6d585347-cb77-4b2e-b286-8c747ac7e4e5</webElementGuid>
+      <value>//div[@id='react-select-14-option-4']</value>
+      <webElementGuid>86e0f6ff-99e9-4150-886e-6c841b0f39c7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='root']/div[2]/div/div/form/button</value>
-      <webElementGuid>d1462255-8cc3-4669-8f04-6bd91f4b4b41</webElementGuid>
+      <value>//div[@id='root']/div[2]/div/div/div/div/div/div/div[8]/div[2]/div/form/div/div[7]/div/div[2]/div/div/div[5]</value>
+      <webElementGuid>e855aee4-19da-42d5-bfcc-5d0dad718ecd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email'])[1]/following::button[1]</value>
-      <webElementGuid>7ca9f678-2780-4bda-949c-b0f722a2ffa2</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Balinese'])[1]/following::div[1]</value>
+      <webElementGuid>bdd8544d-d770-449b-b861-9bed5a64ab61</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='GeneSys'])[1]/following::button[1]</value>
-      <webElementGuid>1a38c216-0aad-4e73-9d8b-b8af9d26a58c</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Arabic'])[1]/following::div[2]</value>
+      <webElementGuid>0c552557-8261-48f1-b6fb-2accf7770c0f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Language'])[1]/preceding::button[1]</value>
-      <webElementGuid>da9cfea5-8af3-45f6-b102-29febf6ef5a1</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Brazilian Portuguese'])[1]/preceding::div[1]</value>
+      <webElementGuid>1e72c1bf-70d1-4978-8aa5-fa31e8c2397c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='English'])[1]/preceding::button[1]</value>
-      <webElementGuid>0c9a17b3-efe4-4bf3-8db2-12b11f79a352</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Catalan'])[1]/preceding::div[2]</value>
+      <webElementGuid>7904169e-c21c-4958-bc4f-f7054ed82f69</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Login']/parent::*</value>
-      <webElementGuid>35f12674-6a44-4c22-a76b-f0d1da8f6b14</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Bengali']/parent::*</value>
+      <webElementGuid>b2f38845-2a70-43ce-9f03-cc15783c1f61</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//button</value>
-      <webElementGuid>459f01d7-e6e5-494f-bfde-d07c59d45307</webElementGuid>
+      <value>//div[7]/div/div[2]/div/div/div[5]</value>
+      <webElementGuid>06bd3c93-5c4c-49b4-99c1-b558d35a0d3d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'submit' and (text() = 'Login' or . = 'Login')]</value>
-      <webElementGuid>a2b5d06e-28c3-43a3-ae46-1e6b64f3dc5d</webElementGuid>
+      <value>//div[@id = 'react-select-14-option-4' and (text() = 'Bengali' or . = 'Bengali')]</value>
+      <webElementGuid>9e951d58-8d5c-41ee-af54-76c0217323df</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

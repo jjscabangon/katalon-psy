@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Continue</name>
+   <name>div_African American</name>
    <tag></tag>
-   <elementGuidId>d896f040-1ff5-4aad-b7b9-df9d5fe06398</elementGuidId>
+   <elementGuidId>f1539b8b-bd52-428c-accc-50228c1d54cb</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@type='submit']</value>
+         <value>//div[@id='react-select-10-option-0']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>button.LoginPassword__SubmitButton-sc-spooo3-8.cRJHBz</value>
+         <value>#react-select-10-option-0</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,111 +22,119 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>45396fcf-1c21-4424-a3c2-5c9aa05e8135</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>submit</value>
-      <webElementGuid>2fc9333f-a9ad-49d9-aa1c-c1a23b7b4334</webElementGuid>
+      <value>div</value>
+      <webElementGuid>f3f5f2a3-2b7a-4f73-ab39-648a0357b1f7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>LoginPassword__SubmitButton-sc-spooo3-8 cRJHBz</value>
-      <webElementGuid>f10ca453-60c1-4937-9034-b68a94f84dbb</webElementGuid>
+      <value> css-2d7khs-option</value>
+      <webElementGuid>e2d53d82-621d-43f7-bb4f-d3327037f9e6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>react-select-10-option-0</value>
+      <webElementGuid>4429003d-bdd6-4dfb-91f5-4e7aac2f8284</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>-1</value>
+      <webElementGuid>005f40f4-a27f-42aa-8ff2-f2b0057832da</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Continue</value>
-      <webElementGuid>f88481e5-2725-4d0d-804b-69973ec6e115</webElementGuid>
+      <value>African American</value>
+      <webElementGuid>e18ec5af-feeb-40b1-92a8-6eec93eec36c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[2]/div[@class=&quot;LoginPassword__BgContainer-sc-spooo3-0 gfJeDf&quot;]/div[@class=&quot;LoginPassword__LoginContainer-sc-spooo3-1 ffjwJP&quot;]/form[@class=&quot;LoginPassword__StyledForm-sc-spooo3-2 kjWCWs&quot;]/button[@class=&quot;LoginPassword__SubmitButton-sc-spooo3-8 cRJHBz&quot;]</value>
-      <webElementGuid>555a2052-c2c8-440c-b107-1cef70d85352</webElementGuid>
+      <value>id(&quot;react-select-10-option-0&quot;)</value>
+      <webElementGuid>9f01b1f0-ab2b-40d4-bbdd-a95d29b22782</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@type='submit']</value>
-      <webElementGuid>241512f5-3d72-4a8e-aaac-5ab8735e17a6</webElementGuid>
+      <value>//div[@id='react-select-10-option-0']</value>
+      <webElementGuid>45645a53-9702-4a7f-911e-f0f0a2dc3655</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='root']/div[2]/div/div/form/button</value>
-      <webElementGuid>8bd4e2d9-ebfe-4390-9255-48b4060afe9d</webElementGuid>
+      <value>//div[@id='root']/div[2]/div/div/div/div/div/div/div[8]/div[2]/div/form/div/div[3]/div/div[2]/div/div/div</value>
+      <webElementGuid>939810ae-0c07-4519-b5e9-8c9d3637e09b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::button[1]</value>
-      <webElementGuid>1f3ea75b-d6cc-4449-a55b-96e48c08c0d7</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ethnicity'])[1]/following::div[6]</value>
+      <webElementGuid>0e921fde-4b3e-42fc-97fb-4f2f823163d6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email'])[1]/following::button[1]</value>
-      <webElementGuid>27012208-beff-4ec6-b00a-5ad34589dff4</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Secondary School'])[1]/following::div[13]</value>
+      <webElementGuid>a28a9fb3-6f4e-4f90-b71a-4c4b26e3ed4e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Change user'])[1]/preceding::button[1]</value>
-      <webElementGuid>cb419e5e-0085-4dbf-bb76-6bd6c7462d0d</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Aboriginal or Torres Strait Islander'])[1]/preceding::div[1]</value>
+      <webElementGuid>d53fb5e3-be04-4a7a-9bc1-30d568ed9657</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Forgot password'])[1]/preceding::button[1]</value>
-      <webElementGuid>09411f0c-7a65-4156-9ecc-755ac4c78f59</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Algerian'])[1]/preceding::div[2]</value>
+      <webElementGuid>a08957ee-6121-4760-97a9-a988916b97ab</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Continue']/parent::*</value>
-      <webElementGuid>e81a3940-9053-4f1b-8a0f-1383d7be8627</webElementGuid>
+      <value>//*/text()[normalize-space(.)='African American']/parent::*</value>
+      <webElementGuid>1ab129bc-a69f-4254-8c5a-1fb156c3ba03</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//button</value>
-      <webElementGuid>d96230ed-3746-417f-b5c6-49eee1b334b8</webElementGuid>
+      <value>//form/div/div[3]/div/div[2]/div/div/div</value>
+      <webElementGuid>a264a735-aad5-49dd-a3d2-1ee46c3649d1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'submit' and (text() = 'Continue' or . = 'Continue')]</value>
-      <webElementGuid>9b6bea23-be8f-458d-b24e-9b4e37ee608d</webElementGuid>
+      <value>//div[@id = 'react-select-10-option-0' and (text() = 'African American' or . = 'African American')]</value>
+      <webElementGuid>e1fc03b9-e1c2-4a80-8780-17335832b0f8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
