@@ -176,5 +176,3 @@ WebUI.click(findTestObject('Object Repository/OR_Add new respondent/div_Bengali'
 
 WebUI.click(findTestObject('Object Repository/OR_Add new respondent/button_Save'))
 
-WebUI.refresh()
-
