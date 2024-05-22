@@ -17,13 +17,20 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Add new respondent'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('TC002-Add new respondent'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/OR_Edit respondent/td_jjscabangon0522073437gmail.com'))
+WebUI.click(findTestObject('Object Repository/OR_Edit respondent/td_First Respondent'))
 
-WebUI.setText(findTestObject('Object Repository/OR_Edit respondent/input_First Name_firstName'), '名字 (Míngzì) Auto - 0522073437 Edit')
+currentFName = WebUI.getAttribute(findTestObject('Object Repository/OR_Edit respondent/input_First Name_firstName'), 'value')
 
-WebUI.setText(findTestObject('Object Repository/OR_Edit respondent/input_Family Name_familyName'), '姓 (Xìng) Testing Edited')
+WebUI.setText(findTestObject('Object Repository/OR_Edit respondent/input_First Name_firstName'), currentFName + ' EDITED')
+
+currentLName = WebUI.getAttribute(findTestObject('Object Repository/OR_Edit respondent/input_Family Name_familyName'), 'value')
+
+WebUI.setText(findTestObject('Object Repository/OR_Edit respondent/input_Family Name_familyName'), currentLName + ' EDITED')
+
+WebUI.setText(findTestObject('OR_Edit respondent/input_reference'), (('Updated Reference 参考 for ' + GlobalVariable.firstname) + 
+    ' last ') + GlobalVariable.timestamp)
 
 WebUI.click(findTestObject('Object Repository/OR_Edit respondent/button_Save changes'))
 
