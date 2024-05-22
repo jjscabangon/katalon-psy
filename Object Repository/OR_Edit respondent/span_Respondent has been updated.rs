@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//span[(text() = 'Respondent has been updated' or . = 'Respondent has been updated')]</value>
+         <value>//*/text()[normalize-space(.)='Respondent has been updated']/parent::*</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>a022cc2d-7436-4eb8-87b8-f80fcce3ce2d</webElementGuid>
+      <webElementGuid>4188bd92-5b83-492c-ba91-fd6ee983cae2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Respondent has been updated</value>
-      <webElementGuid>7876557e-ea4a-4af7-b88e-2bbb1df48367</webElementGuid>
+      <webElementGuid>086ac582-7193-44fa-b08f-26f2881538b4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;Toastify&quot;]/div[@class=&quot;Toastify__toast-container Toastify__toast-container--bottom-right App__StyledToastContainer-sc-1v0549y-0 jYabNH&quot;]/div[@class=&quot;Toastify__toast Toastify__toast--success toast-success&quot;]/div[@class=&quot;Toastify__toast-body&quot;]/div[@class=&quot;Notification__StyledContainer-sc-f38rsz-0 gVkaoS&quot;]/div[@class=&quot;Notification__Content-sc-f38rsz-2 cOVJHx&quot;]/div[@class=&quot;Notification__Body-sc-f38rsz-3 ebLtzb&quot;]/span[1]</value>
-      <webElementGuid>1e12653c-48c7-4d60-8c90-48ea7582ff63</webElementGuid>
+      <webElementGuid>68c11f6c-a268-4474-9688-c752ab1e056e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div/div/div/div/div/div/span</value>
-      <webElementGuid>c6b05b5d-37f0-4da7-b4a1-dd119128e619</webElementGuid>
+      <webElementGuid>f29ae6db-4377-4952-9ad7-04a451edbef7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='✖︎'])[1]/preceding::span[1]</value>
-      <webElementGuid>5fd004de-4bb9-4b05-a556-9802ec59193e</webElementGuid>
+      <webElementGuid>82f91fc6-a7aa-42dc-a18f-726d4161a95d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Respondents'])[1]/preceding::span[1]</value>
-      <webElementGuid>fed17c10-260c-466d-b427-20c0a976a3d4</webElementGuid>
+      <webElementGuid>1eaec57d-47a7-4322-b1a6-43ade4ff14f8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Respondent has been updated']/parent::*</value>
-      <webElementGuid>d589449c-7c2c-4f84-885c-d52211d8fde4</webElementGuid>
+      <webElementGuid>214e1244-27c0-4479-899b-3e69cb620668</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span</value>
-      <webElementGuid>5d4f03af-39c4-42f2-b915-7d495b7f1dd6</webElementGuid>
+      <webElementGuid>d5941b80-ec73-43fb-b63c-0487a62a4fe0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,6 +87,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Respondent has been updated' or . = 'Respondent has been updated')]</value>
-      <webElementGuid>8fcae2ea-9223-4458-a05f-4d2886ccd2f2</webElementGuid>
+      <webElementGuid>65f4fca8-5e2c-4378-a341-f6563e5f4fc5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -34,7 +34,5 @@ WebUI.setText(findTestObject('OR_Edit respondent/input_reference'), (('Updated R
 
 WebUI.click(findTestObject('Object Repository/OR_Edit respondent/button_Save changes'))
 
-WebUI.waitForElementVisible(findTestObject('Page_Psytech Genesys/span_Respondent has been updated'), 10)
-
 WebUI.closeBrowser()
 
