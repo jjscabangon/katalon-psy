@@ -12,16 +12,31 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>'jjscabangon@gmail.com'</initValue>
-      <name>email</name>
+      <name>loginEmail</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'qwerty!2345@'</initValue>
-      <name>password</name>
+      <name>loginPassword</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>en=English, sc=ChineseSimpified</description>
       <initValue>'en'</initValue>
       <name>language</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>firstname</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>lastname</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>email</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

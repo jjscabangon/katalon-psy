@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Respondent has been updated</name>
+   <tag></tag>
+   <elementGuidId>51036b6b-fafe-4fea-98af-c97bd039de4d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/div/div/div/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>9682eb01-f79c-4d12-b085-2a7175439316</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Respondent has been updated</value>
+      <webElementGuid>428e4a39-e802-4342-8a78-4174decdce34</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;Toastify&quot;]/div[@class=&quot;Toastify__toast-container Toastify__toast-container--bottom-right App__StyledToastContainer-sc-1v0549y-0 jYabNH&quot;]/div[@class=&quot;Toastify__toast Toastify__toast--success toast-success&quot;]/div[@class=&quot;Toastify__toast-body&quot;]/div[@class=&quot;Notification__StyledContainer-sc-f38rsz-0 gVkaoS&quot;]/div[@class=&quot;Notification__Content-sc-f38rsz-2 cOVJHx&quot;]/div[@class=&quot;Notification__Body-sc-f38rsz-3 ebLtzb&quot;]/span[1]</value>
+      <webElementGuid>c8c2630d-484b-49ee-b454-bf2aeb550f9f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/div/div/div/div/span</value>
+      <webElementGuid>71c77315-b21c-4412-a57c-3c2c9576a123</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='✖︎'])[1]/preceding::span[1]</value>
+      <webElementGuid>23e3b2d7-9c78-4041-9523-7600007782dd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Respondents'])[1]/preceding::span[1]</value>
+      <webElementGuid>59ac4db9-c6a9-4612-addf-aa11780f6deb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Respondent has been updated']/parent::*</value>
+      <webElementGuid>449a2286-d597-435e-ac75-faf72072ca0f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span</value>
+      <webElementGuid>1ed910f8-7297-4eaa-bc24-882c0449eecb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Respondent has been updated' or . = 'Respondent has been updated')]</value>
+      <webElementGuid>18d0b20c-5aeb-4edf-b607-25de39296f9e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -17,42 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('Add new respondent'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.maximizeWindow()
+WebUI.click(findTestObject('Object Repository/OR_Edit respondent/td_jjscabangon0522073437gmail.com'))
 
-WebUI.navigateToUrl(GlobalVariable.url)
+WebUI.setText(findTestObject('Object Repository/OR_Edit respondent/input_First Name_firstName'), '名字 (Míngzì) Auto - 0522073437 Edit')
 
-//Switch Lanuguage
-switch (GlobalVariable.language) {
-    case 'en':
-        WebUI.setText(findTestObject('Object Repository/OR_Login/input_email'), GlobalVariable.loginEmail)
+WebUI.setText(findTestObject('Object Repository/OR_Edit respondent/input_Family Name_familyName'), '姓 (Xìng) Testing Edited')
 
-        WebUI.click(findTestObject('Object Repository/OR_Login/button_Login'))
+WebUI.click(findTestObject('Object Repository/OR_Edit respondent/button_Save changes'))
 
-        break
-    case 'sc':
-        WebUI.click(findTestObject('Object Repository/OR_Login/div_Language Selector'))
+WebUI.waitForElementVisible(findTestObject('Page_Psytech Genesys/span_Respondent has been updated'), 10)
 
-        WebUI.click(findTestObject('Object Repository/OR_Login/div_Chinese(Simplified)'))
-
-        WebUI.setText(findTestObject('Object Repository/OR_Login/input_email'), GlobalVariable.loginEmail)
-
-        WebUI.click(findTestObject('Object Repository/OR_Login/button_Login SC'))
-
-        break
-    default:
-        WebUI.setText(findTestObject('Object Repository/OR_Login/input_email'), GlobalVariable.loginEmail)
-
-        WebUI.click(findTestObject('Object Repository/OR_Login/button_Login'))
-
-        break
-}
-
-//
-WebUI.setText(findTestObject('Object Repository/OR_Login/input_password'), GlobalVariable.loginPassword)
-
-WebUI.click(findTestObject('Object Repository/OR_Login/button_Continue'))
-
-WebUI.waitForElementVisible(findTestObject('Object Repository/OR_Login/leftside_menu'), 30)
+WebUI.closeBrowser()
 
