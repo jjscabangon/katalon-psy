@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Continue</name>
+   <name>button_Login SC</name>
    <tag></tag>
-   <elementGuidId>1e57066b-c2a4-49f8-a6a2-9b0b3d536807</elementGuidId>
+   <elementGuidId>171906c3-555d-47ce-aba4-286e19033373</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@type='submit']</value>
+         <value>//*[contains(@class,'Login__SubmitButton-sc')]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>button.LoginPassword__SubmitButton-sc-spooo3-8.cRJHBz</value>
+         <value>button.Login__SubmitButton-sc-118qs9o-7.kUJyVa</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>09b0bc3a-0872-4294-86fa-781f5e8a6fb5</webElementGuid>
+      <webElementGuid>b7bf721b-60c5-4ac0-a04e-dbc42360512b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,31 +31,31 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>226e9448-76a6-4de0-90be-1fd5214e7cd2</webElementGuid>
+      <webElementGuid>886ef1d8-ea49-4ed0-b0bf-d74f56ddbd03</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>LoginPassword__SubmitButton-sc-spooo3-8 cRJHBz</value>
-      <webElementGuid>f5937bb2-926e-45c3-9b49-4e4fc6792a41</webElementGuid>
+      <value>Login__SubmitButton-sc-118qs9o-7 kUJyVa</value>
+      <webElementGuid>bfbb7049-d565-4cb6-b378-226eb0a5358c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Continue</value>
-      <webElementGuid>25f36b83-870d-4fe3-aa3d-55ec08b2a0cb</webElementGuid>
+      <value>输入用户名并继续</value>
+      <webElementGuid>40f056cc-a748-4dff-91fd-8f2021ab3cb4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[2]/div[@class=&quot;LoginPassword__BgContainer-sc-spooo3-0 gfJeDf&quot;]/div[@class=&quot;LoginPassword__LoginContainer-sc-spooo3-1 ffjwJP&quot;]/form[@class=&quot;LoginPassword__StyledForm-sc-spooo3-2 kjWCWs&quot;]/button[@class=&quot;LoginPassword__SubmitButton-sc-spooo3-8 cRJHBz&quot;]</value>
-      <webElementGuid>17b7aa0e-708b-42c6-a8af-e38e9cd76223</webElementGuid>
+      <value>id(&quot;root&quot;)/div[2]/div[@class=&quot;Login__BgContainer-sc-118qs9o-0 bDvrPj&quot;]/div[@class=&quot;Login__LoginContainer-sc-118qs9o-1 iHwGlj&quot;]/form[@class=&quot;Login__StyledForm-sc-118qs9o-2 hYYuTD&quot;]/button[@class=&quot;Login__SubmitButton-sc-118qs9o-7 kUJyVa&quot;]</value>
+      <webElementGuid>1d4d640d-ba9d-44c0-a0e3-f295d7bb7eeb</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@type='submit']</value>
-      <webElementGuid>7397932e-3be5-4224-a62a-4efd4ac6553c</webElementGuid>
+      <webElementGuid>b8242fed-d8a9-4237-b6f9-0b6a60bc4e54</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,47 +71,47 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div[2]/div/div/form/button</value>
-      <webElementGuid>02b53530-f58d-4546-8686-9820ab957e41</webElementGuid>
+      <webElementGuid>a9d5b4b9-1ed9-4db5-af21-f77e91c32c8f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::button[1]</value>
-      <webElementGuid>d61e76bd-16ac-4e3e-9dfe-92348d04dc33</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='请输入电子邮箱'])[1]/following::button[1]</value>
+      <webElementGuid>96f81720-f831-40ec-b5f5-213a471cf8ed</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email'])[1]/following::button[1]</value>
-      <webElementGuid>0eb7ade7-df0d-440b-8eb8-18688dc210c1</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='电子邮箱'])[1]/following::button[1]</value>
+      <webElementGuid>35edd004-971d-407d-9844-330bc880141c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Change user'])[1]/preceding::button[1]</value>
-      <webElementGuid>f70a215d-0f73-494b-8f9b-0a424c5c3a09</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='语言'])[1]/preceding::button[1]</value>
+      <webElementGuid>bc102b74-946c-43b5-b0a7-dc4d5fa50df2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Forgot password'])[1]/preceding::button[1]</value>
-      <webElementGuid>056e5302-ed40-48fd-9710-3ec9fff5c9bb</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='中文(简体) Chinese(Simplified)'])[1]/preceding::button[1]</value>
+      <webElementGuid>2109a9e4-5bab-42c3-9ecb-2329ed4db40a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Continue']/parent::*</value>
-      <webElementGuid>0564e466-1a75-4884-abd0-fb90305cca26</webElementGuid>
+      <value>//*/text()[normalize-space(.)='输入用户名并继续']/parent::*</value>
+      <webElementGuid>480741c1-93e3-4e3a-9107-05ac269452a5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,14 +119,22 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button</value>
-      <webElementGuid>0f4f420d-fe90-4cdf-96bd-d2dabf51a7c8</webElementGuid>
+      <webElementGuid>1d0b6e4f-b201-48d7-a096-d9803faca9eb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'submit' and (text() = 'Continue' or . = 'Continue')]</value>
-      <webElementGuid>1af8e250-39df-44de-8def-227995bf0cb2</webElementGuid>
+      <value>//button[@type = 'submit' and (text() = '输入用户名并继续' or . = '输入用户名并继续')]</value>
+      <webElementGuid>06ffbaa1-4b60-4c94-b90a-c037a3e78a8d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='GeneSys'])[1]/following::button[1]</value>
+      <webElementGuid>be0e60df-0122-4c70-a4dc-f02da7a6ec6f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

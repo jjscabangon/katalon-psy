@@ -23,10 +23,33 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(GlobalVariable.url)
 
-WebUI.setText(findTestObject('Object Repository/OR_Login/input_email'), GlobalVariable.email)
+//Switch Lanuguage
+switch (GlobalVariable.language) {
+    case 'en':
+        WebUI.setText(findTestObject('Object Repository/OR_Login/input_email'), GlobalVariable.email)
 
-WebUI.click(findTestObject('Object Repository/OR_Login/button_Login'))
+        WebUI.click(findTestObject('Object Repository/OR_Login/button_Login'))
 
+        break
+    case 'sc':
+        WebUI.click(findTestObject('Object Repository/OR_Login/div_Language Selector'))
+
+        WebUI.click(findTestObject('Object Repository/OR_Login/div_Chinese(Simplified)'))
+
+        WebUI.setText(findTestObject('Object Repository/OR_Login/input_email'), GlobalVariable.email)
+
+        WebUI.click(findTestObject('Object Repository/OR_Login/button_Login SC'))
+
+        break
+    default:
+        WebUI.setText(findTestObject('Object Repository/OR_Login/input_email'), GlobalVariable.email)
+
+        WebUI.click(findTestObject('Object Repository/OR_Login/button_Login'))
+
+        break
+}
+
+//
 WebUI.setText(findTestObject('Object Repository/OR_Login/input_password'), GlobalVariable.password)
 
 WebUI.click(findTestObject('Object Repository/OR_Login/button_Continue'))

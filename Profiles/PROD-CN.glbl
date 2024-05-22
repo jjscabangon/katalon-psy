@@ -6,7 +6,7 @@
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'http://admin.genesysonline.cn/login'</initValue>
+      <initValue>'http://admin.genesysonline.cn/'</initValue>
       <name>url</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -18,5 +18,10 @@
       <description></description>
       <initValue>'qwerty!2345@'</initValue>
       <name>password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>en=English, sc=ChineseSimpified</description>
+      <initValue>'en'</initValue>
+      <name>language</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

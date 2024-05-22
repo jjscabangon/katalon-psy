@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Continue</name>
+   <name>div_Chinese(Simplified)</name>
    <tag></tag>
-   <elementGuidId>1e57066b-c2a4-49f8-a6a2-9b0b3d536807</elementGuidId>
+   <elementGuidId>12fdd28f-3940-47ee-97aa-2401452ecbc8</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@type='submit']</value>
+         <value>//div[@id='react-select-2-option-1']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>button.LoginPassword__SubmitButton-sc-spooo3-8.cRJHBz</value>
+         <value>#react-select-2-option-1</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,111 +22,119 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>09b0bc3a-0872-4294-86fa-781f5e8a6fb5</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>submit</value>
-      <webElementGuid>226e9448-76a6-4de0-90be-1fd5214e7cd2</webElementGuid>
+      <value>div</value>
+      <webElementGuid>6b578cdd-b443-44da-9354-0b30769474df</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>LoginPassword__SubmitButton-sc-spooo3-8 cRJHBz</value>
-      <webElementGuid>f5937bb2-926e-45c3-9b49-4e4fc6792a41</webElementGuid>
+      <value> css-2d7khs-option</value>
+      <webElementGuid>919652db-9bba-41ef-88e4-2a979df70ad1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>react-select-2-option-1</value>
+      <webElementGuid>93e79738-6a2a-449c-a624-01c39bf241b9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>-1</value>
+      <webElementGuid>56c46cf2-fd3a-4e23-ab28-8d600655fa1b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Continue</value>
-      <webElementGuid>25f36b83-870d-4fe3-aa3d-55ec08b2a0cb</webElementGuid>
+      <value>中文(简体) Chinese(Simplified)</value>
+      <webElementGuid>8d7a773f-1a4f-450f-b01b-130100eb43cb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[2]/div[@class=&quot;LoginPassword__BgContainer-sc-spooo3-0 gfJeDf&quot;]/div[@class=&quot;LoginPassword__LoginContainer-sc-spooo3-1 ffjwJP&quot;]/form[@class=&quot;LoginPassword__StyledForm-sc-spooo3-2 kjWCWs&quot;]/button[@class=&quot;LoginPassword__SubmitButton-sc-spooo3-8 cRJHBz&quot;]</value>
-      <webElementGuid>17b7aa0e-708b-42c6-a8af-e38e9cd76223</webElementGuid>
+      <value>id(&quot;react-select-2-option-1&quot;)</value>
+      <webElementGuid>1dbc5701-51b3-4d8b-b958-b374a02d190f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@type='submit']</value>
-      <webElementGuid>7397932e-3be5-4224-a62a-4efd4ac6553c</webElementGuid>
+      <value>//div[@id='react-select-2-option-1']</value>
+      <webElementGuid>99004be6-f8ee-4e12-aab7-af75643039cc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='root']/div[2]/div/div/form/button</value>
-      <webElementGuid>02b53530-f58d-4546-8686-9820ab957e41</webElementGuid>
+      <value>//div[@id='root']/div[2]/div/div/div[2]/div/div/div[2]/div/div[2]</value>
+      <webElementGuid>f369dee4-14ea-42f1-b9c4-746da57f83a4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::button[1]</value>
-      <webElementGuid>d61e76bd-16ac-4e3e-9dfe-92348d04dc33</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='English'])[2]/following::div[1]</value>
+      <webElementGuid>1d9134b1-ac49-4344-b087-2eeb69546f0e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email'])[1]/following::button[1]</value>
-      <webElementGuid>0eb7ade7-df0d-440b-8eb8-18688dc210c1</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='English'])[1]/following::div[6]</value>
+      <webElementGuid>1b5d1e5c-2bba-4131-81e0-b67664a01d1a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Change user'])[1]/preceding::button[1]</value>
-      <webElementGuid>f70a215d-0f73-494b-8f9b-0a424c5c3a09</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='中文(繁體) Chinese(Traditional)'])[1]/preceding::div[1]</value>
+      <webElementGuid>fac477e5-ba4e-4abc-aa33-c196b5a38199</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Forgot password'])[1]/preceding::button[1]</value>
-      <webElementGuid>056e5302-ed40-48fd-9710-3ec9fff5c9bb</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Italiano (Italian)'])[1]/preceding::div[2]</value>
+      <webElementGuid>7c2e4772-7afb-40c1-a316-1fd4720b1876</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Continue']/parent::*</value>
-      <webElementGuid>0564e466-1a75-4884-abd0-fb90305cca26</webElementGuid>
+      <value>//*/text()[normalize-space(.)='中文(简体) Chinese(Simplified)']/parent::*</value>
+      <webElementGuid>5c84c88b-71c4-4017-97e0-4e81fefc5ac7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//button</value>
-      <webElementGuid>0f4f420d-fe90-4cdf-96bd-d2dabf51a7c8</webElementGuid>
+      <value>//div[2]/div/div[2]</value>
+      <webElementGuid>b1000d56-effd-4895-8aa0-4928ede8ccb7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'submit' and (text() = 'Continue' or . = 'Continue')]</value>
-      <webElementGuid>1af8e250-39df-44de-8def-227995bf0cb2</webElementGuid>
+      <value>//div[@id = 'react-select-2-option-1' and (text() = '中文(简体) Chinese(Simplified)' or . = '中文(简体) Chinese(Simplified)')]</value>
+      <webElementGuid>6870acba-28e0-4e14-9acb-243747a0bd56</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
