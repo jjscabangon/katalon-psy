@@ -44,4 +44,19 @@
       <initValue>''</initValue>
       <name>timestamp</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://genesys2020.genesysonline.cn/login/042010018220/3VKCAJPZ/EN'</initValue>
+      <name>assessment15fq</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'042010018220'</initValue>
+      <name>invitation15fq</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'3VKCAJPZ'</initValue>
+      <name>respondent15fq</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
