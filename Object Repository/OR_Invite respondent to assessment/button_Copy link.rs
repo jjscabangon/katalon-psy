@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Copy link</name>
+   <tag></tag>
+   <elementGuidId>c97ae8f7-e384-49e2-b6a9-480b511c8583</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[contains(@class,'InvitationStep__Button')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.Button__BaseButton-sc-3twruo-0.Button__SecondaryButton-sc-3twruo-2.ekZrOS.InvitationStep__Button-sc-9y2wbz-20.iDEdlf</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>a7b243c7-f401-4083-a489-39f26168bf4d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>d9ab2b12-2122-4847-959b-bd84a8fea6a3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>Button__BaseButton-sc-3twruo-0 Button__SecondaryButton-sc-3twruo-2 ekZrOS InvitationStep__Button-sc-9y2wbz-20 iDEdlf</value>
+      <webElementGuid>aeebd4c9-e447-4835-843d-ee33d9898090</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Copy link</value>
+      <webElementGuid>2f733c46-22a9-4ae4-b67e-1da65ec8194e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[2]/div[@class=&quot;ContentRouter__Container-sc-ayudpc-0 kFILiX&quot;]/div[@class=&quot;ContentRouter__ContentContainer-sc-ayudpc-1 bDzahg&quot;]/div[@class=&quot;ContentRouter__StyledRouter-sc-ayudpc-2 cdCFNr&quot;]/div[@class=&quot;ContentRouter__RouteWrapper-sc-ayudpc-3 fVaimK&quot;]/div[1]/div[@class=&quot;PageWrapper__Container-sc-10mepnc-0 eLXHhm&quot;]/div[@class=&quot;rodal rodal-fade-enter&quot;]/div[@class=&quot;rodal-dialog rodal-fade-enter&quot;]/div[@class=&quot;NewModal__Container-sc-1b0fhaf-0 bASsOq CreateInvite__StyledModal-sc-8cxc3d-0 iqYGJQ&quot;]/div[@class=&quot;CreateInvite__Content-sc-8cxc3d-1 bLsKGt&quot;]/div[@class=&quot;InvitationStep__InvitationStepContainer-sc-9y2wbz-0 cpJPrh&quot;]/div[@class=&quot;InvitationStep__Section-sc-9y2wbz-2 khdlPa&quot;]/div[@class=&quot;InvitationStep__SingleLinkHolder-sc-9y2wbz-6 kKnwfK&quot;]/button[@class=&quot;Button__BaseButton-sc-3twruo-0 Button__SecondaryButton-sc-3twruo-2 ekZrOS InvitationStep__Button-sc-9y2wbz-20 iDEdlf&quot;]</value>
+      <webElementGuid>d703f541-ba5c-48ea-90d9-77da0d589f1e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/div/div/div/div/div/div/div[8]/div[2]/div/div[3]/div/div/div/button</value>
+      <webElementGuid>3fb2516c-9933-46a6-ad20-c99bf5e64564</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Copy and share generated link'])[1]/following::button[1]</value>
+      <webElementGuid>d47bb575-a720-4691-bcae-e10072833707</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='invitation'])[1]/following::button[1]</value>
+      <webElementGuid>46f04ec7-530e-4e6e-97db-2d5665937e69</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='OR'])[1]/preceding::button[1]</value>
+      <webElementGuid>07874868-d760-427d-a272-9380d94bd984</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div/button</value>
+      <webElementGuid>155b4fea-6f28-4bf3-891b-da99cda4d98e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Copy link' or . = 'Copy link')]</value>
+      <webElementGuid>b4d942eb-af8c-41c6-94ed-a0d7d937f429</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
