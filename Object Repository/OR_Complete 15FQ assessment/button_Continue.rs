@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>button.sc-jsJBEP.DIphc.sc-kOHTFB.kJnJvu</value>
+         <value>button.sc-jsJBEP.DIphc.sc-iMWBiJ.ikWKCX</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@type=&quot;submit&quot;]</value>
+         <value>//*[contains(text(),'Continue')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,23 +23,23 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>ce783b3f-8b4d-4229-a5ce-4a6115dc6d5b</webElementGuid>
+      <webElementGuid>4f27e925-b9b2-4592-ad3b-97d784918f9e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>submit</value>
-      <webElementGuid>93ebc4e0-ae8d-47b0-84b0-aba66fd2376e</webElementGuid>
+      <value>button</value>
+      <webElementGuid>d9598881-62cf-49b0-8ede-7efce481e7c4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>sc-jsJBEP DIphc sc-kOHTFB kJnJvu</value>
-      <webElementGuid>dab20c2d-8609-4597-b8a4-c95e19180265</webElementGuid>
+      <value>sc-jsJBEP DIphc sc-iMWBiJ ikWKCX</value>
+      <webElementGuid>2ad8e0d5-9a02-491f-8936-60349f72eaf6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,47 +47,31 @@
       <name>text</name>
       <type>Main</type>
       <value>Continue</value>
-      <webElementGuid>396e063b-81b1-449f-99b6-cbe4c09807cd</webElementGuid>
+      <webElementGuid>20258655-a74f-45e7-a112-8c4e68ca8e0a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[@class=&quot;lang-wrapper ltr&quot;]/div[@class=&quot;sc-gEvEer eSldpq sc-bmzYkS jIjedo&quot;]/div[@class=&quot;sc-eqUAAy hAjgGB&quot;]/form[1]/div[@class=&quot;sc-dAlyuH kShVME&quot;]/div[@class=&quot;sc-aXZVg jflRja&quot;]/button[@class=&quot;sc-jsJBEP DIphc sc-kOHTFB kJnJvu&quot;]</value>
-      <webElementGuid>1b51487a-b651-465c-8ec9-a709eab79807</webElementGuid>
+      <value>id(&quot;root&quot;)/div[@class=&quot;lang-wrapper ltr&quot;]/div[@class=&quot;sc-gEvEer iCTczf sc-guJBdh iNaETe&quot;]/div[@class=&quot;sc-fqkvVR hgaxwi noPadding fullHeight&quot;]/div[@class=&quot;sc-izQBue lfCIVl noPadding fullHeight&quot;]/div[@class=&quot;sc-gEvEer bIfZXY sc-cmaqmh hVnxIa&quot;]/div[@class=&quot;sc-lcIPJg fklRvC sc-kAkpmW hzJUnf&quot;]/div[@class=&quot;wrapper&quot;]/div[@class=&quot;sc-aXZVg jflRja sc-brPLxw jLhcfG&quot;]/button[@class=&quot;sc-jsJBEP DIphc sc-iMWBiJ ikWKCX&quot;]</value>
+      <webElementGuid>7595fec5-7a41-4a92-adc9-1ccf18d210c6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//button[@type='submit']</value>
-      <webElementGuid>a29321dc-8828-4c65-a499-fd3b2a303a9e</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='root']/div/div/div/form/div/div[3]/button</value>
-      <webElementGuid>bbef689d-3890-4a3f-92ce-b9272fa476f3</webElementGuid>
+      <value>//div[@id='root']/div/div/div/div/div/div[2]/div/div/button</value>
+      <webElementGuid>2a5a37c8-4203-4bf4-b9ce-f81f532b53fc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Respondent Id'])[1]/following::button[1]</value>
-      <webElementGuid>01d9d0bd-11c7-4745-8cb0-eaee13432466</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Invitation Id'])[1]/following::button[1]</value>
-      <webElementGuid>0503a4e8-ac5d-4fb5-ab21-8f1355ccde22</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='[Enter]'])[1]/following::button[1]</value>
+      <webElementGuid>03e6f8cd-07e8-400a-9709-ea6181199252</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Continue']/parent::*</value>
-      <webElementGuid>135c0e8b-4ded-456c-8273-91057558dabe</webElementGuid>
+      <webElementGuid>879f8bd8-1bf9-425d-9ce0-d280b0c7749c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +87,95 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button</value>
-      <webElementGuid>518af4e2-786a-47f4-8cbc-aff9e68d0ceb</webElementGuid>
+      <webElementGuid>79cc30eb-8852-4c9a-986d-849e38df5cb5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Continue' or . = 'Continue')]</value>
+      <webElementGuid>f13e2dc6-aece-44bc-a634-414ea6e6a1d6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@type='button']</value>
+      <webElementGuid>535f5a32-ec04-44ee-88cd-32c9fc6698fd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/div[3]/button</value>
+      <webElementGuid>48d998d9-f2ec-4777-bc33-4205ec2b1235</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Family Name'])[1]/following::button[1]</value>
+      <webElementGuid>885340f9-4dd9-46f2-b4e3-d79e4d89898f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='何 (Hé) 李娜 (Lǐ Nà) Auto'])[1]/following::button[1]</value>
+      <webElementGuid>be6a5464-e6cf-4a3c-bba7-62d32625152e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='jjscabangon@gmail.com'])[1]/preceding::button[1]</value>
+      <webElementGuid>92d1e635-7dac-4958-af92-150cc1222094</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Continue' or . = 'Continue')]</value>
+      <webElementGuid>04e1f812-badd-4a27-a962-1a698401deef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@type='submit']</value>
+      <webElementGuid>724eeb7d-6a68-48ef-b86d-4fbf68bfc093</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/form/div/div[3]/button</value>
+      <webElementGuid>8fd21157-fa2a-4bec-855f-40ab467a4957</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Respondent Id'])[1]/following::button[1]</value>
+      <webElementGuid>668238ba-934f-446a-b976-2d39f5891426</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Invitation Id'])[1]/following::button[1]</value>
+      <webElementGuid>934f8c58-f559-4676-8404-a67e10aea52c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,6 +183,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'submit' and (text() = 'Continue' or . = 'Continue')]</value>
-      <webElementGuid>e60e28a1-9735-412d-88ea-3a11a94931f3</webElementGuid>
+      <webElementGuid>b73be934-8cb2-4c9e-9ba7-20649f0f94f4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
