@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>f5d11727-6354-41ed-a99b-33fa594c6106</webElementGuid>
+      <webElementGuid>c1686205-b121-44bb-8d4b-3978be6c29f2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>028247a5-df49-4b7f-8a00-59c3652b2788</webElementGuid>
+      <webElementGuid>a20454ad-7be2-4508-aec9-e22e733de43a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>class</name>
       <type>Main</type>
       <value>sc-jsJBEP DIphc</value>
-      <webElementGuid>7d6998ad-57e0-4167-87e5-0e1b9997db61</webElementGuid>
+      <webElementGuid>5730b6b8-d340-43af-a053-6b32e212e235</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>text</name>
       <type>Main</type>
       <value>继续</value>
-      <webElementGuid>063caf6d-09fd-44e8-a095-7a8bead5c347</webElementGuid>
+      <webElementGuid>e49a6062-985f-454f-9057-f10571dcb49e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;lang-wrapper ltr&quot;]/div[@class=&quot;sc-gEvEer eSldpq sc-eBMEME krWXPs&quot;]/div[@class=&quot;sc-eqUAAy hAjgGB sc-cWSHoV liDRQq&quot;]/div[@class=&quot;sc-iGgWBj gYhruk&quot;]/div[@class=&quot;sc-aXZVg jflRja sc-fhzFiK jUHvFY&quot;]/button[@class=&quot;sc-jsJBEP DIphc&quot;]</value>
-      <webElementGuid>e4310c25-d425-446e-9f80-52ecfe7d9820</webElementGuid>
+      <webElementGuid>9de63362-e04e-4c14-94d6-9338116d5fc3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[2]</value>
-      <webElementGuid>d1cee77a-d587-4e83-8fb8-1df286fccaf7</webElementGuid>
+      <webElementGuid>6fd6b72f-d62e-4f6c-9a0d-40b380de6fd5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div/div/div[2]/div/button[2]</value>
-      <webElementGuid>29a936ff-e1ad-49be-8095-26bc708ba142</webElementGuid>
+      <webElementGuid>6e6feddb-9952-4c36-9c91-d3b4f5f8815c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='关闭'])[1]/following::button[1]</value>
-      <webElementGuid>c3fcba46-290f-4b34-9dbe-972e8aff40ec</webElementGuid>
+      <webElementGuid>5c4b6f09-40fc-4d1f-a042-f2e75b1824bb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='我接受'])[2]/following::button[2]</value>
-      <webElementGuid>415cbe83-0d27-4f41-8e67-fb39df8c541d</webElementGuid>
+      <webElementGuid>854abead-9498-46ab-909b-1470746755ab</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='继续']/parent::*</value>
-      <webElementGuid>d80eeaa8-502b-4764-94f1-474730426e5d</webElementGuid>
+      <webElementGuid>3fab9f18-d4e3-4a5e-93cd-ab9d8cbb314f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button[2]</value>
-      <webElementGuid>84f55040-7081-4bac-b192-148e9b7c6900</webElementGuid>
+      <webElementGuid>253465b9-3f41-4c74-b66b-957d3441546e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,6 +111,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = '继续' or . = '继续')]</value>
-      <webElementGuid>239a9327-1ff1-47d5-af01-f64ff58e6b3d</webElementGuid>
+      <webElementGuid>6416ebe2-88cb-4cd5-a7ac-b6d677acf972</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Progress</name>
+   <tag></tag>
+   <elementGuidId>2e4b23dc-3293-4d32-bc62-9eddcc8cc42b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.sc-iHbSHJ.bmIaJZ.button > span</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[contains(text(),'Progress')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>c56e6792-f8d0-442f-9226-dd25220e6ea1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Progress  </value>
+      <webElementGuid>2591e865-b6dd-418a-9957-013fe3721f9f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;lang-wrapper ltr&quot;]/div[@class=&quot;sc-gEvEer hCtYxp sc-iQbOkh goFlKk&quot;]/div[@class=&quot;sc-lcIPJg fklRvC&quot;]/div[@class=&quot;wrapper&quot;]/div[@class=&quot;sc-bcSKrn gyCvvh&quot;]/div[@class=&quot;sc-iHbSHJ bmIaJZ button&quot;]/span[1]</value>
+      <webElementGuid>b2009e6e-3e0f-4e49-bf29-800145f49ec2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div[3]/div/div/div/span</value>
+      <webElementGuid>85f7d971-6928-4118-8c46-4fbec05750d0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='false'])[1]/following::span[1]</value>
+      <webElementGuid>fbb912e9-c7e5-4dc1-a33e-49cdc5c6262a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='?'])[1]/following::span[1]</value>
+      <webElementGuid>036a4976-8465-4edf-9fd3-4bf4522cd0ac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Help'])[1]/preceding::span[2]</value>
+      <webElementGuid>5d06712f-55ad-4623-8dab-2c3caaac323d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Response is required'])[1]/preceding::span[2]</value>
+      <webElementGuid>7a6646b8-dd88-48f7-9ee6-1794eb1f8f77</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Progress']/parent::*</value>
+      <webElementGuid>b782f31b-9932-4fbc-897a-760b151df0e6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div/span</value>
+      <webElementGuid>4e2486e5-a255-4cf9-8809-430f01de24d4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Progress  ' or . = 'Progress  ')]</value>
+      <webElementGuid>b350c4f7-daa8-4db0-a849-765eaf7f42b5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

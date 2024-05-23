@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>b68fb93f-7d08-40ee-826d-74ced1add297</webElementGuid>
+      <webElementGuid>e24b3cf5-67cd-40a2-9690-65272a6888ef</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>for</name>
       <type>Main</type>
       <value>7fjuti</value>
-      <webElementGuid>d3f54b67-9775-497d-ba1d-54d501d225ea</webElementGuid>
+      <webElementGuid>103e5618-3afa-4d54-82d6-c7aacf542baa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>class</name>
       <type>Main</type>
       <value>sc-hmdomO boyYwH</value>
-      <webElementGuid>63499c1c-3e37-4d8d-8a8a-a632b7d058e3</webElementGuid>
+      <webElementGuid>960402de-09d3-43f0-bdee-b0f49506feb2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Invitation Id</value>
-      <webElementGuid>ab0bfd23-b7f1-4254-8ce1-f4238827db2c</webElementGuid>
+      <webElementGuid>5ba7e23e-eaba-4795-ad64-9eefb50e1844</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;lang-wrapper ltr&quot;]/div[@class=&quot;sc-gEvEer eSldpq sc-bmzYkS jIjedo&quot;]/div[@class=&quot;sc-eqUAAy hAjgGB&quot;]/form[1]/div[@class=&quot;sc-dAlyuH kShVME&quot;]/div[@class=&quot;sc-fHjqPf ewXzZn&quot;]/div[@class=&quot;flex-box&quot;]/label[@class=&quot;sc-hmdomO boyYwH&quot;]</value>
-      <webElementGuid>80b210c3-01fe-4da8-a923-776425d346b1</webElementGuid>
+      <webElementGuid>a61d23fb-e203-486a-a6ee-1dbfbad743aa</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div/div/form/div/div/div/label</value>
-      <webElementGuid>57ba6801-41ed-4423-bba8-0fd5cf569062</webElementGuid>
+      <webElementGuid>784e86b0-ffb1-43ce-bc5a-e4c1dc005462</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Assessment Session Details'])[1]/following::label[1]</value>
-      <webElementGuid>6e4bfed4-64bb-4d12-b3a5-8b4cc0f57084</webElementGuid>
+      <webElementGuid>c1e7419e-7a22-4259-8416-712ce0c22d5a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Respondent Id'])[1]/preceding::label[1]</value>
-      <webElementGuid>4ee5fa1d-7a80-45ba-85c6-619d58ece9da</webElementGuid>
+      <webElementGuid>03cd79eb-99f2-4914-b3c0-06bd2ca7589a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Continue'])[1]/preceding::label[2]</value>
-      <webElementGuid>bf2ebb9c-1f14-43e7-9f93-62b19c7ce292</webElementGuid>
+      <webElementGuid>56dbebf4-c4c8-4334-8bb5-49cd6d9e1dbf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Invitation Id']/parent::*</value>
-      <webElementGuid>bbb4fd47-57a0-452a-b9ed-1f49947dc1d5</webElementGuid>
+      <webElementGuid>d6f2895e-c5aa-499b-97f6-7d593fd26284</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//label</value>
-      <webElementGuid>d3a4aa0d-cd75-498d-9beb-dc9bbeaff89c</webElementGuid>
+      <webElementGuid>f7a6f1b4-a290-4f0e-828d-8b7d89d2d799</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,6 +111,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//label[(text() = 'Invitation Id' or . = 'Invitation Id')]</value>
-      <webElementGuid>a5aaa367-5a37-4b9b-9682-2e6cebc7c483</webElementGuid>
+      <webElementGuid>5bf0f813-7013-4820-8c2f-3a6f683eb27e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
