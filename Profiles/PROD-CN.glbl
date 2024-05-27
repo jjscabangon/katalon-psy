@@ -46,17 +46,17 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://genesys2020.genesysonline.cn/login/042010018220/3VKCAJPZ/EN'</initValue>
+      <initValue>'https://genesys2020.genesysonline.cn/login/042010018234/DWWQUQES/EN'</initValue>
       <name>assessment15fq</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'042010018220'</initValue>
+      <initValue>'042010018234'</initValue>
       <name>invitation15fq</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'3VKCAJPZ'</initValue>
+      <initValue>'DWWQUQES'</initValue>
       <name>respondent15fq</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

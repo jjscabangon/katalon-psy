@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>button.sc-jsJBEP.DIphc.sc-iMWBiJ.ikWKCX</value>
+         <value>button.sc-jsJBEP.DIphc</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>a20f0ee5-2acb-4eac-94af-94e92c4a1880</webElementGuid>
+      <webElementGuid>7840ec34-1c06-4ae7-b03f-d3178f594c97</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,15 +31,15 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>fdaf6017-cebd-4f48-80e4-07152f94a6e8</webElementGuid>
+      <webElementGuid>69dcad4e-d0c7-4497-b909-836b9114c14a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>sc-jsJBEP DIphc sc-iMWBiJ ikWKCX</value>
-      <webElementGuid>71dd9e9a-7f2f-42cf-9173-920f81fcafca</webElementGuid>
+      <value>sc-jsJBEP DIphc</value>
+      <webElementGuid>5c76ecfb-ba24-4e76-b540-176cd1120b26</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,18 +47,74 @@
       <name>text</name>
       <type>Main</type>
       <value>Continue</value>
-      <webElementGuid>397d511f-83c4-4679-a554-d14351be03d5</webElementGuid>
+      <webElementGuid>3b4b9e15-e44d-426a-a837-2b2495e4a0f3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[@class=&quot;lang-wrapper ltr&quot;]/div[@class=&quot;sc-gEvEer iCTczf sc-guJBdh iNaETe&quot;]/div[@class=&quot;sc-fqkvVR hgaxwi noPadding fullHeight&quot;]/div[@class=&quot;sc-izQBue lfCIVl noPadding fullHeight&quot;]/div[@class=&quot;sc-gEvEer bIfZXY sc-cmaqmh hVnxIa&quot;]/div[@class=&quot;sc-lcIPJg fklRvC sc-kAkpmW hzJUnf&quot;]/div[@class=&quot;wrapper&quot;]/div[@class=&quot;sc-aXZVg jflRja sc-brPLxw jLhcfG&quot;]/button[@class=&quot;sc-jsJBEP DIphc sc-iMWBiJ ikWKCX&quot;]</value>
-      <webElementGuid>dbeb4084-8f9d-4397-be14-d56a2bf8bbdd</webElementGuid>
+      <value>id(&quot;root&quot;)/div[@class=&quot;lang-wrapper ltr&quot;]/div[@class=&quot;sc-gEvEer eSldpq sc-iA-DsXs kijngF&quot;]/div[@class=&quot;sc-eqUAAy hAjgGB sc-fEiIrt bdrJgp&quot;]/div[@class=&quot;sc-aXZVg jflRja&quot;]/button[@class=&quot;sc-jsJBEP DIphc&quot;]</value>
+      <webElementGuid>f579177a-e2af-410a-b0b9-fd6a87a1c080</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[2]</value>
+      <webElementGuid>87366063-64c8-41ca-9714-98f166da8d22</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/div/button[2]</value>
+      <webElementGuid>b4654c24-8967-4d16-9b1c-2ef778b4dc29</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Review'])[1]/following::button[1]</value>
+      <webElementGuid>2fc3a148-f31c-4c6d-a850-075912586f7c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Would you like to review your answers before continuing?'])[1]/following::button[2]</value>
+      <webElementGuid>e17bba33-b150-4d69-ab33-c2b2dc899fa2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Continue']/parent::*</value>
+      <webElementGuid>c23c19fd-f977-4b3d-8cc2-bc03bbd98c32</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[2]</value>
+      <webElementGuid>8d9c5075-8530-4c13-82dc-7fecbc1a1b9f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Continue' or . = 'Continue')]</value>
+      <webElementGuid>bb0a31ef-1223-4ce8-93c0-9078a4d23349</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
@@ -72,14 +128,6 @@
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='[Enter]'])[1]/following::button[1]</value>
       <webElementGuid>62ac6c1a-d798-47b0-a824-470fc94416ce</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Continue']/parent::*</value>
-      <webElementGuid>6c14a3ce-2f14-45e1-9231-89a3704748b7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -136,14 +184,6 @@
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='jjscabangon@gmail.com'])[1]/preceding::button[1]</value>
       <webElementGuid>10ecb5fd-d7b0-497f-9f1d-5b79b5482a03</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//button[@type = 'button' and (text() = 'Continue' or . = 'Continue')]</value>
-      <webElementGuid>390c8531-604f-451b-b247-f2636846f9a5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
