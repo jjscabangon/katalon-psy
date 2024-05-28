@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC006-Administer assessment</name>
+   <name>TC006-Administer assessment CN</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>9feb4a99-baf8-485d-9319-16df0e36d7d0</testCaseGuid>

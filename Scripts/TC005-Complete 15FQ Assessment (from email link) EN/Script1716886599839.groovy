@@ -16,6 +16,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+//Input Invitation Id and Respondent Id
+//WebUI.navigateToUrl('https://genesys2020.genesysonline.cn/login/042010018220/3VKCAJPZ')
+//    WebUI.click(findTestObject('Object Repository/OR_Complete 15FQ assessment/span_Progress'))
+//Start a counter for Question and Answer logs
+//Get Current Timestamp
+//Initiate a Text File for Storage
+import java.io.File as File
 
 WebUI.openBrowser('')
 
@@ -27,8 +34,7 @@ WebUI.waitForPageLoad(30)
 
 if (WebUI.verifyElementVisible(findTestObject('Object Repository/OR_Complete 15FQ assessment/span_Unexpected Problem'), 
     FailureHandling.OPTIONAL)) {
-    WebUI.click(findTestObject('Object Repository/OR_Complete 15FQ assessment/button_Continue')) //Input Invitation Id and Respondent Id
-    //WebUI.navigateToUrl('https://genesys2020.genesysonline.cn/login/042010018220/3VKCAJPZ')
+    WebUI.click(findTestObject('Object Repository/OR_Complete 15FQ assessment/button_Continue'))
 } else {
     WebUI.scrollToElement(findTestObject('Object Repository/OR_Complete 15FQ assessment/b_End of Privacy Policy'), 10)
 
@@ -80,9 +86,20 @@ if (WebUI.verifyElementVisible(findTestObject('Object Repository/OR_Complete 15F
     WebUI.click(findTestObject('Object Repository/OR_Complete 15FQ assessment/div_Next'))
 
     WebUI.click(findTestObject('Object Repository/OR_Complete 15FQ assessment/div_Next'))
-
-    WebUI.click(findTestObject('Object Repository/OR_Complete 15FQ assessment/span_Progress'))
 }
+
+ctr = 1
+
+GlobalVariable.timestamp = new Date().format('MMddhhmmss')
+
+println(GlobalVariable.timestamp)
+
+qaLog = new File(((GlobalVariable.fileDir + '\\TC005 Log') + GlobalVariable.timestamp) + '.txt')
+
+//Record URL
+url = WebUI.getUrl()
+
+qaLog.append(('Assessment URL:' + url) + ' , ')
 
 while (WebUI.verifyElementVisible(findTestObject('Object Repository/OR_Complete 15FQ assessment/span_Progress'), FailureHandling.OPTIONAL)) {
     //Randomize Answer
@@ -103,6 +120,11 @@ while (WebUI.verifyElementVisible(findTestObject('Object Repository/OR_Complete 
             break
     }
     
+    //Log Answers
+    qaLog.append(((('Question' + ctr) + ':') + randomInt) + ' , ')
+
+    ctr = (ctr + 1)
+
     //Go to next Question
     switch (randomInt) {
         case 1:
@@ -123,4 +145,6 @@ while (WebUI.verifyElementVisible(findTestObject('Object Repository/OR_Complete 
 WebUI.click(findTestObject('Object Repository/OR_Complete 15FQ assessment/button_Continue'))
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/OR_Complete 15FQ assessment/h1_Assessment Completed'))
+
+WebUI.closeBrowser()
 

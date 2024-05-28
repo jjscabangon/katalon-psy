@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>b</value>
-      <webElementGuid>79755f19-f567-459b-831f-bb796a6be769</webElementGuid>
+      <webElementGuid>1dd01c5f-93f8-493a-b27a-851da20c6df7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>text</name>
       <type>Main</type>
       <value>[我接受]</value>
-      <webElementGuid>5918b1ed-1c7b-4727-a1bd-aca2de08294f</webElementGuid>
+      <webElementGuid>92fdd86b-7319-4e4d-a3a5-9bc13800ef76</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;lang-wrapper ltr&quot;]/div[@class=&quot;sc-gEvEer eSldpq sc-eBMEME krWXPs&quot;]/div[@class=&quot;sc-eqUAAy hAjgGB sc-cWSHoV liDRQq&quot;]/div[@class=&quot;sc-dCFHLb DZkBm&quot;]/div[@class=&quot;sc-kOPcWz dlKKEo&quot;]/b[2]</value>
-      <webElementGuid>5525bd10-3e39-4b84-b0dc-1f00b19bce9c</webElementGuid>
+      <webElementGuid>b83a50c0-fc03-4984-89ad-68f7a0723563</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div/div/div/div/b[2]</value>
-      <webElementGuid>dd94c679-4efc-4414-97e8-98941932f77e</webElementGuid>
+      <webElementGuid>0c8f0ebf-9e8f-42ae-9217-0e43c49deb62</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='隐私声明'])[1]/following::b[1]</value>
-      <webElementGuid>4d7c4d83-b406-4946-a4c0-29e4e7fd8390</webElementGuid>
+      <webElementGuid>ad904b6c-b6cf-4763-911d-f691b09821ca</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='我接受'])[1]/preceding::b[1]</value>
-      <webElementGuid>c0651e49-c664-4d8a-bf3f-04786c00af01</webElementGuid>
+      <webElementGuid>c23b1dd8-140c-4951-ba48-773205fffb07</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='我接受'])[2]/preceding::b[1]</value>
-      <webElementGuid>a4e4e445-e27d-4dc6-9ba3-ead10728d760</webElementGuid>
+      <webElementGuid>59661460-aa05-4835-b7b9-dd8d45859aef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='[我接受]']/parent::*</value>
-      <webElementGuid>50259166-c18e-4aee-a520-0002a31d112f</webElementGuid>
+      <webElementGuid>f151e9e9-b9bf-4c6d-885d-4f056045068a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//b[2]</value>
-      <webElementGuid>573fe406-51a2-4445-874d-39bedea59c4b</webElementGuid>
+      <webElementGuid>ea923ab3-6492-4bd3-9803-0d306091df9d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,6 +95,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//b[(text() = '[我接受]' or . = '[我接受]')]</value>
-      <webElementGuid>c4817456-d994-4598-9289-60f7373731aa</webElementGuid>
+      <webElementGuid>991ab7bb-47dd-450a-8cda-eb0707401cb6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

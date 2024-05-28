@@ -45,8 +45,8 @@
       <name>timestamp</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
-      <initValue>'https://genesys2020.genesysonline.cn/login/042010018234/DWWQUQES/EN'</initValue>
+      <description>Invite respondent > Copy Link</description>
+      <initValue>'https://genesys2020.genesysonline.cn/login/042010018247/WPVM22TV/EN'</initValue>
       <name>assessment15fq</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -58,5 +58,15 @@
       <description></description>
       <initValue>'DWWQUQES'</initValue>
       <name>respondent15fq</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'1234'</initValue>
+      <name>assessmentPin</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>File Directory for storing Assessment Responses</description>
+      <initValue>'C:\\\\Katalon\\\\Katalon-Psytech\\\\katalon-psy\\\\Data Files\\\\QALogs'</initValue>
+      <name>fileDir</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

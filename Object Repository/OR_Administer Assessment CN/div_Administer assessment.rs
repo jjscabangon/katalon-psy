@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>c05e0e3e-5d4c-4223-88e0-3718a287869d</webElementGuid>
+      <webElementGuid>b6f45e62-3e94-4714-87d4-5aded851602b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>BulkActionsSidebar__Action-sc-1uceeur-7 cMgTEF</value>
-      <webElementGuid>2a055e3e-78d9-4982-85c4-d6f470efee53</webElementGuid>
+      <webElementGuid>8d97abac-8d5d-4e96-b647-0e07ccbb2819</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Administer assessment</value>
-      <webElementGuid>05b90022-dd39-4f19-82f9-243bd909f155</webElementGuid>
+      <webElementGuid>18705825-685f-4efa-afc1-5dcc52811380</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[2]/div[@class=&quot;ContentRouter__Container-sc-ayudpc-0 kFILiX&quot;]/div[@class=&quot;ContentRouter__ContentContainer-sc-ayudpc-1 bDzahg&quot;]/div[@class=&quot;ContentRouter__StyledRouter-sc-ayudpc-2 cdCFNr&quot;]/div[@class=&quot;ContentRouter__RouteWrapper-sc-ayudpc-3 fVaimK&quot;]/div[1]/div[@class=&quot;PageWrapper__Container-sc-10mepnc-0 eLXHhm&quot;]/div[@class=&quot;BulkActionsSidebar__BulkActionsContainer-sc-1uceeur-1 cdhGBt&quot;]/div[@class=&quot;BulkActionsSidebar__ActionsWrapper-sc-1uceeur-5 cFeapG&quot;]/div[1]/div[@class=&quot;BulkActionsSidebar__Action-sc-1uceeur-7 cMgTEF&quot;]</value>
-      <webElementGuid>02f2664f-47b6-4ab1-a220-5be92f26a195</webElementGuid>
+      <webElementGuid>fb613ba3-bb7f-4e90-9917-8b70631b2e0d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div[2]/div/div/div/div/div/div/div[2]/div[2]/div/div</value>
-      <webElementGuid>fa4f4774-1718-49ff-929e-230c0de8dd81</webElementGuid>
+      <webElementGuid>02753f80-7f0d-481c-af97-d4bbcc662729</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Actions'])[1]/following::div[3]</value>
-      <webElementGuid>dc3f339d-ff30-489c-bae1-d85cc8301683</webElementGuid>
+      <webElementGuid>ea08a285-4ae1-4c22-bdf6-5865a33e908b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Import respondents'])[1]/following::div[5]</value>
-      <webElementGuid>9b67de4e-4c55-4a6c-a160-31e58865ce76</webElementGuid>
+      <webElementGuid>c25e9d78-957a-45e1-be9b-29cf47b63d16</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Invite respondent(s) to assessment'])[1]/preceding::div[1]</value>
-      <webElementGuid>1118800a-7ecf-46cb-bd09-acd78b15c2d3</webElementGuid>
+      <webElementGuid>715309a8-72f1-42aa-b1f0-6a32c5d5cc7f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/div/div/div[2]/div[2]/div/div</value>
-      <webElementGuid>df6c6d55-51d1-4e12-9ae6-83b5319f2579</webElementGuid>
+      <webElementGuid>2f82d4a5-9754-4443-9c7f-6b7cb0a55306</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,6 +95,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Administer assessment' or . = 'Administer assessment')]</value>
-      <webElementGuid>ab4a79fe-2d3a-4abd-a143-258cb040d8e7</webElementGuid>
+      <webElementGuid>416faa4a-24af-4840-b824-71ff91848e4e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
