@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Yes</name>
+   <tag></tag>
+   <elementGuidId>25edd20b-1362-47dc-a7e0-537c5ef5b843</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.rodal-dialog.rodal-fade-enter > div.NewModal__Container-sc-1b0fhaf-0.bASsOq.ConfirmationModal__StyledModal-sc-4vqn02-0.dwMPZO > div.ConfirmationModal__ButtonsWrapper-sc-4vqn02-2.iLzRyL > button.Button__BaseButton-sc-3twruo-0.Button__PrimaryButton-sc-3twruo-1.lfZVwD.ConfirmationModal__StyledButton-sc-4vqn02-3.eSqPeB</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//div[contains(@class,'NewModal__Container')]//button/span[contains(text(),'Yes')])[4]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>a3016382-98b5-4bd8-9a71-937ae24a502b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>fdcc6a6b-43e9-4a2e-abad-ba7eec25dfc1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>Button__BaseButton-sc-3twruo-0 Button__PrimaryButton-sc-3twruo-1 lfZVwD ConfirmationModal__StyledButton-sc-4vqn02-3 eSqPeB</value>
+      <webElementGuid>26047205-e2fb-45b3-9eb5-5e42c765435a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Yes</value>
+      <webElementGuid>ed520adb-5516-43f8-bfea-9da68b0e74c7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[2]/div[@class=&quot;ContentRouter__Container-sc-ayudpc-0 kFILiX&quot;]/div[@class=&quot;ContentRouter__ContentContainer-sc-ayudpc-1 bDzahg&quot;]/div[@class=&quot;ContentRouter__StyledRouter-sc-ayudpc-2 cdCFNr&quot;]/div[@class=&quot;ContentRouter__RouteWrapper-sc-ayudpc-3 fVaimK&quot;]/div[1]/div[@class=&quot;PageWrapper__Container-sc-10mepnc-0 eLXHhm&quot;]/div[@class=&quot;rodal rodal-fade-enter&quot;]/div[@class=&quot;rodal-dialog rodal-fade-enter&quot;]/div[@class=&quot;NewModal__Container-sc-1b0fhaf-0 bASsOq AdministerAssessment__StyledModal-sc-2hzlp7-0 bmNPqW&quot;]/div[@class=&quot;rodal rodal-fade-enter&quot;]/div[@class=&quot;rodal-dialog rodal-fade-enter&quot;]/div[@class=&quot;NewModal__Container-sc-1b0fhaf-0 bASsOq ConfirmationModal__StyledModal-sc-4vqn02-0 dwMPZO&quot;]/div[@class=&quot;ConfirmationModal__ButtonsWrapper-sc-4vqn02-2 iLzRyL&quot;]/button[@class=&quot;Button__BaseButton-sc-3twruo-0 Button__PrimaryButton-sc-3twruo-1 lfZVwD ConfirmationModal__StyledButton-sc-4vqn02-3 eSqPeB&quot;]</value>
+      <webElementGuid>76dcfd26-ff1d-4168-8846-271fc04c29a3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/div/div/div/div/div/div/div[8]/div[2]/div/div[2]/div[2]/div/div[2]/button[2]</value>
+      <webElementGuid>0defd646-898a-4a95-a4c1-a1218db19cdd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[4]/following::button[1]</value>
+      <webElementGuid>fabb591f-617b-476e-a613-4e177524b136</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Assessment'])[1]/following::button[2]</value>
+      <webElementGuid>3df70442-c3eb-4049-b2b8-21362a12d137</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Language'])[1]/preceding::button[1]</value>
+      <webElementGuid>5a019a8c-b364-46c7-8659-c9a823bb6cdf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/div[2]/button[2]</value>
+      <webElementGuid>3bd86763-d3d4-410e-8869-7aa1eb0b8f98</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Yes' or . = 'Yes')]</value>
+      <webElementGuid>3d30c9c1-7c92-4a94-a8c3-bc307009aeb0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

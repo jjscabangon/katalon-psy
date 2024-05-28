@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Start Assessment</name>
+   <tag></tag>
+   <elementGuidId>3d969d8e-95e9-40e6-b812-fccbf26f5c12</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.sc-jsJBEP.DIphc.sc-iMWBiJ.ikWKCX</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[contains(text(),'继续')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>95018afd-9486-40ae-a6c2-5a4ec60fbfcf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sc-jsJBEP DIphc sc-iMWBiJ ikWKCX</value>
+      <webElementGuid>d5f88c44-5e45-47a9-b5c4-646df320ebd0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>继续</value>
+      <webElementGuid>a54c3acd-90d4-40b7-8ae3-27559ae1dbce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;lang-wrapper ltr&quot;]/div[@class=&quot;sc-gEvEer iCTczf sc-guJBdh iNaETe&quot;]/div[@class=&quot;sc-fqkvVR hgaxwi noPadding fullHeight&quot;]/div[@class=&quot;sc-izQBue lfCIVl noPadding fullHeight&quot;]/div[@class=&quot;sc-gEvEer bIfZXY sc-cmaqmh hVnxIa&quot;]/div[@class=&quot;sc-lcIPJg fklRvC sc-kAkpmW hzJUnf&quot;]/div[@class=&quot;wrapper&quot;]/div[@class=&quot;sc-aXZVg jflRja sc-brPLxw jLhcfG&quot;]/button[@class=&quot;sc-jsJBEP DIphc sc-iMWBiJ ikWKCX&quot;]</value>
+      <webElementGuid>2ee84855-7de2-4df2-8085-9a0a3a621bff</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/div/div/div[2]/div/div/button</value>
+      <webElementGuid>5344248c-ed06-4133-af6b-e091c66cb584</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='按回车键继续'])[1]/following::button[1]</value>
+      <webElementGuid>250b7bad-f166-4f6f-b235-17302ad6304c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='人格问卷'])[1]/following::button[1]</value>
+      <webElementGuid>9d2b1682-133d-42e1-941a-ec483b76eb58</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='继续']/parent::*</value>
+      <webElementGuid>42857341-6549-4b62-9cc6-be018bddf363</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button</value>
+      <webElementGuid>a436b110-61fc-4ee8-985a-324438c7447a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = '继续' or . = '继续')]</value>
+      <webElementGuid>5609d391-8459-4fe1-a8cd-2a07320ce864</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
