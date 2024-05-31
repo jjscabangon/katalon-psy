@@ -46,17 +46,17 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>Invite respondent > Copy Link</description>
-      <initValue>'https://genesys2020.genesysonline.cn/login/042010018618/G7R4CXDP/CH'</initValue>
+      <initValue>'https://genesys2020.genesysonline.cn/login/042010018623/W4JFVB8M/CH'</initValue>
       <name>assessment15fq</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'042010018618'</initValue>
+      <initValue>'042010018619'</initValue>
       <name>invitation15fq</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'G7R4CXDP'</initValue>
+      <initValue>'KREAAXUX'</initValue>
       <name>respondent15fq</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

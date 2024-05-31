@@ -36,7 +36,8 @@ if (WebUI.verifyElementVisible(findTestObject('Object Repository/OR-Complete 15F
     FailureHandling.OPTIONAL)) {
     WebUI.click(findTestObject('Object Repository/OR-Complete 15FQ Assessment from Email CN/button_Continue'))
 } else {
-    WebUI.scrollToElement(findTestObject('Object Repository/OR-Complete 15FQ Assessment from Email CN/b_End of Privacy Policy'), 10)
+    WebUI.scrollToElement(findTestObject('Object Repository/OR-Complete 15FQ Assessment from Email CN/b_End of Privacy Policy'), 
+        10)
 
     WebUI.click(findTestObject('Object Repository/OR-Complete 15FQ Assessment from Email CN/b_End of Privacy Policy'))
 
@@ -48,9 +49,11 @@ if (WebUI.verifyElementVisible(findTestObject('Object Repository/OR-Complete 15F
 
     if (WebUI.verifyElementVisible(findTestObject('Object Repository/OR-Complete 15FQ Assessment from Email CN/label_Invitation Id'), 
         FailureHandling.OPTIONAL)) {
-        WebUI.setText(findTestObject('Object Repository/OR-Complete 15FQ Assessment from Email CN/label_Invitation Id'), GlobalVariable.invitation15fq)
+        WebUI.setText(findTestObject('Object Repository/OR-Complete 15FQ Assessment from Email CN/label_Invitation Id'), 
+            GlobalVariable.invitation15fq)
 
-        WebUI.setText(findTestObject('Object Repository/OR-Complete 15FQ Assessment from Email CN/input_Respondent Id'), GlobalVariable.respondent15fq)
+        WebUI.setText(findTestObject('Object Repository/OR-Complete 15FQ Assessment from Email CN/input_Respondent Id'), 
+            GlobalVariable.respondent15fq)
 
         WebUI.click(findTestObject('Object Repository/OR-Complete 15FQ Assessment from Email CN/button_Continue'))
 
@@ -60,7 +63,8 @@ if (WebUI.verifyElementVisible(findTestObject('Object Repository/OR-Complete 15F
 
         WebUI.waitForPageLoad(30)
 
-        WebUI.scrollToElement(findTestObject('Object Repository/OR-Complete 15FQ Assessment from Email CN/b_End of Privacy Policy'), 10)
+        WebUI.scrollToElement(findTestObject('Object Repository/OR-Complete 15FQ Assessment from Email CN/b_End of Privacy Policy'), 
+            10)
 
         WebUI.click(findTestObject('Object Repository/OR-Complete 15FQ Assessment from Email CN/b_End of Privacy Policy'))
 
@@ -84,8 +88,6 @@ if (WebUI.verifyElementVisible(findTestObject('Object Repository/OR-Complete 15F
     WebUI.click(findTestObject('Object Repository/OR-Complete 15FQ Assessment from Email CN/div_Next'))
 
     WebUI.click(findTestObject('Object Repository/OR-Complete 15FQ Assessment from Email CN/div_Next'))
-
-    WebUI.click(findTestObject('Object Repository/OR-Complete 15FQ Assessment from Email CN/div_Next'))
 }
 
 ctr = 1
@@ -94,14 +96,15 @@ GlobalVariable.timestamp = new Date().format('MMddhhmmss')
 
 println(GlobalVariable.timestamp)
 
-qaLog = new File(((GlobalVariable.fileDir + '\\TC005 Log') + GlobalVariable.timestamp) + '.txt')
+qaLog = new File(((GlobalVariable.fileDir + '\\TC008 Log') + GlobalVariable.timestamp) + '.txt')
 
 //Record URL
 url = WebUI.getUrl()
 
 qaLog.append(('Assessment URL:' + url) + ' , ')
 
-while (WebUI.verifyElementVisible(findTestObject('Object Repository/OR-Complete 15FQ Assessment from Email CN/span_Progress'), FailureHandling.OPTIONAL)) {
+while (WebUI.verifyElementVisible(findTestObject('Object Repository/OR-Complete 15FQ Assessment from Email CN/span_Progress'), 
+    FailureHandling.OPTIONAL)) {
     //Randomize Answer
     randomInt = (new Random().nextInt((3 - 1) + 1) + 1)
 
@@ -142,7 +145,9 @@ while (WebUI.verifyElementVisible(findTestObject('Object Repository/OR-Complete 
     }
 }
 
-WebUI.click(findTestObject('Object Repository/OR-Complete 15FQ Assessment from Email CN/button_Continue'))
+WebUI.click(findTestObject('Object Repository/OR-Complete 15FQ Assessment from Email CN/button_Submit Assessment'))
+
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.ENTER))
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/OR-Complete 15FQ Assessment from Email CN/h1_Assessment Completed'))
 

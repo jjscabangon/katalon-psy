@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//h1[contains(text(),'Assessment Completed')]</value>
+         <value>//h1[contains(text(),'恭喜您，本次测评已完成。')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h1</value>
-      <webElementGuid>43089c32-c8cd-4c54-a62e-987fed02132d</webElementGuid>
+      <webElementGuid>668ba9aa-f108-4fc1-a2f7-043dfdc27a8b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>sc-dcJsrY ORdkI</value>
-      <webElementGuid>359f1530-b2e4-4ae2-ab90-79086b397d0c</webElementGuid>
+      <webElementGuid>4f69603e-6f2c-4d7b-8ede-5492be296e84</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Assessment Completed</value>
-      <webElementGuid>e4ae8ee6-9d57-471f-b969-8b2042d3ecd6</webElementGuid>
+      <webElementGuid>036a6052-af49-4102-8bcc-48cc40899759</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;lang-wrapper ltr&quot;]/div[@class=&quot;sc-gEvEer eSldpq sc-btwKTd IplZy&quot;]/div[@class=&quot;sc-eqUAAy hAjgGB sc-gFnajm joLwHk&quot;]/div[@class=&quot;sc-eONNys fOLTYK&quot;]/h1[@class=&quot;sc-dcJsrY ORdkI&quot;]</value>
-      <webElementGuid>4f31d4fa-e27b-4466-a33f-b77055557571</webElementGuid>
+      <webElementGuid>1be930be-5b6f-4312-a95c-9f821524a389</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div/div/div/h1</value>
-      <webElementGuid>6a75ebaa-9b52-4a54-9d48-e31de290bbdb</webElementGuid>
+      <webElementGuid>53b16d9a-d339-4685-a054-f1f718891305</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='You may now close the browser tab'])[1]/preceding::h1[1]</value>
-      <webElementGuid>a7274f3f-1409-4930-844b-f656f1f55172</webElementGuid>
+      <webElementGuid>68f3cd54-71b6-4b45-bb9b-60e87925187b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Assessment Completed']/parent::*</value>
-      <webElementGuid>da454be2-b8a3-4968-b45b-14544d6a0c21</webElementGuid>
+      <webElementGuid>0173fd6f-4e74-49b1-a85d-f37793e52c69</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//h1</value>
-      <webElementGuid>8bfc55ed-c291-41d1-bc45-b4fe8a6121aa</webElementGuid>
+      <webElementGuid>d58f4afb-8e4a-4871-b75a-89e844b79c18</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,6 +87,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h1[(text() = 'Assessment Completed' or . = 'Assessment Completed')]</value>
-      <webElementGuid>921e6228-19eb-41b7-b456-a81cfd2c9288</webElementGuid>
+      <webElementGuid>fa1a8499-ab38-47f1-a9c9-6c29627b24fd</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
