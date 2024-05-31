@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Invitation Id</name>
+   <tag></tag>
+   <elementGuidId>073c140c-d33e-4717-849c-206658a47d08</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@name=&quot;invitationId&quot;]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>label.sc-hmdomO.boyYwH</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>12af1a7c-b7bf-4a8d-b814-9b3a874c0a40</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>7fjuti</value>
+      <webElementGuid>bd369892-6952-4ec0-b7a6-b6ad481d8263</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sc-hmdomO boyYwH</value>
+      <webElementGuid>53bee253-e7c1-4574-a4dd-084c00712fa6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Invitation Id</value>
+      <webElementGuid>430950a9-47bb-4d0d-954b-4842317d5a11</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;lang-wrapper ltr&quot;]/div[@class=&quot;sc-gEvEer eSldpq sc-bmzYkS jIjedo&quot;]/div[@class=&quot;sc-eqUAAy hAjgGB&quot;]/form[1]/div[@class=&quot;sc-dAlyuH kShVME&quot;]/div[@class=&quot;sc-fHjqPf ewXzZn&quot;]/div[@class=&quot;flex-box&quot;]/label[@class=&quot;sc-hmdomO boyYwH&quot;]</value>
+      <webElementGuid>bbaa9e2a-1885-48d6-bbef-b8162111c650</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/form/div/div/div/label</value>
+      <webElementGuid>08dc47ac-8ca0-4987-8b5a-14717961ef99</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Assessment Session Details'])[1]/following::label[1]</value>
+      <webElementGuid>a443167d-426a-44cd-a54f-c4939ad8c54d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Respondent Id'])[1]/preceding::label[1]</value>
+      <webElementGuid>50ca299d-2fed-4466-ad7d-e981b296807b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Continue'])[1]/preceding::label[2]</value>
+      <webElementGuid>dc6cd1e9-75dc-451b-b0d4-d8bccfba20b8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Invitation Id']/parent::*</value>
+      <webElementGuid>9d411685-a731-4f00-bc16-ff02bf54c49e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//label</value>
+      <webElementGuid>e20b1b82-aa55-4d74-b31f-cbe590ff5895</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Invitation Id' or . = 'Invitation Id')]</value>
+      <webElementGuid>ae2fda3c-aa09-4b09-965b-87ee8bbe662e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

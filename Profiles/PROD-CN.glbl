@@ -6,7 +6,7 @@
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'http://admin.genesysonline.cn/'</initValue>
+      <initValue>'https://admin.genesysonline.cn/'</initValue>
       <name>url</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -46,17 +46,17 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>Invite respondent > Copy Link</description>
-      <initValue>'https://genesys2020.genesysonline.cn/login/042010018247/WPVM22TV/EN'</initValue>
+      <initValue>'https://genesys2020.genesysonline.cn/login/042010018618/G7R4CXDP/CH'</initValue>
       <name>assessment15fq</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'042010018234'</initValue>
+      <initValue>'042010018618'</initValue>
       <name>invitation15fq</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'DWWQUQES'</initValue>
+      <initValue>'G7R4CXDP'</initValue>
       <name>respondent15fq</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

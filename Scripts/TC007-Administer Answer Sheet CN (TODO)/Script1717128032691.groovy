@@ -17,15 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('TC002-Add new respondent'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.waitForPageLoad(10)
-
-WebUI.click(findTestObject('Object Repository/OR-Invite respondent to assessment/div_First Checkbox'))
-
-WebUI.click(findTestObject('Object Repository/OR-Invite respondent to assessment/div_Invite respondent(s) to assessment'))
-
-WebUI.click(findTestObject('Object Repository/OR-Invite respondent to assessment/button_Create invite and go next'))
-
-WebUI.click(findTestObject('Object Repository/OR-Invite respondent to assessment/button_Copy link'))
-

@@ -19,20 +19,20 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('TC002-Add new respondent'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/OR_Edit respondent/td_First Respondent'))
+WebUI.click(findTestObject('Object Repository/OR-Edit respondent/td_First Respondent'))
 
-currentFName = WebUI.getAttribute(findTestObject('Object Repository/OR_Edit respondent/input_First Name_firstName'), 'value')
+currentFName = WebUI.getAttribute(findTestObject('Object Repository/OR-Edit respondent/input_First Name_firstName'), 'value')
 
-WebUI.setText(findTestObject('Object Repository/OR_Edit respondent/input_First Name_firstName'), currentFName + ' EDITED')
+WebUI.setText(findTestObject('Object Repository/OR-Edit respondent/input_First Name_firstName'), currentFName + ' EDITED')
 
-currentLName = WebUI.getAttribute(findTestObject('Object Repository/OR_Edit respondent/input_Family Name_familyName'), 'value')
+currentLName = WebUI.getAttribute(findTestObject('Object Repository/OR-Edit respondent/input_Family Name_familyName'), 'value')
 
-WebUI.setText(findTestObject('Object Repository/OR_Edit respondent/input_Family Name_familyName'), currentLName + ' EDITED')
+WebUI.setText(findTestObject('Object Repository/OR-Edit respondent/input_Family Name_familyName'), currentLName + ' EDITED')
 
-WebUI.setText(findTestObject('OR_Edit respondent/input_reference'), (('Updated Reference 参考 for ' + GlobalVariable.firstname) + 
+WebUI.setText(findTestObject('OR-Edit respondent/input_reference'), (('Updated Reference 参考 for ' + GlobalVariable.firstname) + 
     ' last ') + GlobalVariable.timestamp)
 
-WebUI.click(findTestObject('Object Repository/OR_Edit respondent/button_Save changes'))
+WebUI.click(findTestObject('Object Repository/OR-Edit respondent/button_Save changes'))
 
 WebUI.closeBrowser()
 

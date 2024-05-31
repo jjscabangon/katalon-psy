@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('TC001-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/OR_Add new respondent/button_Add new respondent'))
+WebUI.click(findTestObject('Object Repository/OR-Add new respondent/button_Add new respondent'))
 
 //Get Current Timestamp
 GlobalVariable.timestamp = new Date().format('MMddhhmmss')
@@ -122,57 +122,57 @@ switch (randomInt) {
         break
 }
 
-WebUI.setText(findTestObject('Object Repository/OR_Add new respondent/input_Group Membership_firstName'), GlobalVariable.firstname + 
+WebUI.setText(findTestObject('Object Repository/OR-Add new respondent/input_Group Membership_firstName'), GlobalVariable.firstname + 
     ' Auto ')
 
-WebUI.setText(findTestObject('Object Repository/OR_Add new respondent/input_First Name_familyName'), GlobalVariable.lastname)
+WebUI.setText(findTestObject('Object Repository/OR-Add new respondent/input_First Name_familyName'), GlobalVariable.lastname)
 
-WebUI.click(findTestObject('Object Repository/OR_Add new respondent/svg_Sex'))
+WebUI.click(findTestObject('Object Repository/OR-Add new respondent/svg_Sex'))
 
-WebUI.click(findTestObject('Object Repository/OR_Add new respondent/div_Male'))
+WebUI.click(findTestObject('Object Repository/OR-Add new respondent/div_Male'))
 
-WebUI.setText(findTestObject('Object Repository/OR_Add new respondent/input_title'), 'Mr.')
+WebUI.setText(findTestObject('Object Repository/OR-Add new respondent/input_title'), 'Mr.')
 
 //Generate Email
 GlobalVariable.email = (('jjscabangon+' + GlobalVariable.timestamp) + '@gmail.com')
 
-WebUI.setText(findTestObject('Object Repository/OR_Add new respondent/input_email'), GlobalVariable.email)
+WebUI.setText(findTestObject('Object Repository/OR-Add new respondent/input_email'), GlobalVariable.email)
 
-WebUI.setText(findTestObject('Object Repository/OR_Add new respondent/input_reference'), 'Automation Reference 参考 for ' + 
+WebUI.setText(findTestObject('Object Repository/OR-Add new respondent/input_reference'), 'Automation Reference 参考 for ' + 
     GlobalVariable.firstname)
 
-WebUI.click(findTestObject('Object Repository/OR_Add new respondent/div_Date of Birth'))
+WebUI.click(findTestObject('Object Repository/OR-Add new respondent/div_Date of Birth'))
 
-WebUI.click(findTestObject('Object Repository/OR_Add new respondent/div_S_DateSelect_Start of Month'))
+WebUI.click(findTestObject('Object Repository/OR-Add new respondent/div_S_DateSelect_Start of Month'))
 
-WebUI.click(findTestObject('Object Repository/OR_Add new respondent/div_Extra Details'))
+WebUI.click(findTestObject('Object Repository/OR-Add new respondent/div_Extra Details'))
 
-WebUI.setText(findTestObject('Object Repository/OR_Add new respondent/input_Group Membership_company'), 'Company 公司 for ' + 
+WebUI.setText(findTestObject('Object Repository/OR-Add new respondent/input_Group Membership_company'), 'Company 公司 for ' + 
     GlobalVariable.lastname)
 
-WebUI.click(findTestObject('Object Repository/OR_Add new respondent/div_Education'))
+WebUI.click(findTestObject('Object Repository/OR-Add new respondent/div_Education'))
 
-WebUI.click(findTestObject('Object Repository/OR_Add new respondent/div_Secondary School'))
+WebUI.click(findTestObject('Object Repository/OR-Add new respondent/div_Secondary School'))
 
-WebUI.click(findTestObject('Object Repository/OR_Add new respondent/div_Ethnicity'))
+WebUI.click(findTestObject('Object Repository/OR-Add new respondent/div_Ethnicity'))
 
-WebUI.click(findTestObject('Object Repository/OR_Add new respondent/div_African American'))
+WebUI.click(findTestObject('Object Repository/OR-Add new respondent/div_African American'))
 
-WebUI.click(findTestObject('Object Repository/OR_Add new respondent/div_Job Area'))
+WebUI.click(findTestObject('Object Repository/OR-Add new respondent/div_Job Area'))
 
-WebUI.click(findTestObject('Object Repository/OR_Add new respondent/div_- Chief executive'))
+WebUI.click(findTestObject('Object Repository/OR-Add new respondent/div_- Chief executive'))
 
-WebUI.click(findTestObject('Object Repository/OR_Add new respondent/div_Sector'))
+WebUI.click(findTestObject('Object Repository/OR-Add new respondent/div_Sector'))
 
-WebUI.click(findTestObject('Object Repository/OR_Add new respondent/div_Other'))
+WebUI.click(findTestObject('Object Repository/OR-Add new respondent/div_Other'))
 
-WebUI.click(findTestObject('Object Repository/OR_Add new respondent/div_Industry'))
+WebUI.click(findTestObject('Object Repository/OR-Add new respondent/div_Industry'))
 
-WebUI.click(findTestObject('Object Repository/OR_Add new respondent/div_Agriculture, Forestry and Fishing'))
+WebUI.click(findTestObject('Object Repository/OR-Add new respondent/div_Agriculture, Forestry and Fishing'))
 
-WebUI.click(findTestObject('Object Repository/OR_Add new respondent/div_Language'))
+WebUI.click(findTestObject('Object Repository/OR-Add new respondent/div_Language'))
 
-WebUI.click(findTestObject('Object Repository/OR_Add new respondent/div_Bengali'))
+WebUI.click(findTestObject('Object Repository/OR-Add new respondent/div_Bengali'))
 
-WebUI.click(findTestObject('Object Repository/OR_Add new respondent/button_Save'))
+WebUI.click(findTestObject('Object Repository/OR-Add new respondent/button_Save'))
 

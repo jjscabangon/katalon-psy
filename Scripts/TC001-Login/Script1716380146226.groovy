@@ -26,33 +26,33 @@ WebUI.navigateToUrl(GlobalVariable.url)
 //Switch Lanuguage
 switch (GlobalVariable.language) {
     case 'en':
-        WebUI.setText(findTestObject('Object Repository/OR_Login/input_email'), GlobalVariable.loginEmail)
+        WebUI.setText(findTestObject('Object Repository/OR-Login/input_email'), GlobalVariable.loginEmail)
 
-        WebUI.click(findTestObject('Object Repository/OR_Login/button_Login'))
+        WebUI.click(findTestObject('Object Repository/OR-Login/button_Login'))
 
         break
     case 'sc':
-        WebUI.click(findTestObject('Object Repository/OR_Login/div_Language Selector'))
+        WebUI.click(findTestObject('Object Repository/OR-Login/div_Language Selector'))
 
-        WebUI.click(findTestObject('Object Repository/OR_Login/div_Chinese(Simplified)'))
+        WebUI.click(findTestObject('Object Repository/OR-Login/div_Chinese(Simplified)'))
 
-        WebUI.setText(findTestObject('Object Repository/OR_Login/input_email'), GlobalVariable.loginEmail)
+        WebUI.setText(findTestObject('Object Repository/OR-Login/input_email'), GlobalVariable.loginEmail)
 
-        WebUI.click(findTestObject('Object Repository/OR_Login/button_Login SC'))
+        WebUI.click(findTestObject('Object Repository/OR-Login/button_Login SC'))
 
         break
     default:
-        WebUI.setText(findTestObject('Object Repository/OR_Login/input_email'), GlobalVariable.loginEmail)
+        WebUI.setText(findTestObject('Object Repository/OR-Login/input_email'), GlobalVariable.loginEmail)
 
-        WebUI.click(findTestObject('Object Repository/OR_Login/button_Login'))
+        WebUI.click(findTestObject('Object Repository/OR-Login/button_Login'))
 
         break
 }
 
 //
-WebUI.setText(findTestObject('Object Repository/OR_Login/input_password'), GlobalVariable.loginPassword)
+WebUI.setText(findTestObject('Object Repository/OR-Login/input_password'), GlobalVariable.loginPassword)
 
-WebUI.click(findTestObject('Object Repository/OR_Login/button_Continue'))
+WebUI.click(findTestObject('Object Repository/OR-Login/button_Continue'))
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/OR_Login/leftside_menu'), 30)
+WebUI.waitForElementVisible(findTestObject('Object Repository/OR-Login/leftside_menu'), 30)
 
