@@ -34,9 +34,9 @@ WebUI.click(findTestObject('Object Repository/OR_Administer answer sheet/button_
 
 //Initiate Logger
 GlobalVariable.timestamp = new Date().format('MMddhhmmss')
-qaLog = new File(((GlobalVariable.fileDir + '\\TC007 Log') + GlobalVariable.timestamp) + '.txt')
-qaLog.append('Test Case: Administer answer sheet' + ' , ')
-qaLog.append(('Respondent Email:' + GlobalVariable.email) + ' , ')
+qaLog = new File(((GlobalVariable.fileDir + '\\TC007 Log - ') + GlobalVariable.timestamp) + ' (MMddhhmmss)' + '.txt')
+qaLog.append('Test Case: Administer answer sheet' + ',')
+qaLog.append(('Respondent Email: ' + GlobalVariable.email) + ',')
 
 //Select Column
 columnCtr = 1
@@ -55,11 +55,13 @@ while (columnCtr<=4) {
 		WebDriver driver = DriverFactory.getWebDriver();
 		elementAnswer = driver.findElement(By.xpath(objAnswer))
 		elementAnswer.click()
+		
+		//Record Answer
+		qaLog.append(('Col:' + columnCtr) + '-' + ('Row:' + rowCtr) + '-' + ('Ans:' + randomInt) + ' , ' )
+		
+		//Go to Next Row
 		rowCtr = rowCtr + 1
 	}
-	
-	//Record Answer
-	qaLog.append(('Col:' + columnCtr) + ' , ' + ('Row:' + rowCtr) + ' , ' + ('Ans:' + randomInt) + ' , ' )
 	
 	columnCtr = columnCtr + 1
 }

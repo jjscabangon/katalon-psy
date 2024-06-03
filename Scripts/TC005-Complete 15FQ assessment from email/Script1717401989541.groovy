@@ -91,15 +91,13 @@ if (WebUI.verifyElementVisible(findTestObject('Object Repository/OR-Complete 15F
 ctr = 1
 
 GlobalVariable.timestamp = new Date().format('MMddhhmmss')
-
 println(GlobalVariable.timestamp)
-
-qaLog = new File(((GlobalVariable.fileDir + '\\TC005 Log') + GlobalVariable.timestamp) + '.txt')
+qaLog = new File(((GlobalVariable.fileDir + '\\TC005 Log - ') + GlobalVariable.timestamp) + ' (MMddhhmmss)' + '.txt')
 
 //Record URL
 url = WebUI.getUrl()
-qaLog.append('Test Case: Complete 15FQ assessment from email EN' + ' , ')
-qaLog.append(('Assessment URL:' + url) + ' , ')
+qaLog.append('Test Case: Complete 15FQ assessment from email EN' + ',')
+qaLog.append(('Assessment URL: ' + url) + ' , ')
 
 while (WebUI.verifyElementVisible(findTestObject('Object Repository/OR-Complete 15FQ Assessment from Email EN/span_Progress'), FailureHandling.OPTIONAL)) {
     //Randomize Answer
@@ -121,7 +119,7 @@ while (WebUI.verifyElementVisible(findTestObject('Object Repository/OR-Complete 
     }
     
     //Log Answers
-    qaLog.append(((('Question' + ctr) + ':') + randomInt) + ' , ')
+    qaLog.append(((('Question' + ctr) + ':') + randomInt) + ',')
 
     ctr = (ctr + 1)
 

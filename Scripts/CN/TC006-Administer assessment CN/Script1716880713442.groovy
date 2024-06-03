@@ -59,13 +59,12 @@ WebUI.click(findTestObject('Object Repository/OR-Administer Assessment CN/div_Ne
 WebUI.click(findTestObject('Object Repository/OR-Administer Assessment CN/div_Next'))
 
 ctr = 1
-
-qaLog = new File(((GlobalVariable.fileDir + '\\TC006 Log') + GlobalVariable.timestamp) + '.txt')
+qaLog = new File(((GlobalVariable.fileDir + '\\TC006 Log - ') + GlobalVariable.timestamp) + ' (MMddhhmmss)' + '.txt')
 
 //Record URL
 url = WebUI.getUrl()
-qaLog.append('Test Case: Administer assessment' + ' , ')
-qaLog.append(('Assessment URL:' + url) + ' , ')
+qaLog.append('Test Case: Administer assessment' + ',')
+qaLog.append(('Assessment URL: ' + url) + ',')
 
 while (WebUI.verifyElementVisible(findTestObject('Object Repository/OR-Administer Assessment CN/span_Progress CN'), FailureHandling.OPTIONAL)) {
     //Randomize Answer
@@ -87,7 +86,7 @@ while (WebUI.verifyElementVisible(findTestObject('Object Repository/OR-Administe
     }
     
     //Log Answers
-    qaLog.append(((('Question' + ctr) + ':') + randomInt) + ' , ')
+    qaLog.append(((('Question' + ctr) + ':') + randomInt) + ',')
 
     ctr = (ctr + 1)
 
