@@ -34,37 +34,50 @@ WebUI.click(findTestObject('Object Repository/OR_Administer answer sheet/button_
 
 //Initiate Logger
 GlobalVariable.timestamp = new Date().format('MMddhhmmss')
-qaLog = new File(((GlobalVariable.fileDir + '\\TC007 Log - ') + GlobalVariable.timestamp) + ' (MMddhhmmss)' + '.txt')
+
+qaLog = new File((((GlobalVariable.fileDir + '\\TC007 Log - ') + GlobalVariable.timestamp) + ' (MMddhhmmss)') + '.txt')
+
 qaLog.append('Test Case: Administer answer sheet' + ',')
+
 qaLog.append(('Respondent Email: ' + GlobalVariable.email) + ',')
 
 //Select Column
 columnCtr = 1
-while (columnCtr<=4) {
-	
-	//Select Row
-	rowCtr = 1
-	while (rowCtr<=50) {
-		objAnswer = "//div[contains(@class,'AnswersStep__QuestionsColumn')][" + columnCtr + "]//div[contains(@class,'AnswersStep__QuestionItem')][" + rowCtr + "]"
-		println(objAnswer)
-		
-		//Select Answer
-		randomInt = (new Random().nextInt((3 - 1) + 1) + 1)
-		objAnswer = objAnswer + "/div/div[" + randomInt + "]"
-		println(objAnswer)
-		WebDriver driver = DriverFactory.getWebDriver();
-		elementAnswer = driver.findElement(By.xpath(objAnswer))
-		elementAnswer.click()
-		
-		//Record Answer
-		qaLog.append(('Col:' + columnCtr) + '-' + ('Row:' + rowCtr) + '-' + ('Ans:' + randomInt) + ' , ' )
-		
-		//Go to Next Row
-		rowCtr = rowCtr + 1
-	}
-	
-	columnCtr = columnCtr + 1
+
+while (columnCtr <= 4) {
+    //Select Row
+    rowCtr = 1
+
+    while (rowCtr <= 50) {
+        objAnswer = (((('//div[contains(@class,\'AnswersStep__QuestionsColumn\')][' + columnCtr) + ']//div[contains(@class,\'AnswersStep__QuestionItem\')][') + 
+        rowCtr) + ']')
+
+        println(objAnswer)
+
+        //Select Answer
+        randomInt = (new Random().nextInt((3 - 1) + 1) + 1)
+
+        objAnswer = (((objAnswer + '/div/div[') + randomInt) + ']')
+
+        println(objAnswer)
+
+        WebDriver driver = DriverFactory.getWebDriver()
+
+        elementAnswer = driver.findElement(By.xpath(objAnswer))
+
+        elementAnswer.click()
+
+        //Record Answer
+        qaLog.append(((((('Col:' + columnCtr) + '-') + ('Row:' + rowCtr)) + '-') + ('Ans:' + randomInt)) + ',')
+
+        //Go to Next Row
+        rowCtr = (rowCtr + 1)
+    }
+    
+    columnCtr = (columnCtr + 1)
 }
+
+WebUI.click(findTestObject('Object Repository/OR_Administer answer sheet/button_Submit'))
 
 WebUI.closeBrowser()
 
