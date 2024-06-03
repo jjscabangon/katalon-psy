@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Create invite and go next</name>
+   <tag></tag>
+   <elementGuidId>308740a9-21c6-4f5b-a75a-eff2dd84e454</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.Button__BaseButton-sc-3twruo-0.Button__PrimaryButton-sc-3twruo-1.lfZVwD.CreateInvite__Button-sc-8cxc3d-4.kesGBY</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[contains(@class,'CreateInvite__Footer')]/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>4eb61eca-100d-49b2-8b74-5121c2194390</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>527b48b4-5216-465a-99ca-37e4071682cd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>Button__BaseButton-sc-3twruo-0 Button__PrimaryButton-sc-3twruo-1 lfZVwD CreateInvite__Button-sc-8cxc3d-4 kesGBY</value>
+      <webElementGuid>466de34f-edd4-4d35-8801-170af3cb42e8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Create invite and go next</value>
+      <webElementGuid>ebd8a9de-0904-4f9b-84d2-45ceca10df4e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[2]/div[@class=&quot;ContentRouter__Container-sc-ayudpc-0 kFILiX&quot;]/div[@class=&quot;ContentRouter__ContentContainer-sc-ayudpc-1 bDzahg&quot;]/div[@class=&quot;ContentRouter__StyledRouter-sc-ayudpc-2 cdCFNr&quot;]/div[@class=&quot;ContentRouter__RouteWrapper-sc-ayudpc-3 fVaimK&quot;]/div[1]/div[@class=&quot;PageWrapper__Container-sc-10mepnc-0 eLXHhm&quot;]/div[@class=&quot;rodal rodal-fade-enter&quot;]/div[@class=&quot;rodal-dialog rodal-fade-enter&quot;]/div[@class=&quot;NewModal__Container-sc-1b0fhaf-0 bASsOq CreateInvite__StyledModal-sc-8cxc3d-0 iqYGJQ&quot;]/div[@class=&quot;CreateInvite__Footer-sc-8cxc3d-2 hvkYQn&quot;]/button[@class=&quot;Button__BaseButton-sc-3twruo-0 Button__PrimaryButton-sc-3twruo-1 lfZVwD CreateInvite__Button-sc-8cxc3d-4 kesGBY&quot;]</value>
+      <webElementGuid>ccd45741-68b1-4b3a-8440-4bb02b5124df</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/div/div/div/div/div/div/div[8]/div[2]/div/div[4]/button</value>
+      <webElementGuid>53b8e730-b822-492b-a443-de36e244d0ec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='You are sending an invitation for:'])[1]/following::button[1]</value>
+      <webElementGuid>6e771c73-1d31-40b3-841e-bf5e5f447aff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Expiry date'])[1]/following::button[1]</value>
+      <webElementGuid>2a166634-df80-4a1d-965f-76010c6e1090</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[4]/button</value>
+      <webElementGuid>ca79c8cc-a693-467f-91df-15c9d8c0cdb3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Create invite and go next' or . = 'Create invite and go next')]</value>
+      <webElementGuid>ab142466-b970-4020-a801-83d1b33611ed</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

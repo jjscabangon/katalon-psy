@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Available Reports_Set 1</name>
+   <tag></tag>
+   <elementGuidId>3e9b2500-170d-4f0e-b536-24e4fdffe287</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.Set__Checkbox-sc-h2xnzc-5.cPhQYG</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[contains(@class,'Set__Checkbox')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>73e73a71-4ae3-45c7-a524-0d5609614911</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>Set__Checkbox-sc-h2xnzc-5 cPhQYG</value>
+      <webElementGuid>f8b55bc3-a085-4d96-a155-acfff454a208</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[2]/div[@class=&quot;ContentRouter__Container-sc-ayudpc-0 kFILiX&quot;]/div[@class=&quot;ContentRouter__ContentContainer-sc-ayudpc-1 bDzahg&quot;]/div[@class=&quot;ContentRouter__StyledRouter-sc-ayudpc-2 cdCFNr&quot;]/div[@class=&quot;ContentRouter__RouteWrapper-sc-ayudpc-3 fVaimK&quot;]/div[1]/div[@class=&quot;PageWrapper__Container-sc-10mepnc-0 eLXHhm&quot;]/div[@class=&quot;rodal rodal-fade-enter&quot;]/div[@class=&quot;rodal-dialog rodal-fade-enter&quot;]/div[@class=&quot;NewModal__Container-sc-1b0fhaf-0 bASsOq RequestReportModal__StyledModal-sc-4yx7so-0 ijgFBL&quot;]/div[@class=&quot;RequestReportModal__Container-sc-4yx7so-1 fBEVwy&quot;]/div[@class=&quot;ReportsList__Container-sc-6mp1m1-0 dzbYrr&quot;]/div[@class=&quot;ReportsList__MainSectionWrapper-sc-6mp1m1-2 ZSJfa&quot;]/div[@class=&quot;ReportsList__ReportsWrapper-sc-6mp1m1-3 fMQxUo&quot;]/div[@class=&quot;ReportsList__ReportsItemsList-sc-6mp1m1-4 iMnhvr&quot;]/div[@class=&quot;Set__SetContainer-sc-h2xnzc-1 dqVpZp&quot;]/div[@class=&quot;Set__SetVisiblePart-sc-h2xnzc-2 erLdie&quot;]/div[@class=&quot;Set__FlexContentHolder-sc-h2xnzc-0 lagqqm&quot;]/div[@class=&quot;Set__Checkbox-sc-h2xnzc-5 cPhQYG&quot;]</value>
+      <webElementGuid>aa488936-f5dc-40f0-b599-43a501093dec</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/div/div/div/div/div/div/div[8]/div[2]/div/div[3]/div/div[3]/div/div/div/div/div/div</value>
+      <webElementGuid>9058c4eb-8964-4a62-9e08-397278696f70</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div[3]/div/div/div/div/div/div</value>
+      <webElementGuid>0d02c0c1-5d0b-409a-b50c-40351ea24fee</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Report request created</name>
+   <tag></tag>
+   <elementGuidId>dc541a26-5ec2-42e4-aa9d-8ed13f5edd59</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/div/div/div/div/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>1eb72a2b-7940-4c57-997b-797f4387f661</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Report request created</value>
+      <webElementGuid>f88a24b3-acd0-4997-92c8-57e0d35aaf7a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;Toastify&quot;]/div[@class=&quot;Toastify__toast-container Toastify__toast-container--bottom-right App__StyledToastContainer-sc-1v0549y-0 jYabNH&quot;]/div[@class=&quot;Toastify__toast Toastify__toast--success toast-success&quot;]/div[@class=&quot;Toastify__toast-body&quot;]/div[@class=&quot;Notification__StyledContainer-sc-f38rsz-0 gVkaoS&quot;]/div[@class=&quot;Notification__Content-sc-f38rsz-2 cOVJHx&quot;]/div[@class=&quot;Notification__Body-sc-f38rsz-3 ebLtzb&quot;]/span[1]</value>
+      <webElementGuid>a323a706-fbf4-4fda-9c06-78b9219b652b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/div/div/div/div/span</value>
+      <webElementGuid>66be3d9a-4950-451e-b428-fa384b932fc5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='✖︎'])[1]/preceding::span[1]</value>
+      <webElementGuid>ffb0c500-8390-4b8f-83a8-046fa49946c7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Respondents'])[1]/preceding::span[1]</value>
+      <webElementGuid>6c4f6eae-062f-4061-9c9f-b7a8c76293fa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Report request created']/parent::*</value>
+      <webElementGuid>8c28de1a-7f62-40b9-b0b6-20f77f6e3932</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span</value>
+      <webElementGuid>01184dd3-b78a-4b14-a3dc-066d4d2636d5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Report request created' or . = 'Report request created')]</value>
+      <webElementGuid>3a588ccb-a49d-4b4e-9513-563ad1ef7a3e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -20,29 +20,29 @@ import org.openqa.selenium.Keys as Keys
 //Initiate a Text File for Storage
 import java.io.File as File
 
-WebUI.callTestCase(findTestCase('TC002-Add new respondent'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('TC002-Respondents-Add new respondent'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForPageLoad(10)
 
-WebUI.click(findTestObject('Object Repository/OR-Administer Assessment CN/div_First Checkbox'))
+WebUI.click(findTestObject('Object Repository/Respondents/OR-Administer Assessment CN/div_First Checkbox'))
 
-WebUI.click(findTestObject('Object Repository/OR-Administer Assessment CN/div_Administer assessment'))
+WebUI.click(findTestObject('Object Repository/Respondents/OR-Administer Assessment CN/div_Administer assessment'))
 
-WebUI.click(findTestObject('Object Repository/OR-Administer Assessment CN/button_Start'))
+WebUI.click(findTestObject('Object Repository/Respondents/OR-Administer Assessment CN/button_Start'))
 
-WebUI.click(findTestObject('Object Repository/OR-Administer Assessment CN/button_Yes'))
+WebUI.click(findTestObject('Object Repository/Respondents/OR-Administer Assessment CN/button_Yes'))
 
 WebUI.waitForPageLoad(10)
 
-WebUI.scrollToElement(findTestObject('Object Repository/OR-Administer Assessment CN/b_End of Privacy'), 0)
+WebUI.scrollToElement(findTestObject('Object Repository/Respondents/OR-Administer Assessment CN/b_End of Privacy'), 0)
 
-WebUI.click(findTestObject('Object Repository/OR-Administer Assessment CN/input__Privacy Checkbox'))
+WebUI.click(findTestObject('Object Repository/Respondents/OR-Administer Assessment CN/input__Privacy Checkbox'))
 
-WebUI.click(findTestObject('Object Repository/OR-Administer Assessment CN/button_Privacy Biodata Submit'))
+WebUI.click(findTestObject('Object Repository/Respondents/OR-Administer Assessment CN/button_Privacy Biodata Submit'))
 
-WebUI.click(findTestObject('Object Repository/OR-Administer Assessment CN/button_Privacy Biodata Submit'))
+WebUI.click(findTestObject('Object Repository/Respondents/OR-Administer Assessment CN/button_Privacy Biodata Submit'))
 
-WebUI.click(findTestObject('Object Repository/OR-Administer Assessment CN/button_Start Assessment'))
+WebUI.click(findTestObject('Object Repository/Respondents/OR-Administer Assessment CN/button_Start Assessment'))
 
 WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.ENTER))
 
@@ -50,13 +50,13 @@ WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.RIGHT))
 
 WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.PAGE_DOWN))
 
-WebUI.click(findTestObject('Object Repository/OR-Administer Assessment CN/div_Next'))
+WebUI.click(findTestObject('Object Repository/Respondents/OR-Administer Assessment CN/div_Next'))
 
-WebUI.click(findTestObject('Object Repository/OR-Administer Assessment CN/div_Next'))
+WebUI.click(findTestObject('Object Repository/Respondents/OR-Administer Assessment CN/div_Next'))
 
-WebUI.click(findTestObject('Object Repository/OR-Administer Assessment CN/div_Next'))
+WebUI.click(findTestObject('Object Repository/Respondents/OR-Administer Assessment CN/div_Next'))
 
-WebUI.click(findTestObject('Object Repository/OR-Administer Assessment CN/div_Next'))
+WebUI.click(findTestObject('Object Repository/Respondents/OR-Administer Assessment CN/div_Next'))
 
 ctr = 1
 qaLog = new File(((GlobalVariable.fileDir + '\\TC006 Log - ') + GlobalVariable.timestamp) + ' (MMddhhmmss)' + '.txt')
@@ -66,7 +66,7 @@ url = WebUI.getUrl()
 qaLog.append('Test Case: Administer assessment' + ',')
 qaLog.append(('Assessment URL: ' + url) + ',')
 
-while (WebUI.verifyElementVisible(findTestObject('Object Repository/OR-Administer Assessment CN/span_Progress CN'), FailureHandling.OPTIONAL)) {
+while (WebUI.verifyElementVisible(findTestObject('Object Repository/Respondents/OR-Administer Assessment CN/span_Progress CN'), FailureHandling.OPTIONAL)) {
     //Randomize Answer
     randomInt = (new Random().nextInt((3 - 1) + 1) + 1)
 
@@ -107,13 +107,11 @@ while (WebUI.verifyElementVisible(findTestObject('Object Repository/OR-Administe
     }
 }
 
-WebUI.click(findTestObject('Object Repository/OR-Administer Assessment CN/button_Continue CN'))
+WebUI.click(findTestObject('Object Repository/Respondents/OR-Administer Assessment CN/button_Continue CN'))
 
-WebUI.setText(findTestObject('Object Repository/OR-Administer Assessment CN/input__pin'), GlobalVariable.assessmentPin)
+WebUI.setText(findTestObject('Object Repository/Respondents/OR-Administer Assessment CN/input__pin'), GlobalVariable.assessmentPin)
 
-WebUI.click(findTestObject('Object Repository/OR-Administer Assessment CN/button_Submit PIN'))
+WebUI.click(findTestObject('Object Repository/Respondents/OR-Administer Assessment CN/button_Submit PIN'))
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/OR-Administer Assessment CN/a_Respondents'), 5)
-
-WebUI.closeBrowser()
+WebUI.waitForElementVisible(findTestObject('Object Repository/Respondents/OR-Administer Assessment CN/a_Respondents'), 5)
 

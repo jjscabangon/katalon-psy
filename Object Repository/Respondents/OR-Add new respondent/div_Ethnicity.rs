@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Ethnicity</name>
+   <tag></tag>
+   <elementGuidId>330adb28-6d03-45ff-befd-09f106d45e9a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.css-1e99al4-control > div.css-1hwfws3</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div[2]/div/div/div/div/div/div/div[8]/div[2]/div/form/div/div[3]/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>5b0f8a57-67c9-4d04-827a-6df15fc8ea1c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value> css-1hwfws3</value>
+      <webElementGuid>740541b4-56ce-486b-9e91-7be60cc18cd6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Ethnicity</value>
+      <webElementGuid>86272a71-a9cb-478f-92f1-7db9c3dced49</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[2]/div[@class=&quot;ContentRouter__Container-sc-ayudpc-0 kFILiX&quot;]/div[@class=&quot;ContentRouter__ContentContainer-sc-ayudpc-1 bDzahg&quot;]/div[@class=&quot;ContentRouter__StyledRouter-sc-ayudpc-2 cdCFNr&quot;]/div[@class=&quot;ContentRouter__RouteWrapper-sc-ayudpc-3 fVaimK&quot;]/div[1]/div[@class=&quot;PageWrapper__Container-sc-10mepnc-0 eLXHhm&quot;]/div[@class=&quot;rodal rodal-fade-enter&quot;]/div[@class=&quot;rodal-dialog rodal-fade-enter&quot;]/div[@class=&quot;NewModal__Container-sc-1b0fhaf-0 bASsOq AddRespondentModal__StyledModal-sc-gv2eix-0 cbZrEP&quot;]/form[@class=&quot;AddRespondentForm__Form-sc-nyr9r3-0 AQdLQ&quot;]/div[@class=&quot;AddRespondentForm__InputsHolder-sc-nyr9r3-1 jRoXFq&quot;]/div[@class=&quot;Select__SelectWrapper-sc-gxrqw-0 kIwUsj AddRespondentForm__StyledSelect-sc-nyr9r3-2 gzAqCe&quot;]/div[@class=&quot;css-1be007b-container&quot;]/div[@class=&quot;css-1e99al4-control&quot;]/div[@class=&quot;css-1hwfws3&quot;]</value>
+      <webElementGuid>0395ee9a-74cc-4fa6-a314-b265990df740</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/div/div/div/div/div/div/div[8]/div[2]/div/form/div/div[3]/div/div/div</value>
+      <webElementGuid>66101de7-3a4a-4a21-81ea-8e462d52e2ca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Secondary School'])[1]/following::div[6]</value>
+      <webElementGuid>9d43ac81-db5d-45a6-98b9-9277113afe32</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Education'])[1]/following::div[7]</value>
+      <webElementGuid>40fd224d-e5d1-4732-a71b-0e8e7e7d1e2f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='African American'])[1]/preceding::div[4]</value>
+      <webElementGuid>4367c8c6-4807-40f4-bba8-e67efa01dd33</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div/div[3]/div/div/div</value>
+      <webElementGuid>d5aa1827-16a6-4334-abe4-8c94f8283822</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Ethnicity' or . = 'Ethnicity')]</value>
+      <webElementGuid>38beb87e-2790-4935-930f-8a6dd3c6b1bc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

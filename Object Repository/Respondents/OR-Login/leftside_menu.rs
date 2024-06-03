@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>leftside_menu</name>
+   <tag></tag>
+   <elementGuidId>7754f312-3a07-426e-82c4-989ed66f4f5b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.Sidebar__TabsList-sc-h8wc3d-2.gUAEly > div</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div[2]/div/nav/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>95847cf8-3ce6-4679-99a9-7a1ee1479634</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>RespondentsProjectsInvites56ReportsSettings</value>
+      <webElementGuid>33d38eaf-730b-4e2c-ab66-fc7ffa7829d2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[2]/div[@class=&quot;ContentRouter__Container-sc-ayudpc-0 kFILiX&quot;]/nav[@class=&quot;Sidebar__SidebarContainer-sc-h8wc3d-1 jHVVbs&quot;]/div[@class=&quot;Sidebar__TabsList-sc-h8wc3d-2 gUAEly&quot;]/div[1]</value>
+      <webElementGuid>5453c90f-7e40-43be-bb54-0f49e529accd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/div/nav/div/div</value>
+      <webElementGuid>b785a2d1-fe80-4985-8550-2c222d647fcc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//nav/div/div</value>
+      <webElementGuid>90aee2c5-9e0f-46c6-a6b1-24959b6dbfa0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'RespondentsProjectsInvites56ReportsSettings' or . = 'RespondentsProjectsInvites56ReportsSettings')]</value>
+      <webElementGuid>962b606a-e40a-4fcb-980d-7193ee43d02e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Sector</name>
+   <tag></tag>
+   <elementGuidId>cca85a35-f57a-4ed3-9666-b7c6a155f4ae</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.css-1e99al4-control > div.css-1hwfws3</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div[2]/div/div/div/div/div/div/div[8]/div[2]/div/form/div/div[5]/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>79e0b63f-b1d8-438d-bcef-4cfff0ba61eb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value> css-1hwfws3</value>
+      <webElementGuid>773b0526-c368-4061-8e0c-c20a1a69bee0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Sector</value>
+      <webElementGuid>ff3a92a1-5bd1-40bc-8b66-428c037294db</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[2]/div[@class=&quot;ContentRouter__Container-sc-ayudpc-0 kFILiX&quot;]/div[@class=&quot;ContentRouter__ContentContainer-sc-ayudpc-1 bDzahg&quot;]/div[@class=&quot;ContentRouter__StyledRouter-sc-ayudpc-2 cdCFNr&quot;]/div[@class=&quot;ContentRouter__RouteWrapper-sc-ayudpc-3 fVaimK&quot;]/div[1]/div[@class=&quot;PageWrapper__Container-sc-10mepnc-0 eLXHhm&quot;]/div[@class=&quot;rodal rodal-fade-enter&quot;]/div[@class=&quot;rodal-dialog rodal-fade-enter&quot;]/div[@class=&quot;NewModal__Container-sc-1b0fhaf-0 bASsOq AddRespondentModal__StyledModal-sc-gv2eix-0 cbZrEP&quot;]/form[@class=&quot;AddRespondentForm__Form-sc-nyr9r3-0 AQdLQ&quot;]/div[@class=&quot;AddRespondentForm__InputsHolder-sc-nyr9r3-1 jRoXFq&quot;]/div[@class=&quot;Select__SelectWrapper-sc-gxrqw-0 kIwUsj AddRespondentForm__StyledSelect-sc-nyr9r3-2 gzAqCe&quot;]/div[@class=&quot;css-1be007b-container&quot;]/div[@class=&quot;css-1e99al4-control&quot;]/div[@class=&quot;css-1hwfws3&quot;]</value>
+      <webElementGuid>a20f67cf-8ce5-4f5a-b54c-bc0ce3bdc207</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/div/div/div/div/div/div/div[8]/div[2]/div/form/div/div[5]/div/div/div</value>
+      <webElementGuid>76964cc0-8ebd-44dd-b89a-a67e09bf02d5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='- Chief executive'])[1]/following::div[6]</value>
+      <webElementGuid>2f7340d4-89f1-40d4-8b17-be1723dd3dff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Job Area'])[1]/following::div[7]</value>
+      <webElementGuid>57d03132-99f4-4f24-a45c-631d703786a9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Local Government/Authority'])[1]/preceding::div[4]</value>
+      <webElementGuid>78a87e59-82f9-4428-aee8-138d5c1decf1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div/div[5]/div/div/div</value>
+      <webElementGuid>e3414723-9831-44e9-b09c-b685e0dcc062</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Sector' or . = 'Sector')]</value>
+      <webElementGuid>666a4d22-f097-491f-8800-b602e10ac57e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

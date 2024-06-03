@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_S_DateSelect_Start of Month</name>
+   <tag></tag>
+   <elementGuidId>3343b12d-3342-4fc1-b234-c8d536a4000c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@class=&quot;rdrMonth&quot;]//button[contains(@class,'rdrDayStartOfMonth')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.Search__AppliedFiltersContainer-sc-11r4swm-0.cfvCUf</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>2a5f4587-18dc-47df-a8bb-6d88d5021d2d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>Search__AppliedFiltersContainer-sc-11r4swm-0 cfvCUf</value>
+      <webElementGuid>0af7ac91-7ecc-45e0-81c2-46df697c2a56</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[2]/div[@class=&quot;ContentRouter__Container-sc-ayudpc-0 kFILiX&quot;]/div[@class=&quot;ContentRouter__ContentContainer-sc-ayudpc-1 bDzahg&quot;]/div[@class=&quot;ContentRouter__StyledRouter-sc-ayudpc-2 cdCFNr&quot;]/div[@class=&quot;ContentRouter__RouteWrapper-sc-ayudpc-3 fVaimK&quot;]/div[1]/div[@class=&quot;PageWrapper__Container-sc-10mepnc-0 eLXHhm&quot;]/div[@class=&quot;AdvancedFilter__Wrapper-sc-90morx-0 didgyb&quot;]/div[@class=&quot;Search__AppliedFiltersContainer-sc-11r4swm-0 cfvCUf&quot;]</value>
+      <webElementGuid>bde06ae1-1d3c-4c84-865a-b8e228fd75cd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/div/div/div/div/div/div/div[4]/div</value>
+      <webElementGuid>1c331b0b-9e3d-461a-b55c-c83b0dde3933</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Groups (5)'])[1]/following::div[3]</value>
+      <webElementGuid>ef13dcd2-95b1-4dcd-b5bd-5cd4932fde86</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='List (0)'])[1]/following::div[4]</value>
+      <webElementGuid>634d3aa3-f3ac-4324-960d-9e4d6d110bf2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Filter'])[1]/preceding::div[1]</value>
+      <webElementGuid>0ea98a1d-5e01-4fb7-b681-2ec5600252e3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Filter type'])[1]/preceding::div[4]</value>
+      <webElementGuid>d2fcc884-0073-4105-8b11-37a6ec192cf8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div[4]/div</value>
+      <webElementGuid>d28abd39-4e32-412e-9971-f1439cac4f37</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/div/div/div/div/div/div/div[8]/div[2]/div/form/div/div[6]/div/div[2]</value>
+      <webElementGuid>e2f36290-76b4-49b4-8192-bed12aecacd4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div/div[6]/div/div[2]</value>
+      <webElementGuid>abf322f7-b0a3-4d0c-8c91-a3de461e3a4e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

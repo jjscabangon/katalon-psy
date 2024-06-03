@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC007-Administer answer sheet</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>b59061cd-0a29-40c7-ac4b-322ce1e9b986</testCaseGuid>
-</TestCaseEntity>
