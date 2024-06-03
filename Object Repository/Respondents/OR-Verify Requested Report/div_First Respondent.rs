@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_First Respondent</name>
+   <tag></tag>
+   <elementGuidId>d412f96a-3ae3-4ac5-9e97-a61d7215a1c6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.respondents__RespondentsCell-sc-ai29xw-1.fPCNBn</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[contains(@class,'respondents__RespondentsCell')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>d86a7b21-df4e-42e1-b81d-418773caa3e8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>respondents__RespondentsCell-sc-ai29xw-1 fPCNBn</value>
+      <webElementGuid>f7d969dd-7d3a-486d-9d5f-3baa4a608758</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>陈何陈杰 (Chén Jié) Auto  何 (Hé)</value>
+      <webElementGuid>127d89c8-298b-419f-abed-93b299093ed0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[2]/div[@class=&quot;ContentRouter__Container-sc-ayudpc-0 kFILiX&quot;]/div[@class=&quot;ContentRouter__ContentContainer-sc-ayudpc-1 bDzahg&quot;]/div[@class=&quot;ContentRouter__StyledRouter-sc-ayudpc-2 cdCFNr&quot;]/div[@class=&quot;ContentRouter__RouteWrapper-sc-ayudpc-3 fVaimK&quot;]/div[1]/div[@class=&quot;PageWrapper__Container-sc-10mepnc-0 eLXHhm&quot;]/div[@class=&quot;infinite-scroll-component__outerdiv&quot;]/div[@class=&quot;infinite-scroll-component&quot;]/div[@class=&quot;Table__TableStyles-sc-12cd1gg-0 gYKZmf Respondents__StyledTable-sc-1bhwmih-0 iqoBDF&quot;]/table[1]/tbody[1]/tr[@class=&quot;MultiSelectTableRow__StyledBodyTr-sc-1bjxnoe-0 iPmdcA&quot;]/td[2]/div[@class=&quot;respondents__RespondentsCell-sc-ai29xw-1 fPCNBn&quot;]</value>
+      <webElementGuid>ab8cc8fa-1cda-42c3-9899-ff9e02c4d634</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/div/div/div/div/div/div/div[5]/div/div/table/tbody/tr/td[2]/div</value>
+      <webElementGuid>215cd302-aa15-4721-8578-0f1e48c5920b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[2]/div</value>
+      <webElementGuid>c3bffe38-21da-4315-8b2e-f76e643496b0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '陈何陈杰 (Chén Jié) Auto  何 (Hé)' or . = '陈何陈杰 (Chén Jié) Auto  何 (Hé)')]</value>
+      <webElementGuid>18970d90-6091-4a64-91cb-586147e93c3e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

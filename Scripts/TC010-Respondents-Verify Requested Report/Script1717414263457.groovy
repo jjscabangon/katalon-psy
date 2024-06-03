@@ -17,5 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('TC001-Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('TC009-Respondents-Request Report'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Object Repository/Respondents/OR-Verify Requested Report/div_First Respondent'))
+
+WebUI.click(findTestObject('Object Repository/Respondents/OR-Verify Requested Report/div_Reports (10)'))
+
+WebUI.scrollToElement(findTestObject('Object Repository/Respondents/OR-Verify Requested Report/span_15FQ Standard'), 3)
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/Respondents/OR-Verify Requested Report/span_15FQ Standard'))
 
