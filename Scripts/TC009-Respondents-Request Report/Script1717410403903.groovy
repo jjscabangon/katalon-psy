@@ -19,11 +19,17 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('TC007-Respondents-Administer answer sheet'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.refresh()
+
+WebUI.waitForElementVisible(findTestObject('Respondents/OR-Add new respondent/input_Search Respondent'), 10)
+
 WebUI.setText(findTestObject('Object Repository/Respondents/OR-Add new respondent/input_Search Respondent'), GlobalVariable.email)
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/Respondents/OR-Add new respondent/span_Loading respondents'), 3)
+WebUI.waitForElementVisible(findTestObject('Object Repository/Respondents/OR-Add new respondent/span_Loading respondents'), 
+    3)
 
-WebUI.waitForElementNotVisible(findTestObject('Object Repository/Respondents/OR-Add new respondent/span_Loading respondents'), 3)
+WebUI.waitForElementNotVisible(findTestObject('Object Repository/Respondents/OR-Add new respondent/span_Loading respondents'), 
+    3)
 
 WebUI.click(findTestObject('Object Repository/Respondents/OR-Request Report/div_First Checkbox'))
 

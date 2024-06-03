@@ -79,3 +79,5 @@ while (columnCtr <= 4) {
 
 WebUI.click(findTestObject('Object Repository/Respondents/OR-Administer answer sheet/button_Submit'))
 
+WebUI.waitForPageLoad(3)
+
