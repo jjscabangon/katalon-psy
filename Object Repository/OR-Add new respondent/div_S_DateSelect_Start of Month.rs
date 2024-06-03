@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@class=&quot;rdrDay rdrDayStartOfMonth&quot;]</value>
+         <value>//div[contains(@class,'rdrMonths')]//button[contains(@class,'rdrDayStartOfMonth')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>ae5e6bc2-4463-44db-881b-0bb0eb853e01</webElementGuid>
+      <webElementGuid>e3557358-478a-4e03-99ef-e0c0653db1f9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>DateSelect__BgDrop-sc-s4e42t-6 htWjlg</value>
-      <webElementGuid>ce854205-0927-472b-aa92-e58148acca5f</webElementGuid>
+      <webElementGuid>c2820479-c7bf-46d7-b710-924550dc3d87</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[2]/div[@class=&quot;ContentRouter__Container-sc-ayudpc-0 kFILiX&quot;]/div[@class=&quot;ContentRouter__ContentContainer-sc-ayudpc-1 bDzahg&quot;]/div[@class=&quot;ContentRouter__StyledRouter-sc-ayudpc-2 cdCFNr&quot;]/div[@class=&quot;ContentRouter__RouteWrapper-sc-ayudpc-3 fVaimK&quot;]/div[1]/div[@class=&quot;PageWrapper__Container-sc-10mepnc-0 eLXHhm&quot;]/div[@class=&quot;rodal rodal-fade-enter&quot;]/div[@class=&quot;rodal-dialog rodal-fade-enter&quot;]/div[@class=&quot;NewModal__Container-sc-1b0fhaf-0 bASsOq AddRespondentModal__StyledModal-sc-gv2eix-0 cbZrEP&quot;]/form[@class=&quot;AddRespondentForm__Form-sc-nyr9r3-0 AQdLQ&quot;]/div[@class=&quot;AddRespondentForm__InputsHolder-sc-nyr9r3-1 jRoXFq&quot;]/div[6]/div[@class=&quot;DateSelect__OuterContainer-sc-s4e42t-0 deRUpa AddRespondentForm__DatePicker-sc-nyr9r3-5 bcNhJZ&quot;]/div[@class=&quot;DateSelect__BgDrop-sc-s4e42t-6 htWjlg&quot;]</value>
-      <webElementGuid>cc77e88d-27f8-4699-bcb9-7c5a25d4428e</webElementGuid>
+      <webElementGuid>c3a999bc-5686-4ea0-8bbb-4c0e589b3676</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div[2]/div/div/div/div/div/div/div[8]/div[2]/div/form/div/div[6]/div/div[2]</value>
-      <webElementGuid>a8bed2dc-c57c-458a-b6f7-76f6cfd81a5d</webElementGuid>
+      <webElementGuid>9038583e-94cc-48d5-ad95-d4f2420c17e2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -55,6 +55,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form/div/div[6]/div/div[2]</value>
-      <webElementGuid>bc263473-161d-4992-aa2b-2ec4698f45cb</webElementGuid>
+      <webElementGuid>bb026ca0-f382-4694-961c-222aed82aa7c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

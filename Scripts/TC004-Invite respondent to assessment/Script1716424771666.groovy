@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('TC002-Add new respondent'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForPageLoad(10)
+WebUI.waitForPageLoad(3)
 
 WebUI.click(findTestObject('Object Repository/OR-Invite respondent to assessment/div_First Checkbox'))
 

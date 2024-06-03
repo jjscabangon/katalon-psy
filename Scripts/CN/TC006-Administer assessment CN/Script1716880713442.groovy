@@ -64,7 +64,7 @@ qaLog = new File(((GlobalVariable.fileDir + '\\TC006 Log') + GlobalVariable.time
 
 //Record URL
 url = WebUI.getUrl()
-
+qaLog.append('Test Case: Administer assessment' + ' , ')
 qaLog.append(('Assessment URL:' + url) + ' , ')
 
 while (WebUI.verifyElementVisible(findTestObject('Object Repository/OR-Administer Assessment CN/span_Progress CN'), FailureHandling.OPTIONAL)) {

@@ -100,7 +100,7 @@ qaLog = new File(((GlobalVariable.fileDir + '\\TC008 Log') + GlobalVariable.time
 
 //Record URL
 url = WebUI.getUrl()
-
+qaLog.append('Test Case: Complete 15FQ assessment from email CN' + ' , ')
 qaLog.append(('Assessment URL:' + url) + ' , ')
 
 while (WebUI.verifyElementVisible(findTestObject('Object Repository/OR-Complete 15FQ Assessment from Email CN/span_Progress'), 
