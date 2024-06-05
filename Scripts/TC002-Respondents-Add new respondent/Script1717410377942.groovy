@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('TC001-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.waitForPageLoad(5)
+
 WebUI.click(findTestObject('Object Repository/Respondents/OR-Add new respondent/button_Add new respondent'))
 
 //Get Current Timestamp
@@ -186,3 +188,6 @@ WebUI.waitForElementNotVisible(findTestObject('Object Repository/Respondents/OR-
 
 println('Respondent Email: ' + GlobalVariable.email)
 
+WebUI.waitForPageLoad(3)
+
+WebUI.click(findTestObject('Object Repository/Respondents/OR-Administer answer sheet/div_First Checkbox'))

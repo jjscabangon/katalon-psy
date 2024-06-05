@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC011-Respondents-Go to respondent details</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5ad78873-b031-4371-8db6-b8483352ce2b</testCaseGuid>
+</TestCaseEntity>

@@ -24,10 +24,10 @@ import org.openqa.selenium.WebElement as WebElement
 
 WebUI.callTestCase(findTestCase('TC002-Respondents-Add new respondent'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForPageLoad(3)
-
-WebUI.click(findTestObject('Object Repository/Respondents/OR-Administer answer sheet/div_First Checkbox'))
-
+//WebUI.waitForPageLoad(3)
+//
+//WebUI.click(findTestObject('Object Repository/Respondents/OR-Administer answer sheet/div_First Checkbox'))
+//
 WebUI.click(findTestObject('Object Repository/Respondents/OR-Administer answer sheet/div_Administer answer sheet'))
 
 WebUI.click(findTestObject('Object Repository/Respondents/OR-Administer answer sheet/button_Next'))
