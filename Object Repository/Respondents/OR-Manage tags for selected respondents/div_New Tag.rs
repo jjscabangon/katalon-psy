@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_New Tag</name>
+   <tag></tag>
+   <elementGuidId>78ea50de-5b47-48d0-8938-e166ce6103c9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[contains(@class,'ManageTagsModal')]/div[contains(@class,'Label__LabelItem')]/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.Label__LabelItem-sc-6gfvrg-0.dKzIGB</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>5896ab09-a23b-4a98-85d0-da34064e21ee</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>Label__LabelItem-sc-6gfvrg-0 dKzIGB</value>
+      <webElementGuid>39e90bb6-19d6-4646-8ad4-27613621d4cd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>auto</value>
+      <webElementGuid>7aa76ed1-6ecc-422c-a6d4-63c8eb42f015</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[2]/div[@class=&quot;ContentRouter__Container-sc-ayudpc-0 kFILiX&quot;]/div[@class=&quot;ContentRouter__ContentContainer-sc-ayudpc-1 bDzahg&quot;]/div[@class=&quot;ContentRouter__StyledRouter-sc-ayudpc-2 cdCFNr&quot;]/div[@class=&quot;ContentRouter__RouteWrapper-sc-ayudpc-3 fVaimK&quot;]/div[1]/div[@class=&quot;PageWrapper__Container-sc-10mepnc-0 eLXHhm&quot;]/div[@class=&quot;rodal rodal-fade-enter&quot;]/div[@class=&quot;rodal-dialog rodal-fade-enter&quot;]/div[@class=&quot;NewModal__Container-sc-1b0fhaf-0 bASsOq ManageTagsModal__Modal-sc-1sxgysc-0 jtpGYO&quot;]/div[@class=&quot;ManageTagsModal__Content-sc-1sxgysc-1 bcskPP&quot;]/div[@class=&quot;ManageTagsModal__TagsWrapper-sc-1sxgysc-2 xUGjr&quot;]/div[@class=&quot;Label__LabelItem-sc-6gfvrg-0 dKzIGB&quot;]</value>
+      <webElementGuid>16f59264-9059-41e5-9ec5-ffd6b0f93ba0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/div/div/div/div/div/div/div[8]/div[2]/div/div[2]/div[2]/div</value>
+      <webElementGuid>f975b373-96b9-4e6e-a2ae-0b4a853ea682</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select from existing tags or add new'])[1]/following::div[7]</value>
+      <webElementGuid>c031d5be-6193-4e8d-837f-1d42e3b5ece4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Manage respondents tags'])[1]/following::div[13]</value>
+      <webElementGuid>590f22bf-b213-4e0e-80d4-ca74492baa1e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add tag to selected respondent(s)'])[1]/preceding::div[2]</value>
+      <webElementGuid>17dfe3a0-7ece-4926-b9b1-527083b199a5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[8]/div[2]/div/div[2]/div[2]/div</value>
+      <webElementGuid>38c33ffc-657d-4cc7-b610-539f0778ce2c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'auto' or . = 'auto')]</value>
+      <webElementGuid>e2f8aefb-d716-422e-b25b-e2bf8240e6bb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

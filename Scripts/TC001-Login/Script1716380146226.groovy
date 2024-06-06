@@ -17,11 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.openBrowser(GlobalVariable.url)
 
 WebUI.maximizeWindow()
-
-WebUI.navigateToUrl(GlobalVariable.url)
 
 //Switch Lanuguage
 switch (GlobalVariable.language) {

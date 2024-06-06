@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC001-Login</name>
+   <name>TC012-Respondents-Manage tags for selected respondents</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>5a943391-d0eb-40d1-9991-6588893d89f6</testCaseGuid>
+   <testCaseGuid>b87a8f64-0b0a-458d-ac53-ba09cfcb1960</testCaseGuid>
 </TestCaseEntity>
