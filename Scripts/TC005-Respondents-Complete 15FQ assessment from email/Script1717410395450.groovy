@@ -16,17 +16,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-//Input Invitation Id and Respondent Id
-//WebUI.navigateToUrl('https://genesys2020.genesysonline.cn/login/042010018220/3VKCAJPZ')
-//    WebUI.click(findTestObject('Object Repository/Respondents/OR-Complete 15FQ Assessment from Email EN/span_Progress'))
-//Start a counter for Question and Answer logs
-//Get Current Timestamp
-//Initiate a Text File for Storage
 import java.io.File as File
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('CN/TC004-Respondents-Invite respondent to assessment CN'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.maximizeWindow()
+//WebUI.openBrowser('')
+//
+//WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(GlobalVariable.assessment15fq)
 
@@ -36,7 +32,8 @@ if (WebUI.verifyElementVisible(findTestObject('Object Repository/Respondents/OR-
     FailureHandling.OPTIONAL)) {
     WebUI.click(findTestObject('Object Repository/Respondents/OR-Complete 15FQ Assessment from Email EN/button_Continue'))
 } else {
-    WebUI.scrollToElement(findTestObject('Object Repository/Respondents/OR-Complete 15FQ Assessment from Email EN/b_End of Privacy Policy'), 10)
+    WebUI.scrollToElement(findTestObject('Object Repository/Respondents/OR-Complete 15FQ Assessment from Email EN/b_End of Privacy Policy'), 
+        10)
 
     WebUI.click(findTestObject('Object Repository/Respondents/OR-Complete 15FQ Assessment from Email EN/b_End of Privacy Policy'))
 
@@ -48,9 +45,11 @@ if (WebUI.verifyElementVisible(findTestObject('Object Repository/Respondents/OR-
 
     if (WebUI.verifyElementVisible(findTestObject('Object Repository/Respondents/OR-Complete 15FQ Assessment from Email EN/label_Invitation Id'), 
         FailureHandling.OPTIONAL)) {
-        WebUI.setText(findTestObject('Object Repository/Respondents/OR-Complete 15FQ Assessment from Email EN/label_Invitation Id'), GlobalVariable.invitation15fq)
+        WebUI.setText(findTestObject('Object Repository/Respondents/OR-Complete 15FQ Assessment from Email EN/label_Invitation Id'), 
+            GlobalVariable.invitation15fq)
 
-        WebUI.setText(findTestObject('Object Repository/Respondents/OR-Complete 15FQ Assessment from Email EN/input_Respondent Id'), GlobalVariable.respondent15fq)
+        WebUI.setText(findTestObject('Object Repository/Respondents/OR-Complete 15FQ Assessment from Email EN/input_Respondent Id'), 
+            GlobalVariable.respondent15fq)
 
         WebUI.click(findTestObject('Object Repository/Respondents/OR-Complete 15FQ Assessment from Email EN/button_Continue'))
 
@@ -60,7 +59,8 @@ if (WebUI.verifyElementVisible(findTestObject('Object Repository/Respondents/OR-
 
         WebUI.waitForPageLoad(30)
 
-        WebUI.scrollToElement(findTestObject('Object Repository/Respondents/OR-Complete 15FQ Assessment from Email EN/b_End of Privacy Policy'), 10)
+        WebUI.scrollToElement(findTestObject('Object Repository/Respondents/OR-Complete 15FQ Assessment from Email EN/b_End of Privacy Policy'), 
+            10)
 
         WebUI.click(findTestObject('Object Repository/Respondents/OR-Complete 15FQ Assessment from Email EN/b_End of Privacy Policy'))
 
@@ -91,15 +91,20 @@ if (WebUI.verifyElementVisible(findTestObject('Object Repository/Respondents/OR-
 ctr = 1
 
 GlobalVariable.timestamp = new Date().format('MMddhhmmss')
+
 println(GlobalVariable.timestamp)
-qaLog = new File(((GlobalVariable.fileDir + '\\TC005 Log - ') + GlobalVariable.timestamp) + ' (MMddhhmmss)' + '.txt')
+
+qaLog = new File((((GlobalVariable.fileDir + '\\TC005 Log - ') + GlobalVariable.timestamp) + ' (MMddhhmmss)') + '.txt')
 
 //Record URL
 url = WebUI.getUrl()
+
 qaLog.append('Test Case: Complete 15FQ assessment from email EN' + ',')
+
 qaLog.append(('Assessment URL: ' + url) + ' , ')
 
-while (WebUI.verifyElementVisible(findTestObject('Object Repository/Respondents/OR-Complete 15FQ Assessment from Email EN/span_Progress'), FailureHandling.OPTIONAL)) {
+while (WebUI.verifyElementVisible(findTestObject('Object Repository/Respondents/OR-Complete 15FQ Assessment from Email EN/span_Progress'), 
+    FailureHandling.OPTIONAL)) {
     //Randomize Answer
     randomInt = (new Random().nextInt((3 - 1) + 1) + 1)
 
