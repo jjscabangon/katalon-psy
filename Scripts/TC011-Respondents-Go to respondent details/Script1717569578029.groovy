@@ -18,3 +18,8 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('TC002-Respondents-Add new respondent'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Object Repository/Respondents/OR-Go to respondent details/span_Go to respondent details'))
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/Respondents/div_Respondent InformationInvites (0)Assess_f28a8c'), 3)
+
