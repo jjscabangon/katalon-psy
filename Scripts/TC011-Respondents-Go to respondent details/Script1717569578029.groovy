@@ -21,5 +21,7 @@ WebUI.callTestCase(findTestCase('TC002-Respondents-Add new respondent'), [:], Fa
 
 WebUI.click(findTestObject('Object Repository/Respondents/OR-Go to respondent details/span_Go to respondent details'))
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/Respondents/div_Respondent Information Tabs'), 3)
+WebUI.waitForPageLoad(3)
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/Respondents/OR-Go to respondent details/div_Respondent Information Tabs'), 3)
 
