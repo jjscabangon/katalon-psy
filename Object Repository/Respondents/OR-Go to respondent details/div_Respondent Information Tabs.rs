@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Respondent InformationInvites (0)Assess_f28a8c</name>
+   <name>div_Respondent Information Tabs</name>
    <tag></tag>
    <elementGuidId>c6363836-0238-4eec-a918-cbfe8645a79f</elementGuidId>
    <selectorCollection>
