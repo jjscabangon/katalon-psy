@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SE-IP-001-Navigate to Settings Ideal Profile</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>33fe43c6-041e-4aac-8c07-60e91ac63493</testCaseGuid>
+</TestCaseEntity>

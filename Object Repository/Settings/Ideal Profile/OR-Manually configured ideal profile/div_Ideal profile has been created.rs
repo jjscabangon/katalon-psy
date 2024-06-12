@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Ideal profile has been created</name>
+   <tag></tag>
+   <elementGuidId>ff5d633f-8202-45cd-86d4-a1342f64faef</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.Notification__StyledContainer-sc-f38rsz-0.gVkaoS</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>b05dd5e9-c5c8-4376-b7b9-fecbbb9138cc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>Notification__StyledContainer-sc-f38rsz-0 gVkaoS</value>
+      <webElementGuid>521b4b72-a23d-4abe-82a6-5acb885bd7e8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Ideal profile has been created</value>
+      <webElementGuid>39518225-0d64-4458-8224-21b0fe68f428</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;Toastify&quot;]/div[@class=&quot;Toastify__toast-container Toastify__toast-container--bottom-right AppInner__StyledToastContainer-sc-oso82g-0 iAbruX&quot;]/div[@class=&quot;Toastify__toast Toastify__toast--success toast-success&quot;]/div[@class=&quot;Toastify__toast-body&quot;]/div[@class=&quot;Notification__StyledContainer-sc-f38rsz-0 gVkaoS&quot;]</value>
+      <webElementGuid>82e6d6a6-6ab3-4de8-a6c1-bc81df6286b5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/div/div</value>
+      <webElementGuid>6a2d4736-8f27-40dd-94e5-6e9f61a7cf3c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='✖︎'])[1]/preceding::div[4]</value>
+      <webElementGuid>41aa0349-50d3-42de-81db-e44a4373463f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div/div/div</value>
+      <webElementGuid>6bffd890-f53d-40b7-b7d3-5b375e436098</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Ideal profile has been created' or . = 'Ideal profile has been created')]</value>
+      <webElementGuid>e5e7ac50-e092-46ce-adde-5b87ed991261</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

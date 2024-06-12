@@ -47,7 +47,11 @@ switch (GlobalVariable.language) {
         break
 }
 
-//
+//Get Current Timestamp
+GlobalVariable.timestamp = new Date().format('MMddhhmmss')
+
+println(GlobalVariable.timestamp)
+
 WebUI.setText(findTestObject('Object Repository/Respondents/OR-Login/input_password'), GlobalVariable.loginPassword)
 
 WebUI.click(findTestObject('Object Repository/Respondents/OR-Login/button_Continue'))

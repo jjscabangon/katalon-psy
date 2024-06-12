@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_ScaleItem</name>
+   <tag></tag>
+   <elementGuidId>a7b05f78-ff78-4583-a659-f830a1b909a7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>p.IdealProfileScales__ScaleText-sc-1skdrq0-3.dDVinc</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[contains(@class,'IdealProfileScales__ScaleItem')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>7c5e23dd-567c-4c8d-b252-56a153000ebc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>IdealProfileScales__ScaleText-sc-1skdrq0-3 dDVinc</value>
+      <webElementGuid>4310dd1e-ab1f-4368-b488-99717702240f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>No more or less empathetic than most, the situation may have an effect on when they may be observed as personable. Equally, in some situations they may appear rather more distant and less inclined to express their feelings.</value>
+      <webElementGuid>2195485e-114b-4389-bf0e-7e9ec77665e7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[2]/div[@class=&quot;ContentRouter__Container-sc-ayudpc-0 kFILiX&quot;]/div[@class=&quot;ContentRouter__ContentContainer-sc-ayudpc-1 bDzahg&quot;]/div[@class=&quot;ContentRouter__StyledRouter-sc-ayudpc-2 cdCFNr&quot;]/div[@class=&quot;ContentRouter__RouteWrapper-sc-ayudpc-3 fVaimK&quot;]/div[1]/div[@class=&quot;ContentRouter__RouteWrapper-sc-ayudpc-3 fVaimK&quot;]/div[1]/div[@class=&quot;PageWrapper__Container-sc-10mepnc-0 eLXHhm&quot;]/div[@class=&quot;IdealProfileScales__ScalesWrapper-sc-1skdrq0-1 bfXtbD&quot;]/div[@class=&quot;IdealProfileScales__ScaleItem-sc-1skdrq0-2 jISlaI&quot;]/p[@class=&quot;IdealProfileScales__ScaleText-sc-1skdrq0-3 dDVinc&quot;]</value>
+      <webElementGuid>001e30f6-9b4b-4837-bab6-1c5d9496afe8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/div/div/div/div/div/div/div/div/div[4]/div/p</value>
+      <webElementGuid>41c6abc3-a2db-4f3c-92a4-d25ca41b171d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Created:'])[1]/following::p[1]</value>
+      <webElementGuid>1ad14660-31b5-4f79-a5e4-a8523dad8fe7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Manually configured'])[1]/following::p[1]</value>
+      <webElementGuid>e3e5c17e-4e7d-417b-b1c0-c85cd24310f7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='fA'])[1]/preceding::p[1]</value>
+      <webElementGuid>96a7562b-1ccd-47ed-8711-ac4234ed0982</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Distant Aloof'])[1]/preceding::p[1]</value>
+      <webElementGuid>9c0e0d6f-d257-424c-9e84-2070380ae868</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='No more or less empathetic than most, the situation may have an effect on when they may be observed as personable. Equally, in some situations they may appear rather more distant and less inclined to express their feelings.']/parent::*</value>
+      <webElementGuid>671a6b4c-aa47-4e43-87e6-610a7a32af8c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/p</value>
+      <webElementGuid>c7095780-ac73-4e62-89b4-ce7ee4a6df64</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'No more or less empathetic than most, the situation may have an effect on when they may be observed as personable. Equally, in some situations they may appear rather more distant and less inclined to express their feelings.' or . = 'No more or less empathetic than most, the situation may have an effect on when they may be observed as personable. Equally, in some situations they may appear rather more distant and less inclined to express their feelings.')]</value>
+      <webElementGuid>5512cff0-9a6f-4507-8871-ad2fbaf0c436</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
