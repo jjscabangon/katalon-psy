@@ -16,6 +16,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+//Import WebDriver
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import org.openqa.selenium.By as By
+import org.openqa.selenium.WebDriver as WebDriver
+import org.openqa.selenium.WebElement as WebElement
 
 WebUI.callTestCase(findTestCase('Settings/Ideal Profile/SE-IP-001-Navigate to Settings Ideal Profile'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -25,26 +30,36 @@ WebUI.click(findTestObject('Object Repository/Settings/Ideal Profile/OR-Manually
 
 profileName = ('Auto Manually Configured | ' + GlobalVariable.timestamp)
 
-WebUI.setText(findTestObject('Object Repository/Settings/Ideal Profile/OR-Manually configured ideal profile/input_Ideal profile name'),
-	profileName)
+WebUI.setText(findTestObject('Object Repository/Settings/Ideal Profile/OR-Manually configured ideal profile/input_Ideal profile name'), 
+    profileName)
 
 WebUI.click(findTestObject('Object Repository/Settings/Ideal Profile/OR-Manually configured ideal profile/button_Save'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Settings/Ideal Profile/OR-Manually configured ideal profile/div_Ideal profile type'),
-	3)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Settings/Ideal Profile/OR-Manually configured ideal profile/div_Ideal profile type'), 
+    3)
 
-//Scale Item
-int scale = 1
-println (scale)
+//Select Scale
+scale = 1
 
-while (scale<17) {
+while (scale <= 16) {
+	selectedRating = ((('//div[contains(@class,\'IdealProfileScales__ScaleItem\')][') + scale) + ']')
+	
 	//Randomize Rating
-	int rating = (new Random().nextInt((10 - 1) + 1) + 1)
-	println('ScaleNo: ' + scale + ' | RatingNo: '  + rating)
-	selectedRating = "//div[contains(@class,'IdealProfileScales__ScaleItem')][" + scale + "]//span[@class='rc-slider-dot'][" + rating + "]"
-	element = WebUI.modifyObjectProperty(findTestObject('Object Repository/Settings/Ideal Profile/OR-Manually configured ideal profile/div_Rating'), 'xpath', 'equals', selectedRating, false)
-	println("Element : " + selectedRating)
-	WebUI.click(element)
-	scale = scale + 1
-	println (scale)
+	int rating = (new Random().nextInt((9 - 1) + 1) + 1)
+	
+	selectedRating = (((selectedRating + '//span[@class=\'rc-slider-dot\'][') + rating) + ']')
+	
+	println(selectedRating)
+
+	WebDriver driver = DriverFactory.getWebDriver()
+
+	elementAnswer = driver.findElement(By.xpath(selectedRating))
+
+	elementAnswer.click()
+    
+    scale = (scale + 1)
 }
+
+WebUI.click(findTestObject('Object Repository/Settings/Ideal Profile/OR-Manually configured ideal profile/button_Save Update'))
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/Settings/Ideal Profile/OR-Manually configured ideal profile/span_Ideal profile updated'))
