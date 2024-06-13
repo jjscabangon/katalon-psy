@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Male</name>
+   <name>div_Industry-Agriculture, Forestry and Fishing</name>
    <tag></tag>
-   <elementGuidId>0e2d06c0-2479-4534-ac29-e272a4c9ec71</elementGuidId>
+   <elementGuidId>e0bd2491-fd20-4f10-91ac-2c9fa6110bf9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#react-select-8-option-0</value>
+         <value>#react-select-13-option-1</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[contains(text(),'Male')]</value>
+         <value>//*[contains(text(),'Agriculture, Forestry and Fishing')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>a72bc4bf-3003-47d3-b0fb-4f2d9843611d</webElementGuid>
+      <webElementGuid>c2d9588d-58bb-436a-9fc4-149696f27147</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,15 +31,15 @@
       <name>class</name>
       <type>Main</type>
       <value> css-2d7khs-option</value>
-      <webElementGuid>21143c04-d452-45b6-af8e-9821b182de83</webElementGuid>
+      <webElementGuid>e10612f6-f4d0-4ae1-9fa7-6f271d3d12a4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>react-select-8-option-0</value>
-      <webElementGuid>9895e82e-e642-4ca8-86bc-31e516dd8ee8</webElementGuid>
+      <value>react-select-13-option-1</value>
+      <webElementGuid>4df2b390-7d5c-4052-aeb9-99a43adb2c73</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,94 +47,94 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>13dd1132-903f-40e1-9946-1a311b474923</webElementGuid>
+      <webElementGuid>04d64140-74c2-4fb8-a90a-b71eeb45f9c1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Male</value>
-      <webElementGuid>a5b1c9f2-a5f4-4e08-bca3-0e3e403933bb</webElementGuid>
+      <value>Agriculture, Forestry and Fishing</value>
+      <webElementGuid>06eda6e6-b7fc-4b2c-bb4f-c1fda3cbe82d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;react-select-8-option-0&quot;)</value>
-      <webElementGuid>1cac6d3e-d696-48c0-980f-bd9227c0e973</webElementGuid>
+      <value>id(&quot;react-select-13-option-1&quot;)</value>
+      <webElementGuid>49c4b7be-4584-4d15-86de-24ac52715590</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//div[@id='react-select-8-option-0']</value>
-      <webElementGuid>6b543f12-383a-4fa2-9355-ceb528f81239</webElementGuid>
+      <value>//div[@id='react-select-13-option-1']</value>
+      <webElementGuid>16acfac4-7db8-4a4b-816b-46571a2ae462</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='root']/div[2]/div/div/div/div/div/div/div[8]/div[2]/div/form/div/div[3]/div/div[2]/div/div/div</value>
-      <webElementGuid>b221cd67-0a69-45cb-adf3-5c38a1ca0c77</webElementGuid>
+      <value>//div[@id='root']/div[2]/div/div/div/div/div/div/div[8]/div[2]/div/form/div/div[6]/div/div[2]/div/div/div[2]</value>
+      <webElementGuid>ddfd48ef-81f1-408c-87e2-0604a4da457e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Not Specified'])[1]/following::div[6]</value>
-      <webElementGuid>cccb6698-7d7e-4212-b1a5-994fb4f3a884</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Administrative and Support Service'])[1]/following::div[1]</value>
+      <webElementGuid>c484fc25-6a50-41b3-be03-a4b78dbd71d9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sex'])[1]/following::div[7]</value>
-      <webElementGuid>cd2f727f-87e5-4a1e-a36c-b5624d194da4</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Industry'])[1]/following::div[7]</value>
+      <webElementGuid>cad92031-71c9-4ed1-bd83-ffe1590facff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Female'])[1]/preceding::div[1]</value>
-      <webElementGuid>0686a626-53e5-4b95-86a7-d2a6853aa0c6</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Arts, Entertainment and Recreation'])[1]/preceding::div[1]</value>
+      <webElementGuid>b60690ca-55d4-4fa9-8c6d-9ebea58cf75a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Not Specified'])[2]/preceding::div[2]</value>
-      <webElementGuid>b02f5655-9e27-4f24-8637-8344bd27f7be</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Banking &amp; Finance'])[1]/preceding::div[2]</value>
+      <webElementGuid>41208431-d99c-4544-b7c4-bc31738ff584</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Male']/parent::*</value>
-      <webElementGuid>5180f0b5-e213-4c15-9577-f05762400b33</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Agriculture, Forestry and Fishing']/parent::*</value>
+      <webElementGuid>22f1e0ba-7453-4a10-ad2c-470d1c470d8a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//form/div/div[3]/div/div[2]/div/div/div</value>
-      <webElementGuid>6818f750-ff59-464d-9022-5b33295ccfc2</webElementGuid>
+      <value>//form/div/div[6]/div/div[2]/div/div/div[2]</value>
+      <webElementGuid>fe40b5f7-5043-40f9-87d2-63f3c805ba61</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[@id = 'react-select-8-option-0' and (text() = 'Male' or . = 'Male')]</value>
-      <webElementGuid>516ae21e-c9fd-4fbd-96c0-af420e6cba46</webElementGuid>
+      <value>//div[@id = 'react-select-13-option-1' and (text() = 'Agriculture, Forestry and Fishing' or . = 'Agriculture, Forestry and Fishing')]</value>
+      <webElementGuid>92d9062a-f7ea-4da4-8942-b8a18b75e648</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

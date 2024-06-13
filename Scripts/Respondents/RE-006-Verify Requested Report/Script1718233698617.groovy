@@ -17,9 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Authentication/AU-001-Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Respondents/RE-005-Request Report'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Settings/Ideal Profile/OR-Add manually configured ideal profile/a_Settings Menu'))
+WebUI.click(findTestObject('Object Repository/Respondents/OR-Verify Requested Report/div_First Respondent'))
 
-WebUI.click(findTestObject('Object Repository/Settings/Ideal Profile/OR-Add manually configured ideal profile/a_Ideal Profiles'))
+WebUI.click(findTestObject('Object Repository/Respondents/OR-Verify Requested Report/div_Reports (10)'))
+
+WebUI.scrollToElement(findTestObject('Object Repository/Respondents/OR-Verify Requested Report/span_15FQ Standard'), 3)
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/Respondents/OR-Verify Requested Report/span_15FQ Standard'))
 

@@ -17,9 +17,28 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Authentication/AU-001-Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Respondents/RE-001-Add new respondent'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Settings/Ideal Profile/OR-Add manually configured ideal profile/a_Settings Menu'))
+WebUI.click(findTestObject('Object Repository/Respondents/OR-Manage tags for selected respondents/span_Manage tags for selected respondent(s)'))
 
-WebUI.click(findTestObject('Object Repository/Settings/Ideal Profile/OR-Add manually configured ideal profile/a_Ideal Profiles'))
+newTag = ('AutoTag' + GlobalVariable.timestamp)
+
+//WebUI.click(findTestObject('Object Repository/Respondents/OR-Manage tags for selected respondents/input_Tags'))
+
+js = 'document.querySelector("//div//input[@id="react-select-22-input"]").value = "newTag";'
+
+WebUI.executeJavaScript(js, null)
+
+//WebUI.setText(findTestObject('Object Repository/Respondents/OR-Manage tags for selected respondents/input_Tags'), newTag)
+
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.ENTER))
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/Respondents/OR-Manage tags for selected respondents/div_New Tag'), 
+    3)
+
+addedTag = WebUI.getText(findTestObject('Object Repository/Respondents/OR-Manage tags for selected respondents/div_New Tag'))
+
+if (newTag == addedTag) {
+    println((('newTag:' + newTag) + ' | addedTag:') + addedTag)
+}
 

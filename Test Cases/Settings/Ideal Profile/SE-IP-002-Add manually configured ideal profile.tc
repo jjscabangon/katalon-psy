@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SE-IP-002-Add manually configured ideal profile</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6ae8d757-f909-4dd3-95a6-253877293e3b</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Ideal profile name</name>
+   <tag></tag>
+   <elementGuidId>6a9cb4ca-1e0f-40a0-9dd0-88d89d015b1f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.Input__Container-sc-1cu1w4j-0.giaEKD.AddIdealProfile__StyledInput-sc-br5c8r-2.dLEPxb > div.Input__InputWrapper-sc-1cu1w4j-1.hJxVlQ > input.Input-sc-1cu1w4j-2.jNDyqd</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@placeholder=&quot;Ideal profile name&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>fecb6ff8-b03f-4649-934c-6b106ae7d105</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Ideal profile name</value>
+      <webElementGuid>34aa6d48-40d9-4813-ad6e-7a9b6edc703b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>Input-sc-1cu1w4j-2 jNDyqd</value>
+      <webElementGuid>a21c350e-aa98-46d6-9d22-7dff94c7b8a6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>Complete</value>
+      <webElementGuid>1b3c2106-e8f9-42dc-a570-ac195649b2e8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[2]/div[@class=&quot;ContentRouter__Container-sc-ayudpc-0 kFILiX&quot;]/div[@class=&quot;ContentRouter__ContentContainer-sc-ayudpc-1 bDzahg&quot;]/div[@class=&quot;ContentRouter__StyledRouter-sc-ayudpc-2 cdCFNr&quot;]/div[@class=&quot;ContentRouter__RouteWrapper-sc-ayudpc-3 fVaimK&quot;]/div[1]/div[@class=&quot;ContentRouter__RouteWrapper-sc-ayudpc-3 fVaimK&quot;]/div[1]/div[@class=&quot;PageWrapper__Container-sc-10mepnc-0 eLXHhm&quot;]/div[@class=&quot;rodal rodal-fade-enter&quot;]/div[@class=&quot;rodal-dialog rodal-fade-enter&quot;]/div[@class=&quot;NewModal__Container-sc-1b0fhaf-0 cDYLtF AddIdealProfile__StyledModal-sc-br5c8r-0 cghSzL&quot;]/div[@class=&quot;AddIdealProfile__FormSection-sc-br5c8r-1 iwvPzJ&quot;]/div[@class=&quot;Input__Container-sc-1cu1w4j-0 giaEKD AddIdealProfile__StyledInput-sc-br5c8r-2 dLEPxb&quot;]/div[@class=&quot;Input__InputWrapper-sc-1cu1w4j-1 hJxVlQ&quot;]/input[@class=&quot;Input-sc-1cu1w4j-2 jNDyqd&quot;]</value>
+      <webElementGuid>cba173de-5330-4efc-a32b-9486d6c4acf6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@value='Complete']</value>
+      <webElementGuid>273e20b7-bc04-4a60-b153-81aab1c6f10a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/div/div/div/div/div/div/div/div/div[7]/div[2]/div/div[2]/div/div/input</value>
+      <webElementGuid>72e00770-5f97-4449-8b2c-09f693667ff3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[7]/div[2]/div/div[2]/div/div/input</value>
+      <webElementGuid>0f43c7e8-cad8-4187-a469-f2b609e4c990</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@placeholder = 'Ideal profile name']</value>
+      <webElementGuid>e5cd2b32-7060-4823-a7f9-b0a0b1d7dbe9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
