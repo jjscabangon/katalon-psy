@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Expiry date</name>
+   <tag></tag>
+   <elementGuidId>307dd373-c3e6-4298-8e47-2b8f60906ac5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@placeholder=&quot;Expiry Date&quot;])[last()]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input.InputWithForwardedRef__Input-sc-1gusx0v-2.bSruVP</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>64e04f23-7508-45ba-8640-e76078e2ae11</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Expiry Date</value>
+      <webElementGuid>d452685c-0271-4eef-a2d3-82473e7e1daa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>InputWithForwardedRef__Input-sc-1gusx0v-2 bSruVP</value>
+      <webElementGuid>596e54e8-b9e4-4a90-9a86-fadd5cc8287b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[2]/div[@class=&quot;ContentRouter__Container-sc-ayudpc-0 kFILiX&quot;]/div[@class=&quot;ContentRouter__ContentContainer-sc-ayudpc-1 bDzahg&quot;]/div[@class=&quot;ContentRouter__StyledRouter-sc-ayudpc-2 cdCFNr&quot;]/div[@class=&quot;ContentRouter__RouteWrapper-sc-ayudpc-3 fVaimK&quot;]/div[1]/div[@class=&quot;PageWrapper__Container-sc-10mepnc-0 eLXHhm&quot;]/div[@class=&quot;rodal rodal-fade-enter&quot;]/div[@class=&quot;rodal-dialog rodal-fade-enter&quot;]/div[@class=&quot;NewModal__Container-sc-1b0fhaf-0 heyFvJ AddProjectsModal__Modal-sc-122xewx-0 eVpeYl&quot;]/div[@class=&quot;AddProjectsModal__Container-sc-122xewx-1 kqkWdu&quot;]/form[@class=&quot;Add360ProjectForm__Form-sc-yk20rk-0 jBWmvT&quot;]/div[2]/div[@class=&quot;Add360ProjectForm__InputsWrapper-sc-yk20rk-2 jdZdHk&quot;]/div[4]/div[@class=&quot;DateTimeSelect__DateTimeSelectContainer-sc-150ihrr-3 jkzOML&quot;]/div[@class=&quot;react-datepicker-wrapper&quot;]/div[@class=&quot;react-datepicker__input-container&quot;]/div[@class=&quot;InputWithForwardedRef__Container-sc-1gusx0v-0 dLHDJF DateTimeSelect__StyledInput-sc-150ihrr-2 brEcEx react-datepicker-ignore-onclickoutside&quot;]/div[@class=&quot;InputWithForwardedRef__InputWrapper-sc-1gusx0v-1 krkXYk&quot;]/input[@class=&quot;InputWithForwardedRef__Input-sc-1gusx0v-2 bSruVP&quot;]</value>
+      <webElementGuid>c9d7e5cc-a5aa-435c-b3d4-93b1fd20fa67</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>2024/06/26, 2:30 AM</value>
+      <webElementGuid>21bd45ca-cb8a-48f0-a08d-347dbede69ed</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@value='2024/06/26, 2:30 AM']</value>
+      <webElementGuid>6bba8dfb-f601-4a88-bcff-8b18bc02f589</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/div/div/div/div/div/div/div[7]/div[2]/div/div[2]/form/div[2]/div/div[4]/div/div[2]/div/div/div/input</value>
+      <webElementGuid>b08fb841-86ff-4662-97d0-b9d989fa75d3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[4]/div/div[2]/div/div/div/input</value>
+      <webElementGuid>ba188a9a-124f-4263-a163-2397ae54a912</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@placeholder = 'Expiry Date']</value>
+      <webElementGuid>49322ad7-1348-498c-acc6-f27aa9405a96</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@value=''])[16]</value>
+      <webElementGuid>32536786-5ba9-4978-9ef9-64915ccb9c09</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

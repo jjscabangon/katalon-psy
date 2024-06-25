@@ -24,42 +24,25 @@ import org.openqa.selenium.WebElement as WebElement
 
 WebUI.callTestCase(findTestCase('Settings/Ideal Profile/SE-IP-001-Navigate to Settings Ideal Profile'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Settings/Ideal Profile/OR-Add manually configured ideal profile/button_Add ideal profile'))
+WebUI.click(findTestObject('Object Repository/Settings/Ideal Profile/OR-Add ideal profile using respondent data/button_Add ideal profile'))
 
-WebUI.click(findTestObject('Object Repository/Settings/Ideal Profile/OR-Add manually configured ideal profile/span_Manually select the values'))
+profileName = ('Auto Respondent Data | ' + GlobalVariable.timestamp)
 
-profileName = ('Auto Manually Configured | ' + GlobalVariable.timestamp)
-
-WebUI.setText(findTestObject('Object Repository/Settings/Ideal Profile/OR-Add manually configured ideal profile/input_Ideal profile name'), 
+WebUI.setText(findTestObject('Object Repository/Settings/Ideal Profile/OR-Add ideal profile using respondent data/input_Ideal profile name'), 
     profileName)
 
-WebUI.click(findTestObject('Object Repository/Settings/Ideal Profile/OR-Add manually configured ideal profile/button_Save'))
+WebUI.click(findTestObject('Object Repository/Settings/Ideal Profile/OR-Add ideal profile using respondent data/div_Respondent Data'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Settings/Ideal Profile/OR-Add manually configured ideal profile/div_Manually select the values'), 
-    3)
+WebUI.click(findTestObject('Object Repository/Settings/Ideal Profile/OR-Add ideal profile using respondent data/div_Norms List'))
 
-//Select Scale
-scale = 1
+WebUI.click(findTestObject('Object Repository/Settings/Ideal Profile/OR-Add ideal profile using respondent data/div_NZ Accounting Industry'))
 
-while (scale <= 16) {
-	selectedRating = ((('//div[contains(@class,\'IdealProfileScales__ScaleItem\')][') + scale) + ']')
-	
-	//Randomize Rating
-	int rating = (new Random().nextInt((9 - 1) + 1) + 1)
-	
-	selectedRating = (((selectedRating + '//span[@class=\'rc-slider-dot\'][') + rating) + ']')
-	
-	println(selectedRating)
+WebUI.click(findTestObject('Object Repository/Settings/Ideal Profile/OR-Add ideal profile using respondent data/div_Groups'))
 
-	WebDriver driver = DriverFactory.getWebDriver()
+WebUI.waitForElementVisible(findTestObject('Object Repository/Settings/Ideal Profile/OR-Add ideal profile using respondent data/div_Group Menu'), 3)
 
-	elementAnswer = driver.findElement(By.xpath(selectedRating))
+WebUI.waitForElementVisible(findTestObject('Object Repository/Settings/Ideal Profile/OR-Add ideal profile using respondent data/div_Select Group'), 3)
 
-	elementAnswer.click()
-    
-    scale = (scale + 1)
-}
+WebUI.click(findTestObject('Object Repository/Settings/Ideal Profile/OR-Add ideal profile using respondent data/div_Select Group'))
 
-WebUI.click(findTestObject('Object Repository/Settings/Ideal Profile/OR-Add manually configured ideal profile/button_Save Update'))
-
-WebUI.verifyElementVisible(findTestObject('Object Repository/Settings/Ideal Profile/OR-Add manually configured ideal profile/span_Ideal profile updated'))
+WebUI.click(findTestObject('Object Repository/Settings/Ideal Profile/OR-Add ideal profile using respondent data/button_Save'))

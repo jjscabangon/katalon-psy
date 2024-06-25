@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>PROD</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://admin.genesysonline.net/'</initValue>
+      <name>url</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'jjscabangon@gmail.com'</initValue>
+      <name>loginEmail</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'ghy72da2hj72'</initValue>
+      <name>loginPassword</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>en=English, sc=ChineseSimpified</description>
+      <initValue>'en'</initValue>
+      <name>language</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>firstname</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>lastname</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>email</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>timestamp</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Invite respondent > Copy Link</description>
+      <initValue>'https://genesys2020.genesysonline.cn/login/042010018629/QR5JPU37/CH'</initValue>
+      <name>assessment15fq</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'042010018619'</initValue>
+      <name>invitation15fq</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'KREAAXUX'</initValue>
+      <name>respondent15fq</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'1234'</initValue>
+      <name>assessmentPin</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>File Directory for storing Assessment Responses</description>
+      <initValue>'C:\\\\Katalon\\\\Katalon-Psytech\\\\katalon-psy\\\\Data Files\\\\QALogs'</initValue>
+      <name>fileDir</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>
