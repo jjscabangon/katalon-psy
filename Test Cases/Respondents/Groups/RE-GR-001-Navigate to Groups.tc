@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RE-GR-001-Navigate to Groups</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ae93f55a-b2b0-45bb-8a9e-b38058257d00</testCaseGuid>
+</TestCaseEntity>

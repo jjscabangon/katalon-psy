@@ -21,25 +21,25 @@ WebUI.callTestCase(findTestCase('Respondents/List/RE-LI-004-Administer answer sh
 
 WebUI.refresh()
 
-WebUI.waitForElementVisible(findTestObject('Respondents/OR-Add new respondent/input_Search Respondent'), 10)
+WebUI.waitForElementVisible(findTestObject('Respondents/List/OR-Add new respondent/input_Search Respondent'), 10)
 
-WebUI.setText(findTestObject('Object Repository/Respondents/OR-Add new respondent/input_Search Respondent'), GlobalVariable.email)
+WebUI.setText(findTestObject('Object Repository/Respondents/List/OR-Add new respondent/input_Search Respondent'), GlobalVariable.email)
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/Respondents/OR-Add new respondent/span_Loading respondents'), 
+WebUI.waitForElementVisible(findTestObject('Object Repository/Respondents/List/OR-Add new respondent/span_Loading respondents'), 
     3)
 
-WebUI.waitForElementNotVisible(findTestObject('Object Repository/Respondents/OR-Add new respondent/span_Loading respondents'), 
+WebUI.waitForElementNotVisible(findTestObject('Object Repository/Respondents/List/OR-Add new respondent/span_Loading respondents'), 
     3)
 
-WebUI.click(findTestObject('Object Repository/Respondents/OR-Request Report/div_First Checkbox'))
+WebUI.click(findTestObject('Object Repository/Respondents/List/OR-Request Report/div_First Checkbox'))
 
-WebUI.click(findTestObject('Object Repository/Respondents/OR-Request Report/div_Request report(s)'))
+WebUI.click(findTestObject('Object Repository/Respondents/List/OR-Request Report/div_Request report(s)'))
 
-WebUI.click(findTestObject('Object Repository/Respondents/OR-Request Report/div_Available Reports_Set 1'))
+WebUI.click(findTestObject('Object Repository/Respondents/List/OR-Request Report/div_Available Reports_Set 1'))
 
-WebUI.click(findTestObject('Object Repository/Respondents/OR-Request Report/button_Request'))
+WebUI.click(findTestObject('Object Repository/Respondents/List/OR-Request Report/button_Request'))
 
-WebUI.click(findTestObject('Object Repository/Respondents/OR-Request Report/button_Yes'))
+WebUI.click(findTestObject('Object Repository/Respondents/List/OR-Request Report/button_Yes'))
 
-WebUI.rightClick(findTestObject('Object Repository/Respondents/OR-Request Report/span_Report request created'))
+WebUI.rightClick(findTestObject('Object Repository/Respondents/List/OR-Request Report/span_Report request created'))
 

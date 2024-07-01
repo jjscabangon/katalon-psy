@@ -21,23 +21,23 @@ WebUI.callTestCase(findTestCase('Respondents/List/RE-LI-001-Add new respondent')
 
 //WebUI.waitForPageLoad(3)
 //
-//WebUI.click(findTestObject('Object Repository/Respondents/OR-Invite respondent to assessment/div_First Checkbox'))
-WebUI.click(findTestObject('Object Repository/Respondents/OR-Invite respondent to assessment/div_Invite respondent(s) to assessment'))
+//WebUI.click(findTestObject('Object Repository/Respondents/List/OR-Invite respondent to assessment/div_First Checkbox'))
+WebUI.click(findTestObject('Object Repository/Respondents/List/OR-Invite respondent to assessment/div_Invite respondent(s) to assessment'))
 
-WebUI.click(findTestObject('Object Repository/Respondents/OR-Invite respondent to assessment/button_Create invite and go next'))
+WebUI.click(findTestObject('Object Repository/Respondents/List/OR-Invite respondent to assessment/button_Create invite and go next'))
 
-WebUI.click(findTestObject('Object Repository/Respondents/OR-Invite respondent to assessment/button_Copy link'))
+WebUI.click(findTestObject('Object Repository/Respondents/List/OR-Invite respondent to assessment/button_Copy link'))
 
-WebUI.click(findTestObject('Object Repository/Respondents/OR-Invite respondent to assessment/svg_Close Lightbox'))
+WebUI.click(findTestObject('Object Repository/Respondents/List/OR-Invite respondent to assessment/svg_Close Lightbox'))
 
-WebUI.clearText(findTestObject('Object Repository/Respondents/OR-Invite respondent to assessment/input_Search'))
+WebUI.clearText(findTestObject('Object Repository/Respondents/List/OR-Invite respondent to assessment/input_Search'))
 
-WebUI.sendKeys(findTestObject('Object Repository/Respondents/OR-Invite respondent to assessment/input_Search'), Keys.chord(
+WebUI.sendKeys(findTestObject('Object Repository/Respondents/List/OR-Invite respondent to assessment/input_Search'), Keys.chord(
         Keys.CONTROL, 'v'))
 
 WebUI.waitForPageLoad(3)
 
-GlobalVariable.assessment15fq = WebUI.getAttribute(findTestObject('Object Repository/Respondents/OR-Invite respondent to assessment/input_Search'), 'value')
+GlobalVariable.assessment15fq = WebUI.getAttribute(findTestObject('Object Repository/Respondents/List/OR-Invite respondent to assessment/input_Search'), 'value')
 
 println(GlobalVariable.assessment15fq)
 

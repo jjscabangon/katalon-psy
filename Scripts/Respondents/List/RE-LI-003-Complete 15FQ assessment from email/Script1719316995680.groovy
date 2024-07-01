@@ -28,48 +28,48 @@ WebUI.navigateToUrl(GlobalVariable.assessment15fq)
 
 WebUI.waitForPageLoad(30)
 
-if (WebUI.verifyElementVisible(findTestObject('Object Repository/Respondents/OR-Complete 15FQ Assessment from Email EN/span_Unexpected Problem'), 
+if (WebUI.verifyElementVisible(findTestObject('Object Repository/Respondents/List/OR-Complete 15FQ Assessment from Email EN/span_Unexpected Problem'), 
     FailureHandling.OPTIONAL)) {
-    WebUI.click(findTestObject('Object Repository/Respondents/OR-Complete 15FQ Assessment from Email EN/button_Continue'))
+    WebUI.click(findTestObject('Object Repository/Respondents/List/OR-Complete 15FQ Assessment from Email EN/button_Continue'))
 } else {
-    WebUI.scrollToElement(findTestObject('Object Repository/Respondents/OR-Complete 15FQ Assessment from Email EN/b_End of Privacy Policy'), 
+    WebUI.scrollToElement(findTestObject('Object Repository/Respondents/List/OR-Complete 15FQ Assessment from Email EN/b_End of Privacy Policy'), 
         10)
 
-    WebUI.click(findTestObject('Object Repository/Respondents/OR-Complete 15FQ Assessment from Email EN/b_End of Privacy Policy'))
+    WebUI.click(findTestObject('Object Repository/Respondents/List/OR-Complete 15FQ Assessment from Email EN/b_End of Privacy Policy'))
 
-    WebUI.click(findTestObject('Object Repository/Respondents/OR-Complete 15FQ Assessment from Email EN/input__Accept Checkbox'))
+    WebUI.click(findTestObject('Object Repository/Respondents/List/OR-Complete 15FQ Assessment from Email EN/input__Accept Checkbox'))
 
-    WebUI.click(findTestObject('Object Repository/Respondents/OR-Complete 15FQ Assessment from Email EN/button_OK'))
+    WebUI.click(findTestObject('Object Repository/Respondents/List/OR-Complete 15FQ Assessment from Email EN/button_OK'))
 
-    WebUI.click(findTestObject('Object Repository/Respondents/OR-Complete 15FQ Assessment from Email EN/button_OK'))
+    WebUI.click(findTestObject('Object Repository/Respondents/List/OR-Complete 15FQ Assessment from Email EN/button_OK'))
 
-    if (WebUI.verifyElementVisible(findTestObject('Object Repository/Respondents/OR-Complete 15FQ Assessment from Email EN/label_Invitation Id'), 
+    if (WebUI.verifyElementVisible(findTestObject('Object Repository/Respondents/List/OR-Complete 15FQ Assessment from Email EN/label_Invitation Id'), 
         FailureHandling.OPTIONAL)) {
-        WebUI.setText(findTestObject('Object Repository/Respondents/OR-Complete 15FQ Assessment from Email EN/label_Invitation Id'), 
+        WebUI.setText(findTestObject('Object Repository/Respondents/List/OR-Complete 15FQ Assessment from Email EN/label_Invitation Id'), 
             GlobalVariable.invitation15fq)
 
-        WebUI.setText(findTestObject('Object Repository/Respondents/OR-Complete 15FQ Assessment from Email EN/input_Respondent Id'), 
+        WebUI.setText(findTestObject('Object Repository/Respondents/List/OR-Complete 15FQ Assessment from Email EN/input_Respondent Id'), 
             GlobalVariable.respondent15fq)
 
-        WebUI.click(findTestObject('Object Repository/Respondents/OR-Complete 15FQ Assessment from Email EN/button_Continue'))
+        WebUI.click(findTestObject('Object Repository/Respondents/List/OR-Complete 15FQ Assessment from Email EN/button_Continue'))
 
-        WebUI.click(findTestObject('Object Repository/Respondents/OR-Complete 15FQ Assessment from Email EN/button_Continue'))
+        WebUI.click(findTestObject('Object Repository/Respondents/List/OR-Complete 15FQ Assessment from Email EN/button_Continue'))
 
         WebUI.switchToWindowIndex(1)
 
         WebUI.waitForPageLoad(30)
 
-        WebUI.scrollToElement(findTestObject('Object Repository/Respondents/OR-Complete 15FQ Assessment from Email EN/b_End of Privacy Policy'), 
+        WebUI.scrollToElement(findTestObject('Object Repository/Respondents/List/OR-Complete 15FQ Assessment from Email EN/b_End of Privacy Policy'), 
             10)
 
-        WebUI.click(findTestObject('Object Repository/Respondents/OR-Complete 15FQ Assessment from Email EN/b_End of Privacy Policy'))
+        WebUI.click(findTestObject('Object Repository/Respondents/List/OR-Complete 15FQ Assessment from Email EN/b_End of Privacy Policy'))
 
-        WebUI.click(findTestObject('Object Repository/Respondents/OR-Complete 15FQ Assessment from Email EN/input__Accept Checkbox'))
+        WebUI.click(findTestObject('Object Repository/Respondents/List/OR-Complete 15FQ Assessment from Email EN/input__Accept Checkbox'))
 
-        WebUI.click(findTestObject('Object Repository/Respondents/OR-Complete 15FQ Assessment from Email EN/button_OK'))
+        WebUI.click(findTestObject('Object Repository/Respondents/List/OR-Complete 15FQ Assessment from Email EN/button_OK'))
     }
     
-    WebUI.click(findTestObject('Object Repository/Respondents/OR-Complete 15FQ Assessment from Email EN/button_Continue'))
+    WebUI.click(findTestObject('Object Repository/Respondents/List/OR-Complete 15FQ Assessment from Email EN/button_Continue'))
 
     WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.ENTER))
 
@@ -77,15 +77,15 @@ if (WebUI.verifyElementVisible(findTestObject('Object Repository/Respondents/OR-
 
     WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.PAGE_DOWN))
 
-    WebUI.click(findTestObject('Object Repository/Respondents/OR-Complete 15FQ Assessment from Email EN/div_Next'))
+    WebUI.click(findTestObject('Object Repository/Respondents/List/OR-Complete 15FQ Assessment from Email EN/div_Next'))
 
-    WebUI.click(findTestObject('Object Repository/Respondents/OR-Complete 15FQ Assessment from Email EN/div_Next'))
+    WebUI.click(findTestObject('Object Repository/Respondents/List/OR-Complete 15FQ Assessment from Email EN/div_Next'))
 
-    WebUI.click(findTestObject('Object Repository/Respondents/OR-Complete 15FQ Assessment from Email EN/div_Next'))
+    WebUI.click(findTestObject('Object Repository/Respondents/List/OR-Complete 15FQ Assessment from Email EN/div_Next'))
 
-    WebUI.click(findTestObject('Object Repository/Respondents/OR-Complete 15FQ Assessment from Email EN/div_Next'))
+    WebUI.click(findTestObject('Object Repository/Respondents/List/OR-Complete 15FQ Assessment from Email EN/div_Next'))
 
-    WebUI.click(findTestObject('Object Repository/Respondents/OR-Complete 15FQ Assessment from Email EN/div_Next'))
+    WebUI.click(findTestObject('Object Repository/Respondents/List/OR-Complete 15FQ Assessment from Email EN/div_Next'))
 }
 
 ctr = 1
@@ -103,7 +103,7 @@ qaLog.append('Test Case: Complete 15FQ assessment from email EN' + ',')
 
 qaLog.append(('Assessment URL: ' + url) + ' , ')
 
-while (WebUI.verifyElementVisible(findTestObject('Object Repository/Respondents/OR-Complete 15FQ Assessment from Email EN/span_Progress'), 
+while (WebUI.verifyElementVisible(findTestObject('Object Repository/Respondents/List/OR-Complete 15FQ Assessment from Email EN/span_Progress'), 
     FailureHandling.OPTIONAL)) {
     //Randomize Answer
     randomInt = (new Random().nextInt((3 - 1) + 1) + 1)
@@ -145,9 +145,9 @@ while (WebUI.verifyElementVisible(findTestObject('Object Repository/Respondents/
     }
 }
 
-WebUI.click(findTestObject('Object Repository/Respondents/OR-Complete 15FQ Assessment from Email EN/button_Continue'))
+WebUI.click(findTestObject('Object Repository/Respondents/List/OR-Complete 15FQ Assessment from Email EN/button_Continue'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Respondents/OR-Complete 15FQ Assessment from Email EN/h1_Assessment Completed'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Respondents/List/OR-Complete 15FQ Assessment from Email EN/h1_Assessment Completed'))
 
 WebUI.closeBrowser()
 

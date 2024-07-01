@@ -17,22 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Respondents/List/RE-LI-001-Add new respondent'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Authentication/AU-001-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Respondents/List/OR-Edit respondent/td_First Respondent'))
-
-currentFName = WebUI.getAttribute(findTestObject('Object Repository/Respondents/List/OR-Edit respondent/input_First Name_firstName'), 'value')
-
-WebUI.setText(findTestObject('Object Repository/Respondents/List/OR-Edit respondent/input_First Name_firstName'), currentFName + ' EDITED')
-
-currentLName = WebUI.getAttribute(findTestObject('Object Repository/Respondents/List/OR-Edit respondent/input_Family Name_familyName'), 'value')
-
-WebUI.setText(findTestObject('Object Repository/Respondents/List/OR-Edit respondent/input_Family Name_familyName'), currentLName + ' EDITED')
-
-WebUI.setText(findTestObject('Respondents/List/OR-Edit respondent/input_reference'), (('Updated Reference 参考 for ' + GlobalVariable.firstname) + 
-    ' last ') + GlobalVariable.timestamp)
-
-WebUI.click(findTestObject('Object Repository/Respondents/List/OR-Edit respondent/button_Save changes'))
-
-WebUI.closeBrowser()
+WebUI.click(findTestObject('Object Repository/Respondents/Groups/OR-Navigate to Groups/Page_Psytech Genesys/div_Groups'))
 
