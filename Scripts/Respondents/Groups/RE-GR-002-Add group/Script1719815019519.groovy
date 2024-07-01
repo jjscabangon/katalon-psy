@@ -17,7 +17,25 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Authentication/AU-001-Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Respondents/Groups/RE-GR-001-Navigate to Groups'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Respondents/Groups/OR-Navigate to Groups/div_Groups'))
+WebUI.waitForPageLoad(3)
+
+WebUI.click(findTestObject('Object Repository/Respondents/Groups/OR-Add group/button_Add new group'))
+
+groupName = ('Auto Group ' + GlobalVariable.timestamp)
+
+WebUI.setText(findTestObject('Object Repository/Respondents/Groups/OR-Add group/input_Group name'), groupName)
+
+groupDescription = ('Description for ' + groupName)
+
+WebUI.setText(findTestObject('Object Repository/Respondents/Groups/OR-Add group/textarea_Group description'), groupDescription)
+
+WebUI.click(findTestObject('Object Repository/Respondents/Groups/OR-Add group/button_Create'))
+
+WebUI.setText(findTestObject('Object Repository/Respondents/Groups/OR-Add group/input_Search'), groupName)
+
+WebUI.waitForPageLoad(3)
+
+WebUI.click(findTestObject('Object Repository/Respondents/Groups/OR-Add group/div_Select row'))
 
