@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RE-LI-009-Download invites to CSV (TODO)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>79aed2b8-c2ba-4be1-bb80-2f2b06d3df4b</testCaseGuid>
+</TestCaseEntity>

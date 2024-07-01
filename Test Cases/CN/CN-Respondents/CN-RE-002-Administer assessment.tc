@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>CN-RE-002-Administer assessment</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>9feb4a99-baf8-485d-9319-16df0e36d7d0</testCaseGuid>
-</TestCaseEntity>
