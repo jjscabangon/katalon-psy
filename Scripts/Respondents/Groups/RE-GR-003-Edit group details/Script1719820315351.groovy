@@ -17,25 +17,33 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Respondents/Groups/RE-GR-001-Navigate to Groups'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Respondents/Groups/RE-GR-002-Add new group'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForPageLoad(3)
+WebUI.click(findTestObject('Object Repository/Respondents/Groups/OR-Edit group/span_Edit group details'))
 
-WebUI.click(findTestObject('Object Repository/Respondents/Groups/OR-Add group/button_Add new group'))
+WebUI.clearText(findTestObject('Object Repository/Respondents/Groups/OR-Edit group/input_Name'))
+
+GlobalVariable.timestamp = new Date().format('MMddhhmmss')
 
 groupName = ('Auto Group ' + GlobalVariable.timestamp)
 
-WebUI.setText(findTestObject('Object Repository/Respondents/Groups/OR-Add group/input_Group name'), groupName)
+WebUI.setText(findTestObject('Object Repository/Respondents/Groups/OR-Edit group/input_Name'), groupName)
+
+WebUI.clearText(findTestObject('Object Repository/Respondents/Groups/OR-Edit group/input_Description'))
 
 groupDescription = ('Description for ' + groupName)
 
-WebUI.setText(findTestObject('Object Repository/Respondents/Groups/OR-Add group/textarea_Group description'), groupDescription)
+WebUI.setText(findTestObject('Object Repository/Respondents/Groups/OR-Edit group/input_Description'), groupDescription)
 
-WebUI.click(findTestObject('Object Repository/Respondents/Groups/OR-Add group/button_Create'))
+WebUI.click(findTestObject('Object Repository/Respondents/Groups/OR-Edit group/button_Save'))
+
+WebUI.waitForPageLoad(5)
 
 WebUI.setText(findTestObject('Object Repository/Respondents/Groups/OR-Add group/input_Search'), groupName)
 
-WebUI.waitForPageLoad(3)
+WebUI.waitForPageLoad(5)
 
-WebUI.click(findTestObject('Object Repository/Respondents/Groups/OR-Add group/div_Select row'))
+WebUI.verifyElementText(findTestObject('Object Repository/Respondents/Groups/OR-Edit group/td_Row name'), groupName)
+
+WebUI.verifyElementText(findTestObject('Object Repository/Respondents/Groups/OR-Edit group/td_Row description'), groupDescription)
 
