@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>RE-GR-Duplicate group (TODO)</name>
+   <name>RE-GR-004-Duplicate group (with limitation)</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
