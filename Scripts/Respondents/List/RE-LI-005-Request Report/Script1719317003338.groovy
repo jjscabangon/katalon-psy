@@ -31,15 +31,15 @@ WebUI.waitForElementVisible(findTestObject('Object Repository/Page-EN/Respondent
 WebUI.waitForElementNotVisible(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Add new respondent/span_Loading respondents'), 
     3)
 
-WebUI.click(findTestObject('Object Repository/Page-EN/Respondents/List/OR-Request Report/div_First Checkbox'))
+WebUI.click(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Request Report/div_First Checkbox'))
 
-WebUI.click(findTestObject('Object Repository/Page-EN/Respondents/List/OR-Request Report/div_Request report(s)'))
+WebUI.click(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Request Report/div_Request report(s)'))
 
-WebUI.click(findTestObject('Object Repository/Page-EN/Respondents/List/OR-Request Report/div_Available Reports_Set 1'))
+WebUI.click(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Request Report/div_Available Reports_Set 1'))
 
-WebUI.click(findTestObject('Object Repository/Page-EN/Respondents/List/OR-Request Report/button_Request'))
+WebUI.click(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Request Report/button_Request'))
 
-WebUI.click(findTestObject('Object Repository/Page-EN/Respondents/List/OR-Request Report/button_Yes'))
+WebUI.click(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Request Report/button_Yes'))
 
-WebUI.rightClick(findTestObject('Object Repository/Page-EN/Respondents/List/OR-Request Report/span_Report request created'))
+WebUI.rightClick(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Request Report/span_Report request created'))
 

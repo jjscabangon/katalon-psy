@@ -21,6 +21,9 @@ WebUI.callTestCase(findTestCase('Authentication/AU-001-Login'), [:], FailureHand
 
 WebUI.waitForPageLoad(5)
 
+WebUI.waitForElementClickable(findTestObject('Page-EN/Respondents/List/OR-RE-LI-Add new respondent/button_Add new respondent'), 
+    5)
+
 WebUI.click(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Add new respondent/button_Add new respondent'))
 
 //Get Current Timestamp
@@ -124,10 +127,11 @@ switch (randomInt) {
         break
 }
 
-WebUI.setText(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Add new respondent/input_Group Membership_firstName'), GlobalVariable.firstname + 
-    ' Auto ')
+WebUI.setText(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Add new respondent/input_Group Membership_firstName'), 
+    GlobalVariable.firstname + ' Auto ')
 
-WebUI.setText(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Add new respondent/input_First Name_familyName'), GlobalVariable.lastname)
+WebUI.setText(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Add new respondent/input_First Name_familyName'), 
+    GlobalVariable.lastname)
 
 WebUI.click(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Add new respondent/svg_Sex'))
 
@@ -140,8 +144,8 @@ GlobalVariable.email = (('jjscabangon+' + GlobalVariable.timestamp) + '@gmail.co
 
 WebUI.setText(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Add new respondent/input_email'), GlobalVariable.email)
 
-WebUI.setText(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Add new respondent/input_reference'), 'Automation Reference 参考 for ' + 
-    GlobalVariable.firstname)
+WebUI.setText(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Add new respondent/input_reference'), 
+    'Automation Reference 参考 for ' + GlobalVariable.firstname)
 
 WebUI.click(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Add new respondent/div_Date of Birth'))
 
@@ -152,8 +156,8 @@ if (WebUI.verifyElementPresent(findTestObject('Object Repository/Page-EN/Respond
 
 WebUI.click(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Add new respondent/div_Extra Details'))
 
-WebUI.setText(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Add new respondent/input_Group Membership_company'), 'Company 公司 for ' + 
-    GlobalVariable.lastname)
+WebUI.setText(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Add new respondent/input_Group Membership_company'), 
+    'Company 公司 for ' + GlobalVariable.lastname)
 
 /* Currently failing due to dynamic element identifiers
 WebUI.click(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Add new respondent/div_Ethnicity'), FailureHandling.OPTIONAL)
@@ -180,10 +184,10 @@ WebUI.click(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-
 
 WebUI.click(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Add new respondent/div_Language-Bengali'), FailureHandling.OPTIONAL)
 */
-
 WebUI.click(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Add new respondent/button_Save'))
 
-WebUI.setText(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Add new respondent/input_Search Respondent'), GlobalVariable.email)
+WebUI.setText(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Add new respondent/input_Search Respondent'), 
+    GlobalVariable.email)
 
 WebUI.waitForElementVisible(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Add new respondent/span_Loading respondents'), 
     3)
