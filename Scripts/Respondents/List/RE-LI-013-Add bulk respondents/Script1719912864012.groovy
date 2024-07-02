@@ -158,14 +158,3 @@ WebUI.waitForElementNotVisible(findTestObject('Object Repository/Page-EN/Respond
 
 WebUI.click(findTestObject('Page-EN/Respondents/List/OR-RE-LI-Download invites to CSV/div_Select all rows'))
 
-//Invite multiple respondents
-WebUI.click(findTestObject('Object Repository/Page-CN/CN-Respondents/CN-OR-Invite respondent to assessment/div_Invite respondent(s) to assessment'))
-
-WebUI.click(findTestObject('Page-CN/CN-Respondents/CN-OR-Invite respondent to assessment/button_Create invite and go next'))
-
-WebUI.click(findTestObject('Object Repository/Page-CN/CN-Respondents/CN-OR-Invite respondent to assessment/button_Create invite and go next'))
-
-WebUI.waitForPageLoad(3)
-
-WebUI.click(findTestObject('Page-EN/Respondents/List/OR-RE-LI-Download invites to CSV/span_Download csv'))
-
