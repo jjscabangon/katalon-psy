@@ -41,26 +41,36 @@ WebUI.click(findTestObject('Object Repository/Page-EN/Settings/Ideal Profile/OR-
 scale = 1
 
 while (scale <= 72) {
-	selectedRating = ((('//div[contains(@class,\'CustomForm__StyledRow\')][') + scale) + ']')
-	
-	//Randomize Rating
-	int rating = (new Random().nextInt((4 - 1) + 1) + 1)
-	
-	selectedRating = (((selectedRating + '//span[@class=\'rc-slider-dot\'][') + rating) + ']')
-	
-	println(selectedRating)
+    selectedRating = (('//div[contains(@class,\'CustomForm__StyledRow\')][' + scale) + ']')
 
-	WebDriver driver = DriverFactory.getWebDriver()
+    //Randomize Rating
+    int rating = new Random().nextInt((4 - 1) + 1) + 1
 
-	elementAnswer = driver.findElement(By.xpath(selectedRating))
+    selectedRating = (((selectedRating + '//span[@class=\'rc-slider-dot\'][') + rating) + ']')
 
-	elementAnswer.click()
-	
-	scale = (scale + 1)
+    println(selectedRating)
+
+    WebDriver driver = DriverFactory.getWebDriver()
+
+    elementAnswer = driver.findElement(By.xpath(selectedRating))
+
+    elementAnswer.click()
+
+    scale = (scale + 1)
 }
 
 WebUI.click(findTestObject('Object Repository/Page-EN/Settings/Ideal Profile/OR-SE-IP-Add complete ideal profile/button_Save Update'))
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/Page-EN/Settings/Ideal Profile/OR-SE-IP-Add complete ideal profile/span_Ideal profile updated'))
 
+WebUI.click(findTestObject('Page-EN/Settings/Ideal Profile/OR-SE-IP-Add complete ideal profile/button_Back'))
+
+WebUI.waitForElementClickable(findTestObject('Page-EN/Settings/Ideal Profile/OR-SE-IP-Add complete ideal profile/input_Search'), 
+    3)
+
+WebUI.setText(findTestObject('Page-EN/Settings/Ideal Profile/OR-SE-IP-Add complete ideal profile/input_Search'), profileName)
+
+WebUI.waitForPageLoad(5)
+
+WebUI.verifyElementText(findTestObject('Page-EN/Settings/Ideal Profile/OR-SE-IP-Add complete ideal profile/td_First row'), profileName)
 
