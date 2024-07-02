@@ -19,35 +19,35 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Respondents/Groups/RE-GR-002-Add new group'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Respondents/Groups/OR-Duplicate Group/span_Duplicate Group'))
+WebUI.click(findTestObject('Object Repository/Page-EN/Respondents/Groups/OR-RE-GR-Duplicate Group/span_Duplicate Group'))
 
-WebUI.clearText(findTestObject('Object Repository/Respondents/Groups/OR-Edit group/input_Name'))
+WebUI.clearText(findTestObject('Object Repository/Page-EN/Respondents/Groups/OR-RE-GR-Edit group/input_Name'))
 
 GlobalVariable.timestamp = new Date().format('MMddhhmmss')
 
 groupName = ('COPY Auto Group ' + GlobalVariable.timestamp)
 
-WebUI.setText(findTestObject('Object Repository/Respondents/Groups/OR-Edit group/input_Name'), groupName)
+WebUI.setText(findTestObject('Object Repository/Page-EN/Respondents/Groups/OR-RE-GR-Edit group/input_Name'), groupName)
 
-WebUI.clearText(findTestObject('Object Repository/Respondents/Groups/OR-Edit group/input_Description'))
+WebUI.clearText(findTestObject('Object Repository/Page-EN/Respondents/Groups/OR-RE-GR-Edit group/input_Description'))
 
 groupDescription = ('Description for ' + groupName)
 
-WebUI.setText(findTestObject('Object Repository/Respondents/Groups/OR-Edit group/input_Description'), groupDescription)
+WebUI.setText(findTestObject('Object Repository/Page-EN/Respondents/Groups/OR-RE-GR-Edit group/input_Description'), groupDescription)
 
-WebUI.click(findTestObject('Object Repository/Respondents/Groups/OR-Edit group/button_Save'))
+WebUI.click(findTestObject('Object Repository/Page-EN/Respondents/Groups/OR-RE-GR-Edit group/button_Save'))
 
 /*For revisiting. Keeps on failing even if validations are correct. Same implementation was done for RE-GR-003-Edit group details.
 WebUI.waitForPageLoad(5)
 
-WebUI.setText(findTestObject('Object Repository/Respondents/Groups/OR-Add group/input_Search'), groupName)
+WebUI.setText(findTestObject('Object Repository/Page-EN/Respondents/Groups/OR-RE-GR-Add group/input_Search'), groupName)
 
 WebUI.waitForPageLoad(5)
 
-WebUI.waitForElementNotPresent(findTestObject('Object Repository/Respondents/Groups/OR-Duplicate Group/tr_2nd row'), 3)
+WebUI.waitForElementNotPresent(findTestObject('Object Repository/Page-EN/Respondents/Groups/OR-RE-GR-Duplicate Group/tr_2nd row'), 3)
 
 WebUI.verifyTextPresent(groupName, false)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Respondents/Groups/OR-Edit group/td_Row description'), groupDescription)
+WebUI.verifyElementText(findTestObject('Object Repository/Page-EN/Respondents/Groups/OR-RE-GR-Edit group/td_Row description'), groupDescription)
 */
 

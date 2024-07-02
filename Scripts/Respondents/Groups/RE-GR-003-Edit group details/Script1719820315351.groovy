@@ -19,31 +19,31 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Respondents/Groups/RE-GR-002-Add new group'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Respondents/Groups/OR-Edit group/span_Edit group details'))
+WebUI.click(findTestObject('Object Repository/Page-EN/Respondents/Groups/OR-RE-GR-Edit group/span_Edit group details'))
 
-WebUI.clearText(findTestObject('Object Repository/Respondents/Groups/OR-Edit group/input_Name'))
+WebUI.clearText(findTestObject('Object Repository/Page-EN/Respondents/Groups/OR-RE-GR-Edit group/input_Name'))
 
 GlobalVariable.timestamp = new Date().format('MMddhhmmss')
 
 groupName = ('EDIT Auto Group ' + GlobalVariable.timestamp)
 
-WebUI.setText(findTestObject('Object Repository/Respondents/Groups/OR-Edit group/input_Name'), groupName)
+WebUI.setText(findTestObject('Object Repository/Page-EN/Respondents/Groups/OR-RE-GR-Edit group/input_Name'), groupName)
 
-WebUI.clearText(findTestObject('Object Repository/Respondents/Groups/OR-Edit group/input_Description'))
+WebUI.clearText(findTestObject('Object Repository/Page-EN/Respondents/Groups/OR-RE-GR-Edit group/input_Description'))
 
 groupDescription = ('Description for ' + groupName)
 
-WebUI.setText(findTestObject('Object Repository/Respondents/Groups/OR-Edit group/input_Description'), groupDescription)
+WebUI.setText(findTestObject('Object Repository/Page-EN/Respondents/Groups/OR-RE-GR-Edit group/input_Description'), groupDescription)
 
-WebUI.click(findTestObject('Object Repository/Respondents/Groups/OR-Edit group/button_Save'))
-
-WebUI.waitForPageLoad(5)
-
-WebUI.setText(findTestObject('Object Repository/Respondents/Groups/OR-Add group/input_Search'), groupName)
+WebUI.click(findTestObject('Object Repository/Page-EN/Respondents/Groups/OR-RE-GR-Edit group/button_Save'))
 
 WebUI.waitForPageLoad(5)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Respondents/Groups/OR-Edit group/td_Row name'), groupName)
+WebUI.setText(findTestObject('Object Repository/Page-EN/Respondents/Groups/OR-RE-GR-Add group/input_Search'), groupName)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Respondents/Groups/OR-Edit group/td_Row description'), groupDescription)
+WebUI.waitForPageLoad(5)
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page-EN/Respondents/Groups/OR-RE-GR-Edit group/td_Row name'), groupName)
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page-EN/Respondents/Groups/OR-RE-GR-Edit group/td_Row description'), groupDescription)
 

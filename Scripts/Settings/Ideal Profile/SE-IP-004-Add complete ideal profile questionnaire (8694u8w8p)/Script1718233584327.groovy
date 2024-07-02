@@ -24,18 +24,18 @@ import org.openqa.selenium.WebElement as WebElement
 
 WebUI.callTestCase(findTestCase('Settings/Ideal Profile/SE-IP-001-Navigate to Settings Ideal Profile'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Settings/Ideal Profile/OR-Add manually configured ideal profile/button_Add ideal profile'))
+WebUI.click(findTestObject('Object Repository/Page-EN/Settings/Ideal Profile/OR-SE-IP-Add manually configured ideal profile/button_Add ideal profile'))
 
-WebUI.click(findTestObject('Object Repository/Settings/Ideal Profile/OR-Add complete ideal profile/div_Complete ideal profile questionnaire'))
+WebUI.click(findTestObject('Object Repository/Page-EN/Settings/Ideal Profile/OR-SE-IP-Add complete ideal profile/div_Complete ideal profile questionnaire'))
 
 profileName = ('Auto Complete Questionnaire | ' + GlobalVariable.timestamp)
 
-WebUI.setText(findTestObject('Object Repository/Settings/Ideal Profile/OR-Add complete ideal profile/input_Ideal profile name'), 
+WebUI.setText(findTestObject('Object Repository/Page-EN/Settings/Ideal Profile/OR-SE-IP-Add complete ideal profile/input_Ideal profile name'), 
     profileName)
 
-WebUI.click(findTestObject('Object Repository/Settings/Ideal Profile/OR-Add complete ideal profile/button_Save'))
+WebUI.click(findTestObject('Object Repository/Page-EN/Settings/Ideal Profile/OR-SE-IP-Add complete ideal profile/button_Save'))
 
-WebUI.click(findTestObject('Object Repository/Settings/Ideal Profile/OR-Add complete ideal profile/div_Rating'))
+WebUI.click(findTestObject('Object Repository/Page-EN/Settings/Ideal Profile/OR-SE-IP-Add complete ideal profile/div_Rating'))
 
 //Select Scale
 scale = 1
@@ -59,8 +59,8 @@ while (scale <= 72) {
 	scale = (scale + 1)
 }
 
-WebUI.click(findTestObject('Object Repository/Settings/Ideal Profile/OR-Add complete ideal profile/button_Save Update'))
+WebUI.click(findTestObject('Object Repository/Page-EN/Settings/Ideal Profile/OR-SE-IP-Add complete ideal profile/button_Save Update'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Settings/Ideal Profile/OR-Add complete ideal profile/span_Ideal profile updated'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Page-EN/Settings/Ideal Profile/OR-SE-IP-Add complete ideal profile/span_Ideal profile updated'))
 
 

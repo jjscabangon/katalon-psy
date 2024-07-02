@@ -26,11 +26,11 @@ WebUI.callTestCase(findTestCase('Respondents/List/RE-LI-001-Add new respondent')
 
 //WebUI.waitForPageLoad(3)
 //
-//WebUI.click(findTestObject('Object Repository/Respondents/List/OR-Administer answer sheet/div_First Checkbox'))
+//WebUI.click(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Administer answer sheet/div_First Checkbox'))
 //
-WebUI.click(findTestObject('Object Repository/Respondents/List/OR-Administer answer sheet/div_Administer answer sheet'))
+WebUI.click(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Administer answer sheet/div_Administer answer sheet'))
 
-WebUI.click(findTestObject('Object Repository/Respondents/List/OR-Administer answer sheet/button_Next'))
+WebUI.click(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Administer answer sheet/button_Next'))
 
 //Initiate Logger
 GlobalVariable.timestamp = new Date().format('MMddhhmmss')
@@ -77,7 +77,7 @@ while (columnCtr <= 4) {
     columnCtr = (columnCtr + 1)
 }
 
-WebUI.click(findTestObject('Object Repository/Respondents/List/OR-Administer answer sheet/button_Submit'))
+WebUI.click(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Administer answer sheet/button_Submit'))
 
 WebUI.waitForPageLoad(3)
 

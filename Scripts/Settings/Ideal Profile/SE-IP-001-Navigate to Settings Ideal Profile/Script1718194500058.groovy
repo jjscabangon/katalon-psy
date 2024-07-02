@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Authentication/AU-001-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Settings/Ideal Profile/OR-Add manually configured ideal profile/a_Settings Menu'))
+WebUI.click(findTestObject('Object Repository/Page-EN/Settings/Ideal Profile/OR-SE-IP-Add manually configured ideal profile/a_Settings Menu'))
 
-WebUI.click(findTestObject('Object Repository/Settings/Ideal Profile/OR-Add manually configured ideal profile/a_Ideal Profiles'))
+WebUI.click(findTestObject('Object Repository/Page-EN/Settings/Ideal Profile/OR-SE-IP-Add manually configured ideal profile/a_Ideal Profiles'))
 

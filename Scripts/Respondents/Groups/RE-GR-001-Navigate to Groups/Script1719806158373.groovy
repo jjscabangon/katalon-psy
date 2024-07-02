@@ -19,5 +19,5 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Authentication/AU-001-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Respondents/Groups/OR-Navigate to Groups/div_Groups'))
+WebUI.click(findTestObject('Object Repository/Page-EN/Respondents/Groups/OR-RE-GR-Navigate to Groups/div_Groups'))
 

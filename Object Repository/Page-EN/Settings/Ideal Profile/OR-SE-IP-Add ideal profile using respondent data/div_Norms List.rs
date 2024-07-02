@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Norms List</name>
+   <tag></tag>
+   <elementGuidId>ccab0215-ff56-4ce3-a77a-be56fbc06db4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.css-s5i4as-placeholder</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//div[contains(text(),'Norms')])[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>16378813-7119-4505-b39f-278ae8b769d3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value> css-s5i4as-placeholder</value>
+      <webElementGuid>006b4969-e43d-4b16-b7e8-92871001055a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Norms</value>
+      <webElementGuid>b64184bc-0c37-437f-875b-a23e3d493a39</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[2]/div[@class=&quot;ContentRouter__Container-sc-ayudpc-0 kFILiX&quot;]/div[@class=&quot;ContentRouter__ContentContainer-sc-ayudpc-1 bDzahg&quot;]/div[@class=&quot;ContentRouter__StyledRouter-sc-ayudpc-2 cdCFNr&quot;]/div[@class=&quot;ContentRouter__RouteWrapper-sc-ayudpc-3 fVaimK&quot;]/div[1]/div[@class=&quot;ContentRouter__RouteWrapper-sc-ayudpc-3 fVaimK&quot;]/div[1]/div[@class=&quot;PageWrapper__Container-sc-10mepnc-0 eLXHhm&quot;]/div[@class=&quot;rodal rodal-fade-enter&quot;]/div[@class=&quot;rodal-dialog rodal-fade-enter&quot;]/div[@class=&quot;NewModal__Container-sc-1b0fhaf-0 cDYLtF AddIdealProfile__StyledModal-sc-br5c8r-0 cghSzL&quot;]/div[@class=&quot;AddIdealProfile__FormSection-sc-br5c8r-1 iwvPzJ&quot;]/div[@class=&quot;Select__SelectWrapper-sc-gxrqw-0 kIwUsj AddIdealProfile__StyledSelect-sc-br5c8r-3 gWILdK&quot;]/div[@class=&quot;css-1be007b-container&quot;]/div[@class=&quot;css-1e99al4-control&quot;]/div[@class=&quot;css-1hwfws3&quot;]/div[@class=&quot;css-s5i4as-placeholder&quot;]</value>
+      <webElementGuid>d0b57bcc-bcfa-419f-8b8c-bf951045425e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/div/div/div/div/div/div/div/div/div[7]/div[2]/div/div[2]/div[4]/div/div/div/div</value>
+      <webElementGuid>a66b1104-f903-4e83-a438-6ae94e4198d5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='NZ Accounting Industry'])[1]/preceding::div[3]</value>
+      <webElementGuid>ae740b17-e2a3-4819-b3c1-06f3c77e79dd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='NZ Agribusiness Industry'])[1]/preceding::div[4]</value>
+      <webElementGuid>f01c62a3-17a4-4655-aaec-db8a9a7cd1c4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[4]/div/div/div/div</value>
+      <webElementGuid>351e1fc7-077f-457a-9084-85e7cb7a0a4f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Norms' or . = 'Norms')]</value>
+      <webElementGuid>4239fae7-e16e-46b5-b981-3fc62dc92463</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

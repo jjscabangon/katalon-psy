@@ -24,25 +24,25 @@ import org.openqa.selenium.WebElement as WebElement
 
 WebUI.callTestCase(findTestCase('Settings/Ideal Profile/SE-IP-001-Navigate to Settings Ideal Profile'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Settings/Ideal Profile/OR-Add ideal profile using respondent data/button_Add ideal profile'))
+WebUI.click(findTestObject('Object Repository/Page-EN/Settings/Ideal Profile/OR-SE-IP-Add ideal profile using respondent data/button_Add ideal profile'))
 
 profileName = ('Auto Respondent Data | ' + GlobalVariable.timestamp)
 
-WebUI.setText(findTestObject('Object Repository/Settings/Ideal Profile/OR-Add ideal profile using respondent data/input_Ideal profile name'), 
+WebUI.setText(findTestObject('Object Repository/Page-EN/Settings/Ideal Profile/OR-SE-IP-Add ideal profile using respondent data/input_Ideal profile name'), 
     profileName)
 
-WebUI.click(findTestObject('Object Repository/Settings/Ideal Profile/OR-Add ideal profile using respondent data/div_Respondent Data'))
+WebUI.click(findTestObject('Object Repository/Page-EN/Settings/Ideal Profile/OR-SE-IP-Add ideal profile using respondent data/div_Respondent Data'))
 
-WebUI.click(findTestObject('Object Repository/Settings/Ideal Profile/OR-Add ideal profile using respondent data/div_Norms List'))
+WebUI.click(findTestObject('Object Repository/Page-EN/Settings/Ideal Profile/OR-SE-IP-Add ideal profile using respondent data/div_Norms List'))
 
-WebUI.click(findTestObject('Object Repository/Settings/Ideal Profile/OR-Add ideal profile using respondent data/div_NZ Accounting Industry'))
+WebUI.click(findTestObject('Object Repository/Page-EN/Settings/Ideal Profile/OR-SE-IP-Add ideal profile using respondent data/div_NZ Accounting Industry'))
 
-WebUI.click(findTestObject('Object Repository/Settings/Ideal Profile/OR-Add ideal profile using respondent data/div_Groups'))
+WebUI.click(findTestObject('Object Repository/Page-EN/Settings/Ideal Profile/OR-SE-IP-Add ideal profile using respondent data/div_Groups'))
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/Settings/Ideal Profile/OR-Add ideal profile using respondent data/div_Group Menu'), 3)
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page-EN/Settings/Ideal Profile/OR-SE-IP-Add ideal profile using respondent data/div_Group Menu'), 3)
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/Settings/Ideal Profile/OR-Add ideal profile using respondent data/div_Select Group'), 3)
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page-EN/Settings/Ideal Profile/OR-SE-IP-Add ideal profile using respondent data/div_Select Group'), 3)
 
-WebUI.click(findTestObject('Object Repository/Settings/Ideal Profile/OR-Add ideal profile using respondent data/div_Select Group'))
+WebUI.click(findTestObject('Object Repository/Page-EN/Settings/Ideal Profile/OR-SE-IP-Add ideal profile using respondent data/div_Select Group'))
 
-WebUI.click(findTestObject('Object Repository/Settings/Ideal Profile/OR-Add ideal profile using respondent data/button_Save'))
+WebUI.click(findTestObject('Object Repository/Page-EN/Settings/Ideal Profile/OR-SE-IP-Add ideal profile using respondent data/button_Save'))

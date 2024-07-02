@@ -24,18 +24,18 @@ import org.openqa.selenium.WebElement as WebElement
 
 WebUI.callTestCase(findTestCase('Settings/Ideal Profile/SE-IP-001-Navigate to Settings Ideal Profile'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Settings/Ideal Profile/OR-Add manually configured ideal profile/button_Add ideal profile'))
+WebUI.click(findTestObject('Object Repository/Page-EN/Settings/Ideal Profile/OR-SE-IP-Add manually configured ideal profile/button_Add ideal profile'))
 
-WebUI.click(findTestObject('Object Repository/Settings/Ideal Profile/OR-Add manually configured ideal profile/span_Manually select the values'))
+WebUI.click(findTestObject('Object Repository/Page-EN/Settings/Ideal Profile/OR-SE-IP-Add manually configured ideal profile/span_Manually select the values'))
 
 profileName = ('Auto Manually Configured | ' + GlobalVariable.timestamp)
 
-WebUI.setText(findTestObject('Object Repository/Settings/Ideal Profile/OR-Add manually configured ideal profile/input_Ideal profile name'), 
+WebUI.setText(findTestObject('Object Repository/Page-EN/Settings/Ideal Profile/OR-SE-IP-Add manually configured ideal profile/input_Ideal profile name'), 
     profileName)
 
-WebUI.click(findTestObject('Object Repository/Settings/Ideal Profile/OR-Add manually configured ideal profile/button_Save'))
+WebUI.click(findTestObject('Object Repository/Page-EN/Settings/Ideal Profile/OR-SE-IP-Add manually configured ideal profile/button_Save'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Settings/Ideal Profile/OR-Add manually configured ideal profile/div_Manually select the values'), 
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page-EN/Settings/Ideal Profile/OR-SE-IP-Add manually configured ideal profile/div_Manually select the values'), 
     3)
 
 //Select Scale
@@ -60,6 +60,6 @@ while (scale <= 16) {
     scale = (scale + 1)
 }
 
-WebUI.click(findTestObject('Object Repository/Settings/Ideal Profile/OR-Add manually configured ideal profile/button_Save Update'))
+WebUI.click(findTestObject('Object Repository/Page-EN/Settings/Ideal Profile/OR-SE-IP-Add manually configured ideal profile/button_Save Update'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Settings/Ideal Profile/OR-Add manually configured ideal profile/span_Ideal profile updated'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Page-EN/Settings/Ideal Profile/OR-SE-IP-Add manually configured ideal profile/span_Ideal profile updated'))
