@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>RE-LI-010-Invite respondent with empty biodata (TODO)</name>
+   <name>RE-LI-010-Invite respondent with empty biodata</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
