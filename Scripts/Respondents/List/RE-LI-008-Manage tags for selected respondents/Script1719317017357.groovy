@@ -25,7 +25,7 @@ import com.kms.katalon.core.annotation.Keyword as Keyword
 import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
-WebUI.callTestCase(findTestCase('Respondents/List/RE-LI-001-Add new respondent'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Respondents/List/RE-LI-013-Add bulk respondents'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Manage tags for selected respondents/span_Manage tags for selected respondent(s)'))
 
@@ -41,12 +41,18 @@ WebUI.executeJavaScript(('arguments[0].setAttribute(\'value\',\'' + newTag) + '\
 
 //This JS is already working but not reflecting in the FE
 //Add another text to reflect tag name in FE
-WebUI.sendKeys(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Manage tags for selected respondents/input_Tags'), 'A')
+WebUI.sendKeys(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Manage tags for selected respondents/input_Tags'), 
+    'A')
 
-WebUI.sendKeys(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Manage tags for selected respondents/input_Tags'), Keys.chord(
-        Keys.TAB))
+WebUI.sendKeys(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Manage tags for selected respondents/input_Tags'), 
+    Keys.chord(Keys.TAB))
 
 WebUI.click(findTestObject('Page-EN/Respondents/List/OR-RE-LI-Manage tags for selected respondents/button_Save'))
 
-WebUI.verifyElementVisible(findTestObject('Page-EN/Respondents/List/OR-RE-LI-Manage tags for selected respondents/span_Tag Updated'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('Page-EN/Respondents/List/OR-RE-LI-Manage tags for selected respondents/span_Tag Updated'), 
+    FailureHandling.STOP_ON_FAILURE)
+
+updatedTag = WebUI.getText(findTestObject('Page-EN/Respondents/List/OR-RE-LI-Manage tags for selected respondents/td_First row tag'))
+
+if (updatedTag.contains(newTag)) {}
 
