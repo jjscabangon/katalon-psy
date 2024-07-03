@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CN-RE-LI-001-Add new respondent</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>35599399-bd9c-4521-ba44-7cf7fb6add46</testCaseGuid>
+</TestCaseEntity>

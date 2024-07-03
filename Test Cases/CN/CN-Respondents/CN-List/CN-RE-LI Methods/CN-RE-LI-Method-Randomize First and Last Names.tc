@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CN-RE-LI-Method-Randomize First and Last Names</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d93e6cc1-a131-4700-b168-d7675d44be28</testCaseGuid>
+</TestCaseEntity>
