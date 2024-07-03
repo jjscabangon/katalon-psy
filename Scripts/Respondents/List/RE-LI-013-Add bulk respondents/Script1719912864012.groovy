@@ -20,7 +20,7 @@ import org.openqa.selenium.Keys as Keys
 WebUI.callTestCase(findTestCase('Authentication/AU-001-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 //Get Current Timestamp for Name Grouping
-nameTimestamp = new Date().format('MMddhhmmss')
+GlobalVariable.groupTimestamp = new Date().format('MMddhhmmss')
 
 ctr = 1
 
@@ -78,7 +78,7 @@ while (ctr <= 5) {
             break
     }
 	
-	GlobalVariable.firstname = GlobalVariable.firstname + (' Auto Bulk ' + nameTimestamp)
+	GlobalVariable.firstname = GlobalVariable.firstname + (' Auto Bulk ' + GlobalVariable.groupTimestamp)
 	
 	WebUI.setText(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Add new respondent/input_Group Membership_firstName'),
 		GlobalVariable.firstname)
@@ -149,7 +149,7 @@ while (ctr <= 5) {
 
 //Search for respondents in bulk
 WebUI.setText(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Add new respondent/input_Search Respondent'), 
-    nameTimestamp)
+    GlobalVariable.groupTimestamp)
 
 WebUI.waitForElementVisible(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Add new respondent/span_Loading respondents'), 
     3)

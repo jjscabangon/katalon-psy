@@ -21,3 +21,31 @@ WebUI.callTestCase(findTestCase('Respondents/List/RE-LI-013-Add bulk respondents
 
 WebUI.click(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Add new group from selection/span_Add new group from selection'))
 
+groupName = ('Auto Group ' + GlobalVariable.timestamp)
+
+WebUI.setText(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Add new group from selection/input_Group name'), 
+    groupName)
+
+groupDescription = 'Auto add new group from selection'
+
+WebUI.setText(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Add new group from selection/textarea_Group description'), 
+    groupDescription)
+
+WebUI.click(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Add new group from selection/button_Create'))
+
+WebUI.refresh()
+
+WebUI.setText(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Add new respondent/input_Search Respondent'), 
+    GlobalVariable.groupTimestamp)
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Add new respondent/span_Loading respondents'), 
+    3)
+
+WebUI.waitForElementNotVisible(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Add new respondent/span_Loading respondents'), 
+    3)
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Add new group from selection/div_Groups column'), 
+    groupName)
+
+WebUI.closeBrowser()
+
