@@ -60,6 +60,6 @@ WebUI.waitForPageLoad(5)
 
 WebUI.waitForElementVisible(findTestObject('Page-EN/Settings/Ideal Profile/OR-SE-IP-Add complete ideal profile/td_First row'), 5)
 
-WebUI.verifyElementText(findTestObject('Page-EN/Settings/Ideal Profile/OR-SE-IP-Add complete ideal profile/td_First row'), profileName)
+WebUI.verifyElementText(findTestObject('Page-EN/Settings/Ideal Profile/OR-SE-IP-Add complete ideal profile/td_First row'), profileName) //https://app.clickup.com/t/8694kk95u
 
 
