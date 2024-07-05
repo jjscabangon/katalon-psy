@@ -39,11 +39,26 @@ WebUI.click(findTestObject('Object Repository/Page-EN/Respondents/Groups/OR-RE-G
 
 WebUI.waitForPageLoad(5)
 
+WebUI.waitForElementClickable(findTestObject('Page-EN/Respondents/Groups/OR-RE-GR-Add group/input_Search'), 3)
+
+WebUI.clearText(findTestObject('Object Repository/Respondents/Groups/OR-Add group/input_Search'))
+
+WebUI.setText(findTestObject('Object Repository/Respondents/Groups/OR-Add group/input_Search'), groupName)
+
+WebUI.waitForPageLoad(5)
+
+//To allow row to be properly displayed
+WebUI.delay(3)
+
+WebUI.verifyElementText(findTestObject('Object Repository/Respondents/Groups/OR-Edit group/td_Row name'), groupName)
+
 WebUI.setText(findTestObject('Object Repository/Page-EN/Respondents/Groups/OR-RE-GR-Add group/input_Search'), groupName)
 
 WebUI.waitForPageLoad(5)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page-EN/Respondents/Groups/OR-RE-GR-Edit group/td_Row name'), groupName)
+WebUI.verifyElementText(findTestObject('Object Repository/Page-EN/Respondents/Groups/OR-RE-GR-Edit group/td_Row name'), 
+    groupName)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page-EN/Respondents/Groups/OR-RE-GR-Edit group/td_Row description'), groupDescription)
+WebUI.verifyElementText(findTestObject('Object Repository/Page-EN/Respondents/Groups/OR-RE-GR-Edit group/td_Row description'), 
+    groupDescription)
 
