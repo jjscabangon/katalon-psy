@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Progress</name>
+   <tag></tag>
+   <elementGuidId>1e03fdd3-b550-40d5-81b2-c111295be3ba</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='Progress']/parent::*</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.sc-iHbSHJ.bmIaJZ.button > span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>d2340f59-fd0e-4c42-a224-3927dda8a47d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>完成进度  </value>
+      <webElementGuid>ca4e570e-0a4d-46f1-9216-6405f6f04c08</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;lang-wrapper ltr&quot;]/div[@class=&quot;sc-gEvEer hCtYxp sc-iQbOkh goFlKk&quot;]/div[@class=&quot;sc-lcIPJg fklRvC&quot;]/div[@class=&quot;wrapper&quot;]/div[@class=&quot;sc-bcSKrn gyCvvh&quot;]/div[@class=&quot;sc-iHbSHJ bmIaJZ button&quot;]/span[1]</value>
+      <webElementGuid>a1afc04f-3432-413a-8a47-178052ef7d3e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div[3]/div/div/div/span</value>
+      <webElementGuid>05fdb4a9-b78b-44c4-a7e7-3e482b4b2a41</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='不是的'])[1]/following::span[1]</value>
+      <webElementGuid>f08f537a-7440-499b-88d2-ba2ca60c557c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='不确定'])[1]/following::span[1]</value>
+      <webElementGuid>2ce37500-1f6e-484f-9688-066bc5233df3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='帮助'])[1]/preceding::span[2]</value>
+      <webElementGuid>549f19e4-26a3-483d-b5cb-cb47ee64f12b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='请选择一个答案'])[1]/preceding::span[2]</value>
+      <webElementGuid>48778770-20fe-4c31-a7f7-43dc0af37db2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='完成进度']/parent::*</value>
+      <webElementGuid>b4300dc1-3b9c-4540-b741-3171ae84f876</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div/span</value>
+      <webElementGuid>5ea785d1-900a-43f2-a533-816d3ccfef37</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '完成进度  ' or . = '完成进度  ')]</value>
+      <webElementGuid>e5198f89-6e39-470f-a212-320c5f5d5a62</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

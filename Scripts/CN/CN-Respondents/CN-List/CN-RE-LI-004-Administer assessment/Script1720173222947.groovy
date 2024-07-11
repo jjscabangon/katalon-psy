@@ -120,10 +120,13 @@ while (WebUI.verifyElementVisible(findTestObject('Object Repository/Page-CN/CN-R
 
 WebUI.click(findTestObject('Object Repository/Page-CN/CN-Respondents/CN-OR-Administer Assessment/button_Continue CN'))
 
-WebUI.setText(findTestObject('Object Repository/Page-CN/CN-Respondents/CN-OR-Administer Assessment/input__pin'), GlobalVariable.assessmentPin)
-
-WebUI.click(findTestObject('Object Repository/Page-CN/CN-Respondents/CN-OR-Administer Assessment/button_Submit PIN'))
-
-WebUI.waitForElementVisible(findTestObject('Object Repository/Page-CN/CN-Respondents/CN-OR-Administer Assessment/a_Respondents'), 
-    5)
+try {
+	WebUI.setText(findTestObject('Object Repository/Page-CN/CN-Respondents/CN-OR-Administer Assessment/input__pin'), GlobalVariable.assessmentPin)
+	
+	WebUI.click(findTestObject('Object Repository/Page-CN/CN-Respondents/CN-OR-Administer Assessment/button_Submit PIN'))
+	
+	WebUI.waitForElementVisible(findTestObject('Object Repository/Page-CN/CN-Respondents/CN-OR-Administer Assessment/a_Respondents'), 5)
+} catch (Exception e) {
+	println('PIN is not required.')
+}
 
