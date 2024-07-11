@@ -22,7 +22,7 @@
       <guid>85ed0403-4f74-4b5c-a3b9-06d0d3621d18</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CN/CN-Respondents/CN-List/CN-RE-LI-002-Administer assessment</testCaseId>
+      <testCaseId>Test Cases/CN/CN-Respondents/CN-List/CN-RE-LI-004-Administer assessment</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -155,7 +155,7 @@
       <guid>8a419d0a-3e22-4296-821d-85539bd819af</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Settings/Ideal Profile/SE-IP-002-Add manually configured ideal profile</testCaseId>
+      <testCaseId>Test Cases/Settings/Ideal Profile/SE-IP-002-Add manually configured ideal profile (8694kk95u-CN)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

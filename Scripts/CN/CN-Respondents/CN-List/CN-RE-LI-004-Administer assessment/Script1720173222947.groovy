@@ -24,9 +24,11 @@ WebUI.callTestCase(findTestCase('Respondents/List/RE-LI-001-Add new respondent')
 
 WebUI.waitForPageLoad(10)
 
-WebUI.click(findTestObject('Object Repository/Page-CN/CN-Respondents/CN-OR-Administer Assessment/div_First Checkbox'))
-
 WebUI.click(findTestObject('Object Repository/Page-CN/CN-Respondents/CN-OR-Administer Assessment/div_Administer assessment'))
+
+WebUI.click(findTestObject('Page-CN/CN-Respondents/CN-OR-Administer Assessment/div_Select language'))
+
+WebUI.click(findTestObject('Page-CN/CN-Respondents/CN-OR-Administer Assessment/div_Select Chinese'))
 
 WebUI.click(findTestObject('Object Repository/Page-CN/CN-Respondents/CN-OR-Administer Assessment/button_Start'))
 
@@ -34,7 +36,8 @@ WebUI.click(findTestObject('Object Repository/Page-CN/CN-Respondents/CN-OR-Admin
 
 WebUI.waitForPageLoad(10)
 
-WebUI.scrollToElement(findTestObject('Object Repository/Page-CN/CN-Respondents/CN-OR-Administer Assessment/b_End of Privacy'), 0)
+WebUI.scrollToElement(findTestObject('Object Repository/Page-CN/CN-Respondents/CN-OR-Administer Assessment/b_End of Privacy'), 
+    0)
 
 WebUI.click(findTestObject('Object Repository/Page-CN/CN-Respondents/CN-OR-Administer Assessment/input__Privacy Checkbox'))
 
@@ -59,14 +62,18 @@ WebUI.click(findTestObject('Object Repository/Page-CN/CN-Respondents/CN-OR-Admin
 WebUI.click(findTestObject('Object Repository/Page-CN/CN-Respondents/CN-OR-Administer Assessment/div_Next'))
 
 ctr = 1
-qaLog = new File(((GlobalVariable.fileDir + '\\TC006 Log - ') + GlobalVariable.timestamp) + ' (MMddhhmmss)' + '.txt')
+
+qaLog = new File((((GlobalVariable.fileDir + '\\TC006 Log - ') + GlobalVariable.timestamp) + ' (MMddhhmmss)') + '.txt')
 
 //Record URL
 url = WebUI.getUrl()
+
 qaLog.append('Test Case: Administer assessment' + ',')
+
 qaLog.append(('Assessment URL: ' + url) + ',')
 
-while (WebUI.verifyElementVisible(findTestObject('Object Repository/Page-CN/CN-Respondents/CN-OR-Administer Assessment/span_Progress CN'), FailureHandling.OPTIONAL)) {
+while (WebUI.verifyElementVisible(findTestObject('Object Repository/Page-CN/CN-Respondents/CN-OR-Administer Assessment/span_Progress CN'), 
+    FailureHandling.OPTIONAL)) {
     //Randomize Answer
     randomInt = (new Random().nextInt((3 - 1) + 1) + 1)
 
@@ -113,5 +120,6 @@ WebUI.setText(findTestObject('Object Repository/Page-CN/CN-Respondents/CN-OR-Adm
 
 WebUI.click(findTestObject('Object Repository/Page-CN/CN-Respondents/CN-OR-Administer Assessment/button_Submit PIN'))
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/Page-CN/CN-Respondents/CN-OR-Administer Assessment/a_Respondents'), 5)
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page-CN/CN-Respondents/CN-OR-Administer Assessment/a_Respondents'), 
+    5)
 

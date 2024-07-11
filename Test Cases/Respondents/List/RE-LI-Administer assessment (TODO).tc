@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>SE-IP-004-Add complete ideal profile questionnaire</name>
+   <name>RE-LI-Administer assessment (TODO)</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>8015f074-2f3f-4c15-963f-ac8078e5fd47</testCaseGuid>
+   <testCaseGuid>19548ed2-5797-4142-bf0a-3e4f80e918c5</testCaseGuid>
 </TestCaseEntity>

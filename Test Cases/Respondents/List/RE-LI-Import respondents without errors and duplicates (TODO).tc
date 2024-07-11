@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>SE-NO-Show norm (TODO)</name>
+   <name>RE-LI-Import respondents without errors and duplicates (TODO)</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>9a6205b8-1fe3-4171-95cb-0793d05bed17</testCaseGuid>
+   <testCaseGuid>330adce6-06b0-48d9-9c97-ddd6fd3f974b</testCaseGuid>
 </TestCaseEntity>
