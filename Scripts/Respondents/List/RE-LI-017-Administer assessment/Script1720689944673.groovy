@@ -122,7 +122,7 @@ while (WebUI.verifyElementVisible(findTestObject('Page-EN/Respondents/List/OR-RE
     }
 }
 
-WebUI.click(findTestObject('Page-EN/Respondents/List/OR-RE-LI-Administer assessment/button_Biodata continue'))
+WebUI.click(findTestObject('Page-EN/Respondents/List/OR-RE-LI-Administer assessment/button_Submit assessment'))
 
 try {
     WebUI.setText(findTestObject('Object Repository/Page-CN/CN-Respondents/CN-OR-Administer Assessment/input__pin'), GlobalVariable.assessmentPin)
