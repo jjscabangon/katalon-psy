@@ -63,6 +63,10 @@ WebUI.click(findTestObject('Object Repository/Page-CN/CN-Respondents/CN-OR-Admin
 
 ctr = 1
 
+String path = System.getProperty("user.dir");
+println (path)
+GlobalVariable.fileDir = (path + '/Data Files/QALogs/')
+
 qaLog = new File((((GlobalVariable.fileDir + '\\TC006 Log - ') + GlobalVariable.timestamp) + ' (MMddhhmmss)') + '.txt')
 
 //Record URL
