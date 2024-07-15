@@ -24,9 +24,9 @@ WebUI.callTestCase(findTestCase('All Languages/Respondents/List/RE-LI-001-Add ne
 //WebUI.click(findTestObject('Object Repository/Page-CN/CN-Respondents/CN-OR-Invite respondent to assessment/div_First Checkbox'))
 WebUI.click(findTestObject('Object Repository/Page-CN/CN-Respondents/CN-OR-Invite respondent to assessment/div_Invite respondent(s) to assessment'))
 
-WebUI.click(findTestObject('Page-CN/CN-Respondents/CN-OR-Invite respondent to assessment/div_Select Language'))
+WebUI.click(findTestObject('Page-EN/Respondents/List/OR-RE-LI-Invite respondent with empty biodata/span_Biodata template dropdown'))
 
-WebUI.click(findTestObject('Page-CN/CN-Respondents/CN-OR-Invite respondent to assessment/div_Select Chinese'))
+WebUI.click(findTestObject('Page-EN/Respondents/List/OR-RE-LI-Invite respondent with empty biodata/div_Empty biodata option'))
 
 WebUI.click(findTestObject('Object Repository/Page-CN/CN-Respondents/CN-OR-Invite respondent to assessment/button_Create invite and go next'))
 

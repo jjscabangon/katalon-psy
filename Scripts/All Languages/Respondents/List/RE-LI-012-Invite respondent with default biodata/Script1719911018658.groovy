@@ -24,10 +24,6 @@ WebUI.callTestCase(findTestCase('All Languages/Respondents/List/RE-LI-001-Add ne
 //WebUI.click(findTestObject('Object Repository/Page-CN/CN-Respondents/CN-OR-Invite respondent to assessment/div_First Checkbox'))
 WebUI.click(findTestObject('Object Repository/Page-CN/CN-Respondents/CN-OR-Invite respondent to assessment/div_Invite respondent(s) to assessment'))
 
-WebUI.click(findTestObject('Page-CN/CN-Respondents/CN-OR-Invite respondent to assessment/div_Select Language'))
-
-WebUI.click(findTestObject('Page-CN/CN-Respondents/CN-OR-Invite respondent to assessment/div_Select Chinese'))
-
 WebUI.click(findTestObject('Object Repository/Page-CN/CN-Respondents/CN-OR-Invite respondent to assessment/button_Create invite and go next'))
 
 WebUI.click(findTestObject('Object Repository/Page-CN/CN-Respondents/CN-OR-Invite respondent to assessment/button_Copy link'))

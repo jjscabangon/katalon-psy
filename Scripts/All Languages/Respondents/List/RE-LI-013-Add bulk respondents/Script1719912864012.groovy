@@ -32,13 +32,10 @@ while (ctr <= 5) {
 
     WebUI.click(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Add new respondent/button_Add new respondent'))
 
-	WebUI.callTestCase(findTestCase('CN/CN-Respondents/CN-List/CN-RE-LI Methods/CN-RE-LI-Method-Randomize First and Last Names'),
-		[:], FailureHandling.STOP_ON_FAILURE)
-	
-	GlobalVariable.firstname = GlobalVariable.firstname + (' Auto Bulk ' + GlobalVariable.groupTimestamp)
+	WebUI.callTestCase(findTestCase('All Languages/Respondents/List/RE-LI-Methods/RE-LI-Method-Randomize First and Last Names'), [:], FailureHandling.STOP_ON_FAILURE)
 	
 	WebUI.setText(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Add new respondent/input_Group Membership_firstName'),
-		GlobalVariable.firstname)
+		GlobalVariable.firstname + ' Auto Bulk ')
 
     WebUI.setText(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Add new respondent/input_First Name_familyName'), 
         GlobalVariable.lastname)
