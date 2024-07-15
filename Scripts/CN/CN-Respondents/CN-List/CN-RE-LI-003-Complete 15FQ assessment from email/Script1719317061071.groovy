@@ -90,8 +90,10 @@ if (WebUI.verifyElementVisible(findTestObject('Object Repository/Page-CN/CN-Resp
 
 ctr = 1
 
-GlobalVariable.timestamp = new Date().format('MMddhhmmss')
-println(GlobalVariable.timestamp)
+String path = System.getProperty("user.dir");
+println (path)
+GlobalVariable.fileDir = (path + '/Data Files/QALogs/')
+
 qaLog = new File(((GlobalVariable.fileDir + '\\TC008 Log - ') + GlobalVariable.timestamp) + ' (MMddhhmmss)' + '.txt')
 
 //Record URL
