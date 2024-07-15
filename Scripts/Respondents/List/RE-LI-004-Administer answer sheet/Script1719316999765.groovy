@@ -33,7 +33,9 @@ WebUI.click(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-
 WebUI.click(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Administer answer sheet/button_Next'))
 
 //Initiate Logger
-GlobalVariable.timestamp = new Date().format('MMddhhmmss')
+String path = System.getProperty("user.dir");
+println (path)
+GlobalVariable.fileDir = (path + '/Data Files/QALogs/')
 
 qaLog = new File((((GlobalVariable.fileDir + '\\TC007 Log - ') + GlobalVariable.timestamp) + ' (MMddhhmmss)') + '.txt')
 
