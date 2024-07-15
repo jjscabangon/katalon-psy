@@ -24,6 +24,10 @@ WebUI.callTestCase(findTestCase('Respondents/List/RE-LI-001-Add new respondent')
 //WebUI.click(findTestObject('Object Repository/Page-CN/CN-Respondents/CN-OR-Invite respondent to assessment/div_First Checkbox'))
 WebUI.click(findTestObject('Object Repository/Page-CN/CN-Respondents/CN-OR-Invite respondent to assessment/div_Invite respondent(s) to assessment'))
 
+WebUI.click(findTestObject('Page-CN/CN-Respondents/CN-OR-Invite respondent to assessment/div_Select Language'))
+
+WebUI.click(findTestObject('Page-CN/CN-Respondents/CN-OR-Invite respondent to assessment/div_Select Chinese'))
+
 WebUI.click(findTestObject('Object Repository/Page-CN/CN-Respondents/CN-OR-Invite respondent to assessment/button_Create invite and go next'))
 
 WebUI.click(findTestObject('Object Repository/Page-CN/CN-Respondents/CN-OR-Invite respondent to assessment/button_Copy link'))
@@ -32,12 +36,13 @@ WebUI.click(findTestObject('Object Repository/Page-CN/CN-Respondents/CN-OR-Invit
 
 WebUI.clearText(findTestObject('Object Repository/Page-CN/CN-Respondents/CN-OR-Invite respondent to assessment/input_Search'))
 
-WebUI.sendKeys(findTestObject('Object Repository/Page-CN/CN-Respondents/CN-OR-Invite respondent to assessment/input_Search'), Keys.chord(
-        Keys.CONTROL, 'v'))
+WebUI.sendKeys(findTestObject('Object Repository/Page-CN/CN-Respondents/CN-OR-Invite respondent to assessment/input_Search'), 
+    Keys.chord(Keys.CONTROL, 'v'))
 
 WebUI.waitForPageLoad(3)
 
-GlobalVariable.assessment15fq = WebUI.getAttribute(findTestObject('Object Repository/Page-CN/CN-Respondents/CN-OR-Invite respondent to assessment/input_Search'), 'value')
+GlobalVariable.assessment15fq = WebUI.getAttribute(findTestObject('Object Repository/Page-CN/CN-Respondents/CN-OR-Invite respondent to assessment/input_Search'), 
+    'value')
 
 println(GlobalVariable.assessment15fq)
 
