@@ -19,20 +19,20 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('All Languages/Respondents/List/RE-LI-001-Add new respondent'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Edit respondent/td_First Respondent'))
+WebUI.click(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Edit respondent/td_First Respondent'))
 
-currentFName = WebUI.getAttribute(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Edit respondent/input_First Name_firstName'), 'value')
+currentFName = WebUI.getAttribute(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Edit respondent/input_First Name_firstName'), 'value')
 
-WebUI.setText(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Edit respondent/input_First Name_firstName'), currentFName + ' EDITED')
+WebUI.setText(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Edit respondent/input_First Name_firstName'), currentFName + ' EDITED')
 
-currentLName = WebUI.getAttribute(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Edit respondent/input_Family Name_familyName'), 'value')
+currentLName = WebUI.getAttribute(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Edit respondent/input_Family Name_familyName'), 'value')
 
-WebUI.setText(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Edit respondent/input_Family Name_familyName'), currentLName + ' EDITED')
+WebUI.setText(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Edit respondent/input_Family Name_familyName'), currentLName + ' EDITED')
 
-WebUI.setText(findTestObject('Page-EN/Respondents/List/OR-RE-LI-Edit respondent/input_reference'), (('Updated Reference 参考 for ' + GlobalVariable.firstname) + 
+WebUI.setText(findTestObject('Page-All Languages/Respondents/List/OR-RE-LI-Edit respondent/input_reference'), (('Updated Reference 参考 for ' + GlobalVariable.firstname) + 
     ' last ') + GlobalVariable.timestamp)
 
-WebUI.click(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Edit respondent/button_Save changes'))
+WebUI.click(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Edit respondent/button_Save changes'))
 
 WebUI.closeBrowser()
 

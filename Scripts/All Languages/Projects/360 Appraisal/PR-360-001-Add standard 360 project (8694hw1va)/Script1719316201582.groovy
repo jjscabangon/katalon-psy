@@ -19,29 +19,29 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('All Languages/Projects/PR-001-Navigate to projects'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page-EN/Projects/360 Appraisal/OR-PR-360-Navigate to Projects/button_Add new project'))
+WebUI.click(findTestObject('Object Repository/Page-All Languages/Projects/360 Appraisal/OR-PR-360-Navigate to Projects/button_Add new project'))
 
-WebUI.click(findTestObject('Object Repository/Page-EN/Projects/360 Appraisal/OR-PR-360-Add standard 360 project/div_360 Appraisal option'))
+WebUI.click(findTestObject('Object Repository/Page-All Languages/Projects/360 Appraisal/OR-PR-360-Add standard 360 project/div_360 Appraisal option'))
 
-WebUI.click(findTestObject('Object Repository/Page-EN/Projects/360 Appraisal/OR-PR-360-Add standard 360 project/button_Continue'))
+WebUI.click(findTestObject('Object Repository/Page-All Languages/Projects/360 Appraisal/OR-PR-360-Add standard 360 project/button_Continue'))
 
 projectName = ('Auto Standard 360 Project | ' + GlobalVariable.timestamp)
 
-WebUI.setText(findTestObject('Object Repository/Page-EN/Projects/360 Appraisal/OR-PR-360-Add standard 360 project/input_Project name'), 
+WebUI.setText(findTestObject('Object Repository/Page-All Languages/Projects/360 Appraisal/OR-PR-360-Add standard 360 project/input_Project name'), 
     projectName)
 
-WebUI.setText(findTestObject('Object Repository/Page-EN/Projects/360 Appraisal/OR-PR-360-Add standard 360 project/textarea_Description'), 
+WebUI.setText(findTestObject('Object Repository/Page-All Languages/Projects/360 Appraisal/OR-PR-360-Add standard 360 project/textarea_Description'), 
     'Description for: ' + projectName)
 
-WebUI.click(findTestObject('Object Repository/Page-EN/Projects/360 Appraisal/OR-PR-360-Add standard 360 project/input_Expiry date'))
+WebUI.click(findTestObject('Object Repository/Page-All Languages/Projects/360 Appraisal/OR-PR-360-Add standard 360 project/input_Expiry date'))
 
-WebUI.click(findTestObject('Object Repository/Page-EN/Projects/360 Appraisal/OR-PR-360-Add standard 360 project/div_First available date'))
+WebUI.click(findTestObject('Object Repository/Page-All Languages/Projects/360 Appraisal/OR-PR-360-Add standard 360 project/div_First available date'))
 
-WebUI.click(findTestObject('Object Repository/Page-EN/Projects/360 Appraisal/OR-PR-360-Add standard 360 project/li_Time'))
+WebUI.click(findTestObject('Object Repository/Page-All Languages/Projects/360 Appraisal/OR-PR-360-Add standard 360 project/li_Time'))
 
-expiryDate = WebUI.getAttribute(findTestObject('Object Repository/Page-EN/Projects/360 Appraisal/OR-PR-360-Add standard 360 project/input_Expiry date'), 'value')
+expiryDate = WebUI.getAttribute(findTestObject('Object Repository/Page-All Languages/Projects/360 Appraisal/OR-PR-360-Add standard 360 project/input_Expiry date'), 'value')
 
-WebUI.click(findTestObject('Object Repository/Page-EN/Projects/360 Appraisal/OR-PR-360-Add standard 360 project/button_Add'))
+WebUI.click(findTestObject('Object Repository/Page-All Languages/Projects/360 Appraisal/OR-PR-360-Add standard 360 project/button_Add'))
 
 WebUI.verifyTextPresent(expiryDate, false) //Bug: 8694hw1va
 

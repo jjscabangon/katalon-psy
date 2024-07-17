@@ -26,11 +26,11 @@ WebUI.callTestCase(findTestCase('All Languages/Respondents/List/RE-LI-001-Add ne
 
 //WebUI.waitForPageLoad(3)
 //
-//WebUI.click(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Administer answer sheet/div_First Checkbox'))
+//WebUI.click(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Administer answer sheet/div_First Checkbox'))
 //
-WebUI.click(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Administer answer sheet/div_Administer answer sheet'))
+WebUI.click(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Administer answer sheet/div_Administer answer sheet'))
 
-WebUI.click(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Administer answer sheet/button_Next'))
+WebUI.click(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Administer answer sheet/button_Next'))
 
 //Initiate Logger
 String path = System.getProperty("user.dir");
@@ -79,7 +79,7 @@ while (columnCtr <= 4) {
     columnCtr = (columnCtr + 1)
 }
 
-WebUI.click(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Administer answer sheet/button_Submit'))
+WebUI.click(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Administer answer sheet/button_Submit'))
 
 WebUI.waitForPageLoad(3)
 

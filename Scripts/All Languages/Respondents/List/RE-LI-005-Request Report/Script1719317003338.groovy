@@ -21,25 +21,33 @@ WebUI.callTestCase(findTestCase('All Languages/Respondents/List/RE-LI-004-Admini
 
 WebUI.refresh()
 
-WebUI.waitForElementVisible(findTestObject('Page-EN/Respondents/List/OR-RE-LI-Add new respondent/input_Search Respondent'), 10)
+WebUI.waitForElementVisible(findTestObject('Page-All Languages/Respondents/List/OR-RE-LI-Add new respondent/input_Search Respondent'), 
+    10)
 
-WebUI.setText(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Add new respondent/input_Search Respondent'), GlobalVariable.email)
+WebUI.setText(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Add new respondent/input_Search Respondent'), 
+    GlobalVariable.email)
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Add new respondent/span_Loading respondents'), 
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Add new respondent/span_Loading respondents'), 
     3)
 
-WebUI.waitForElementNotVisible(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Add new respondent/span_Loading respondents'), 
+WebUI.waitForElementNotVisible(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Add new respondent/span_Loading respondents'), 
     3)
 
-WebUI.click(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Request Report/div_First Checkbox'))
+WebUI.click(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Request Report/div_First Checkbox'))
 
-WebUI.click(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Request Report/div_Request report(s)'))
+WebUI.click(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Request Report/div_Request report(s)'))
 
-WebUI.click(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Request Report/div_Available Reports_Set 1'))
+WebUI.click(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Request Report/div_Available Reports_Set 1'))
 
-WebUI.click(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Request Report/button_Request'))
+WebUI.click(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Request Report/button_Request'))
 
-WebUI.click(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Request Report/button_Yes'))
+WebUI.click(findTestObject('Page-All Languages/Respondents/List/OR-RE-LI-Request Report/div_Select norm'))
 
-WebUI.rightClick(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Request Report/span_Report request created'))
+WebUI.click(findTestObject('Page-All Languages/Respondents/List/OR-RE-LI-Request Report/div_First norm'))
+
+WebUI.click(findTestObject('Page-All Languages/Respondents/List/OR-RE-LI-Request Report/button_Footer request'))
+
+WebUI.click(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Request Report/button_Yes'))
+
+WebUI.rightClick(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Request Report/span_Report request created'))
 

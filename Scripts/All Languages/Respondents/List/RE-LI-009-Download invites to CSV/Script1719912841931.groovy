@@ -28,5 +28,5 @@ WebUI.click(findTestObject('Object Repository/Page-CN/CN-Respondents/CN-OR-Invit
 
 WebUI.waitForPageLoad(3)
 
-WebUI.click(findTestObject('Page-EN/Respondents/List/OR-RE-LI-Download invites to CSV/span_Download csv'))
+WebUI.click(findTestObject('Page-All Languages/Respondents/List/OR-RE-LI-Download invites to CSV/span_Download csv'))
 

@@ -19,9 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('All Languages/Respondents/List/RE-LI-001-Add new respondent'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Go to respondent details/span_Go to respondent details'))
+WebUI.click(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Go to respondent details/span_Go to respondent details'))
 
 WebUI.waitForPageLoad(3)
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Go to respondent details/div_Respondent Information Tabs'), 3)
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Go to respondent details/div_Respondent Information Tabs'), 3)
 

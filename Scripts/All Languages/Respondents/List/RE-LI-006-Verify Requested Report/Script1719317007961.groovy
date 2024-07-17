@@ -19,11 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('All Languages/Respondents/List/RE-LI-005-Request Report'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Verify Requested Report/div_First Respondent'))
+WebUI.click(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Verify Requested Report/div_First Respondent'))
 
-WebUI.click(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Verify Requested Report/div_Reports (10)'))
+WebUI.click(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Verify Requested Report/div_Reports (10)'))
 
-WebUI.scrollToElement(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Verify Requested Report/span_15FQ Standard'), 3)
+WebUI.scrollToElement(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Verify Requested Report/span_15FQ Standard'), 3)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Verify Requested Report/span_15FQ Standard'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Verify Requested Report/span_15FQ Standard'))
 

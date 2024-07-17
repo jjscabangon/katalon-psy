@@ -27,20 +27,20 @@ ctr = 1
 while (ctr <= 5) {
     WebUI.waitForPageLoad(5)
 
-    WebUI.waitForElementClickable(findTestObject('Page-EN/Respondents/List/OR-RE-LI-Add new respondent/button_Add new respondent'), 
+    WebUI.waitForElementClickable(findTestObject('Page-All Languages/Respondents/List/OR-RE-LI-Add new respondent/button_Add new respondent'), 
         5)
 
-    WebUI.click(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Add new respondent/button_Add new respondent'))
+    WebUI.click(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Add new respondent/button_Add new respondent'))
 
 	WebUI.callTestCase(findTestCase('CN/CN-Respondents/CN-List/CN-RE-LI Methods/CN-RE-LI-Method-Randomize First and Last Names'),
 		[:], FailureHandling.STOP_ON_FAILURE)
 	
 	GlobalVariable.firstname = GlobalVariable.firstname + (' Auto Bulk ' + GlobalVariable.groupTimestamp)
 	
-	WebUI.setText(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Add new respondent/input_Group Membership_firstName'),
+	WebUI.setText(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Add new respondent/input_Group Membership_firstName'),
 		GlobalVariable.firstname)
 
-    WebUI.setText(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Add new respondent/input_First Name_familyName'), 
+    WebUI.setText(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Add new respondent/input_First Name_familyName'), 
         GlobalVariable.lastname)
 
 	//Get Current Timestamp for Email
@@ -48,23 +48,23 @@ while (ctr <= 5) {
 	
     GlobalVariable.email = (('jjscabangon+' + GlobalVariable.timestamp) + '@gmail.com')
 
-    WebUI.setText(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Add new respondent/input_email'), 
+    WebUI.setText(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Add new respondent/input_email'), 
         GlobalVariable.email)
 
-    WebUI.click(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Add new respondent/button_Save'))
+    WebUI.click(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Add new respondent/button_Save'))
 
     ctr = (ctr + 1)
 }
 
 //Search for respondents in bulk
-WebUI.setText(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Add new respondent/input_Search Respondent'), 
+WebUI.setText(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Add new respondent/input_Search Respondent'), 
     GlobalVariable.groupTimestamp)
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Add new respondent/span_Loading respondents'), 
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Add new respondent/span_Loading respondents'), 
     3)
 
-WebUI.waitForElementNotVisible(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Add new respondent/span_Loading respondents'), 
+WebUI.waitForElementNotVisible(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Add new respondent/span_Loading respondents'), 
     3)
 
-WebUI.click(findTestObject('Page-EN/Respondents/List/OR-RE-LI-Download invites to CSV/div_Select all rows'))
+WebUI.click(findTestObject('Page-All Languages/Respondents/List/OR-RE-LI-Download invites to CSV/div_Select all rows'))
 

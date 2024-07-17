@@ -24,18 +24,18 @@ import org.openqa.selenium.WebElement as WebElement
 
 WebUI.callTestCase(findTestCase('All Languages/Settings/Ideal Profile/SE-IP-001-Navigate to Settings Ideal Profile'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page-EN/Settings/Ideal Profile/OR-SE-IP-Add manually configured ideal profile/button_Add ideal profile'))
+WebUI.click(findTestObject('Object Repository/Page-All Languages/Settings/Ideal Profile/OR-SE-IP-Add manually configured ideal profile/button_Add ideal profile'))
 
-WebUI.click(findTestObject('Object Repository/Page-EN/Settings/Ideal Profile/OR-SE-IP-Add complete ideal profile/div_Complete ideal profile questionnaire'))
+WebUI.click(findTestObject('Object Repository/Page-All Languages/Settings/Ideal Profile/OR-SE-IP-Add complete ideal profile/div_Complete ideal profile questionnaire'))
 
 profileName = ('Auto Complete Questionnaire | ' + GlobalVariable.timestamp)
 
-WebUI.setText(findTestObject('Object Repository/Page-EN/Settings/Ideal Profile/OR-SE-IP-Add complete ideal profile/input_Ideal profile name'), 
+WebUI.setText(findTestObject('Object Repository/Page-All Languages/Settings/Ideal Profile/OR-SE-IP-Add complete ideal profile/input_Ideal profile name'), 
     profileName)
 
-WebUI.click(findTestObject('Object Repository/Page-EN/Settings/Ideal Profile/OR-SE-IP-Add complete ideal profile/button_Save'))
+WebUI.click(findTestObject('Object Repository/Page-All Languages/Settings/Ideal Profile/OR-SE-IP-Add complete ideal profile/button_Save'))
 
-WebUI.click(findTestObject('Object Repository/Page-EN/Settings/Ideal Profile/OR-SE-IP-Add complete ideal profile/div_Rating'))
+WebUI.click(findTestObject('Object Repository/Page-All Languages/Settings/Ideal Profile/OR-SE-IP-Add complete ideal profile/div_Rating'))
 
 //Select Scale
 scale = 1
@@ -59,21 +59,21 @@ while (scale <= 72) {
     scale = (scale + 1)
 }
 
-WebUI.click(findTestObject('Object Repository/Page-EN/Settings/Ideal Profile/OR-SE-IP-Add complete ideal profile/button_Save Update'))
+WebUI.click(findTestObject('Object Repository/Page-All Languages/Settings/Ideal Profile/OR-SE-IP-Add complete ideal profile/button_Save Update'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Page-EN/Settings/Ideal Profile/OR-SE-IP-Add complete ideal profile/span_Ideal profile updated'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Page-All Languages/Settings/Ideal Profile/OR-SE-IP-Add complete ideal profile/span_Ideal profile updated'))
 
-WebUI.click(findTestObject('Page-EN/Settings/Ideal Profile/OR-SE-IP-Add complete ideal profile/button_Back'))
+WebUI.click(findTestObject('Page-All Languages/Settings/Ideal Profile/OR-SE-IP-Add complete ideal profile/button_Back'))
 
-WebUI.waitForElementClickable(findTestObject('Page-EN/Settings/Ideal Profile/OR-SE-IP-Add complete ideal profile/input_Search'), 
+WebUI.waitForElementClickable(findTestObject('Page-All Languages/Settings/Ideal Profile/OR-SE-IP-Add complete ideal profile/input_Search'), 
     3)
 
-WebUI.setText(findTestObject('Page-EN/Settings/Ideal Profile/OR-SE-IP-Add complete ideal profile/input_Search'), profileName)
+WebUI.setText(findTestObject('Page-All Languages/Settings/Ideal Profile/OR-SE-IP-Add complete ideal profile/input_Search'), profileName)
 
 WebUI.waitForPageLoad(5)
 
-WebUI.waitForElementVisible(findTestObject('Page-EN/Settings/Ideal Profile/OR-SE-IP-Add complete ideal profile/td_First row'), 5)
+WebUI.waitForElementVisible(findTestObject('Page-All Languages/Settings/Ideal Profile/OR-SE-IP-Add complete ideal profile/td_First row'), 5)
 
-WebUI.verifyElementText(findTestObject('Page-EN/Settings/Ideal Profile/OR-SE-IP-Add complete ideal profile/td_First row'), 
+WebUI.verifyElementText(findTestObject('Page-All Languages/Settings/Ideal Profile/OR-SE-IP-Add complete ideal profile/td_First row'), 
     profileName)
 

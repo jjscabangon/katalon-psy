@@ -19,19 +19,19 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('All Languages/Respondents/List/RE-LI-001-Add new respondent'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Add to existing group/span_Add to existing group'))
+WebUI.click(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Add to existing group/span_Add to existing group'))
 
-WebUI.click(findTestObject('Page-EN/Respondents/List/OR-RE-LI-Add to existing group/div_Dropdown'))
+WebUI.click(findTestObject('Page-All Languages/Respondents/List/OR-RE-LI-Add to existing group/div_Dropdown'))
 
-groupName = WebUI.getText(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Add to existing group/div_Select group'))
+groupName = WebUI.getText(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Add to existing group/div_Select group'))
 
-WebUI.click(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Add to existing group/div_Select group'))
+WebUI.click(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Add to existing group/div_Select group'))
 
-WebUI.click(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Add to existing group/button_Save'))
+WebUI.click(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Add to existing group/button_Save'))
 
 WebUI.delay(2)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Add to existing group/div_Groups column'), 
+WebUI.verifyElementText(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Add to existing group/div_Groups column'), 
     groupName)
 
 WebUI.closeBrowser()

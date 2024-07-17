@@ -19,26 +19,26 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('All Languages/Authentication/AU-001-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Add new respondent/input_Search Respondent'),
+WebUI.setText(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Add new respondent/input_Search Respondent'),
 	'Auto')
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Add new respondent/span_Loading respondents'),
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Add new respondent/span_Loading respondents'),
 	3)
 
-WebUI.waitForElementNotVisible(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Add new respondent/span_Loading respondents'),
+WebUI.waitForElementNotVisible(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Add new respondent/span_Loading respondents'),
 	3)
 
-while (WebUI.verifyElementVisible(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Delete all respondents/div_First row'), FailureHandling.OPTIONAL)) {
+while (WebUI.verifyElementVisible(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Delete all respondents/div_First row'), FailureHandling.OPTIONAL)) {
 
-    WebUI.click(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Delete all respondents/div_Select all rows'))
+    WebUI.click(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Delete all respondents/div_Select all rows'))
 
-    WebUI.click(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Delete all respondents/span_Remove selected respondents'))
+    WebUI.click(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Delete all respondents/span_Remove selected respondents'))
 
-    WebUI.click(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Delete all respondents/button_Yes'))
+    WebUI.click(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Delete all respondents/button_Yes'))
 
     WebUI.waitForPageLoad(5)
 	
-	if (WebUI.verifyElementVisible(findTestObject('Object Repository/Page-EN/Respondents/List/OR-RE-LI-Delete all respondents/p_Empty search result'))) {
+	if (WebUI.verifyElementVisible(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Delete all respondents/p_Empty search result'))) {
 		break;
 	}
 }

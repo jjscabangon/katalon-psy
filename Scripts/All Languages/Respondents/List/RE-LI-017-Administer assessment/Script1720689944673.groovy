@@ -28,7 +28,7 @@ WebUI.click(findTestObject('Object Repository/Page-CN/CN-Respondents/CN-OR-Admin
 
 WebUI.click(findTestObject('Page-CN/CN-Respondents/CN-OR-Administer Assessment/div_Select language'))
 
-WebUI.click(findTestObject('Page-EN/Respondents/List/OR-RE-LI-Administer assessment/div_Select English'))
+WebUI.click(findTestObject('Page-All Languages/Respondents/List/OR-RE-LI-Administer assessment/div_Select English'))
 
 WebUI.click(findTestObject('Object Repository/Page-CN/CN-Respondents/CN-OR-Administer Assessment/button_Start'))
 
@@ -41,11 +41,11 @@ WebUI.scrollToElement(findTestObject('Object Repository/Page-CN/CN-Respondents/C
 
 WebUI.click(findTestObject('Object Repository/Page-CN/CN-Respondents/CN-OR-Administer Assessment/input__Privacy Checkbox'))
 
-WebUI.click(findTestObject('Page-EN/Respondents/List/OR-RE-LI-Administer assessment/button_Privacy continue'))
+WebUI.click(findTestObject('Page-All Languages/Respondents/List/OR-RE-LI-Administer assessment/button_Privacy continue'))
 
-WebUI.click(findTestObject('Page-EN/Respondents/List/OR-RE-LI-Administer assessment/button_Biodata continue'))
+WebUI.click(findTestObject('Page-All Languages/Respondents/List/OR-RE-LI-Administer assessment/button_Biodata continue'))
 
-WebUI.click(findTestObject('Page-EN/Respondents/List/OR-RE-LI-Administer assessment/button_Start Assessment'))
+WebUI.click(findTestObject('Page-All Languages/Respondents/List/OR-RE-LI-Administer assessment/button_Start Assessment'))
 
 WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.ENTER))
 
@@ -80,7 +80,7 @@ qaLog.append('Test Case: Administer assessment' + ',')
 
 qaLog.append(('Assessment URL: ' + url) + ',')
 
-while (WebUI.verifyElementVisible(findTestObject('Page-EN/Respondents/List/OR-RE-LI-Administer assessment/span_Progress'), 
+while (WebUI.verifyElementVisible(findTestObject('Page-All Languages/Respondents/List/OR-RE-LI-Administer assessment/span_Progress'), 
     FailureHandling.OPTIONAL)) {
     //Randomize Answer
     randomInt = (new Random().nextInt((3 - 1) + 1) + 1)
@@ -122,7 +122,7 @@ while (WebUI.verifyElementVisible(findTestObject('Page-EN/Respondents/List/OR-RE
     }
 }
 
-WebUI.click(findTestObject('Page-EN/Respondents/List/OR-RE-LI-Administer assessment/button_Submit assessment'))
+WebUI.click(findTestObject('Page-All Languages/Respondents/List/OR-RE-LI-Administer assessment/button_Submit assessment'))
 
 try {
     WebUI.setText(findTestObject('Object Repository/Page-CN/CN-Respondents/CN-OR-Administer Assessment/input__pin'), GlobalVariable.assessmentPin)

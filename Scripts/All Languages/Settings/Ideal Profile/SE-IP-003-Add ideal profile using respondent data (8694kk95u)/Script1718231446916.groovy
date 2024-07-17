@@ -24,42 +24,42 @@ import org.openqa.selenium.WebElement as WebElement
 
 WebUI.callTestCase(findTestCase('All Languages/Settings/Ideal Profile/SE-IP-001-Navigate to Settings Ideal Profile'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page-EN/Settings/Ideal Profile/OR-SE-IP-Add ideal profile using respondent data/button_Add ideal profile'))
+WebUI.click(findTestObject('Object Repository/Page-All Languages/Settings/Ideal Profile/OR-SE-IP-Add ideal profile using respondent data/button_Add ideal profile'))
 
 profileName = ('Auto Respondent Data | ' + GlobalVariable.timestamp)
 
-WebUI.setText(findTestObject('Object Repository/Page-EN/Settings/Ideal Profile/OR-SE-IP-Add ideal profile using respondent data/input_Ideal profile name'), 
+WebUI.setText(findTestObject('Object Repository/Page-All Languages/Settings/Ideal Profile/OR-SE-IP-Add ideal profile using respondent data/input_Ideal profile name'), 
     profileName)
 
-WebUI.click(findTestObject('Object Repository/Page-EN/Settings/Ideal Profile/OR-SE-IP-Add ideal profile using respondent data/div_Respondent Data'))
+WebUI.click(findTestObject('Object Repository/Page-All Languages/Settings/Ideal Profile/OR-SE-IP-Add ideal profile using respondent data/div_Respondent Data'))
 
-WebUI.click(findTestObject('Object Repository/Page-EN/Settings/Ideal Profile/OR-SE-IP-Add ideal profile using respondent data/div_Norms List'))
+WebUI.click(findTestObject('Object Repository/Page-All Languages/Settings/Ideal Profile/OR-SE-IP-Add ideal profile using respondent data/div_Norms List'))
 
-WebUI.click(findTestObject('Object Repository/Page-EN/Settings/Ideal Profile/OR-SE-IP-Add ideal profile using respondent data/div_NZ Accounting Industry'))
+WebUI.click(findTestObject('Object Repository/Page-All Languages/Settings/Ideal Profile/OR-SE-IP-Add ideal profile using respondent data/div_NZ Accounting Industry'))
 
-WebUI.click(findTestObject('Object Repository/Page-EN/Settings/Ideal Profile/OR-SE-IP-Add ideal profile using respondent data/div_Groups'))
+WebUI.click(findTestObject('Object Repository/Page-All Languages/Settings/Ideal Profile/OR-SE-IP-Add ideal profile using respondent data/div_Groups'))
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/Page-EN/Settings/Ideal Profile/OR-SE-IP-Add ideal profile using respondent data/div_Group Menu'), 
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page-All Languages/Settings/Ideal Profile/OR-SE-IP-Add ideal profile using respondent data/div_Group Menu'), 
     3)
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/Page-EN/Settings/Ideal Profile/OR-SE-IP-Add ideal profile using respondent data/div_Select Group'), 
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page-All Languages/Settings/Ideal Profile/OR-SE-IP-Add ideal profile using respondent data/div_Select Group'), 
     3)
 
-WebUI.click(findTestObject('Object Repository/Page-EN/Settings/Ideal Profile/OR-SE-IP-Add ideal profile using respondent data/div_Select Group'))
+WebUI.click(findTestObject('Object Repository/Page-All Languages/Settings/Ideal Profile/OR-SE-IP-Add ideal profile using respondent data/div_Select Group'))
 
-WebUI.click(findTestObject('Object Repository/Page-EN/Settings/Ideal Profile/OR-SE-IP-Add ideal profile using respondent data/button_Save'))
+WebUI.click(findTestObject('Object Repository/Page-All Languages/Settings/Ideal Profile/OR-SE-IP-Add ideal profile using respondent data/button_Save'))
 
 WebUI.refresh()
 
-WebUI.waitForElementClickable(findTestObject('Page-EN/Settings/Ideal Profile/OR-SE-IP-Add complete ideal profile/input_Search'),
+WebUI.waitForElementClickable(findTestObject('Page-All Languages/Settings/Ideal Profile/OR-SE-IP-Add complete ideal profile/input_Search'),
 	3)
 
-WebUI.setText(findTestObject('Page-EN/Settings/Ideal Profile/OR-SE-IP-Add complete ideal profile/input_Search'), profileName)
+WebUI.setText(findTestObject('Page-All Languages/Settings/Ideal Profile/OR-SE-IP-Add complete ideal profile/input_Search'), profileName)
 
 WebUI.waitForPageLoad(5)
 
-WebUI.waitForElementVisible(findTestObject('Page-EN/Settings/Ideal Profile/OR-SE-IP-Add complete ideal profile/td_First row'), 5)
+WebUI.waitForElementVisible(findTestObject('Page-All Languages/Settings/Ideal Profile/OR-SE-IP-Add complete ideal profile/td_First row'), 5)
 
-WebUI.verifyElementText(findTestObject('Page-EN/Settings/Ideal Profile/OR-SE-IP-Add complete ideal profile/td_First row'), profileName) //https://app.clickup.com/t/8694kk95u
+WebUI.verifyElementText(findTestObject('Page-All Languages/Settings/Ideal Profile/OR-SE-IP-Add complete ideal profile/td_First row'), profileName) //https://app.clickup.com/t/8694kk95u
 
 
