@@ -32,17 +32,18 @@ while (ctr <= 5) {
 
     WebUI.click(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Add new respondent/button_Add new respondent'))
 
-	WebUI.callTestCase(findTestCase('All Languages/Respondents/List/RE-LI-Methods/RE-LI-Method-Randomize First and Last Names'), [:], FailureHandling.STOP_ON_FAILURE)
-	
-	WebUI.setText(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Add new respondent/input_Group Membership_firstName'),
-		GlobalVariable.firstname + ' Auto Bulk ')
+    WebUI.callTestCase(findTestCase('All Languages/Respondents/List/RE-LI-Methods/RE-LI-Method-Randomize First and Last Names'), 
+        [:], FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.setText(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Add new respondent/input_Group Membership_firstName'), 
+        GlobalVariable.firstname + ' Auto Bulk ')
 
     WebUI.setText(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Add new respondent/input_First Name_familyName'), 
         GlobalVariable.lastname)
 
-	//Get Current Timestamp for Email
-	GlobalVariable.timestamp = new Date().format('MMddhhmmss')
-	
+    //Get Current Timestamp for Email
+    GlobalVariable.timestamp = new Date().format('MMddhhmmss')
+
     GlobalVariable.email = (('jjscabangon+' + GlobalVariable.timestamp) + '@gmail.com')
 
     WebUI.setText(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Add new respondent/input_email'), 
@@ -52,6 +53,8 @@ while (ctr <= 5) {
 
     ctr = (ctr + 1)
 }
+
+WebUI.refresh()
 
 //Search for respondents in bulk
 WebUI.setText(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Add new respondent/input_Search Respondent'), 

@@ -119,6 +119,8 @@ switch (randomInt) {
 		break
 }
 
+GlobalVariable.firstname = GlobalVariable.firstname + GlobalVariable.groupTimestamp
+
 //Randomize Last Name
 randomInt = (new Random().nextInt((32 - 1) + 1) + 1)
 
