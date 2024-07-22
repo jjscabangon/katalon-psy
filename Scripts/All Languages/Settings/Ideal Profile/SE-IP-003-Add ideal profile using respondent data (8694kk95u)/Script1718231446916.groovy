@@ -35,7 +35,7 @@ WebUI.click(findTestObject('Object Repository/Page-All Languages/Settings/Ideal 
 
 WebUI.click(findTestObject('Object Repository/Page-All Languages/Settings/Ideal Profile/OR-SE-IP-Add ideal profile using respondent data/div_Norms List'))
 
-WebUI.click(findTestObject('Object Repository/Page-All Languages/Settings/Ideal Profile/OR-SE-IP-Add ideal profile using respondent data/div_NZ Accounting Industry'))
+WebUI.click(findTestObject('Object Repository/Page-All Languages/Settings/Ideal Profile/OR-SE-IP-Add ideal profile using respondent data/div_First norm selection'))
 
 WebUI.click(findTestObject('Object Repository/Page-All Languages/Settings/Ideal Profile/OR-SE-IP-Add ideal profile using respondent data/div_Groups'))
 
