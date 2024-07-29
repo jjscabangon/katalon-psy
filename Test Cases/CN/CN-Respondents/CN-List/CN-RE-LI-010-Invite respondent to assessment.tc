@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>CN-RE-LI-001-Invite respondent to assessment</name>
+   <name>CN-RE-LI-010-Invite respondent to assessment</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>

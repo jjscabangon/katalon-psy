@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>RE-LI-Import respondents without errors and duplicates (TODO)</name>
+   <name>RE-LI-18-Import respondents without errors and duplicates</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>

@@ -24,7 +24,7 @@ import org.openqa.selenium.Keys as Keys
 //Initiate a Text File for Storage
 import java.io.File as File
 
-WebUI.callTestCase(findTestCase('CN/CN-Respondents/CN-List/CN-RE-LI-001-Invite respondent to assessment'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('CN/CN-Respondents/CN-List/CN-RE-LI-010-Invite respondent to assessment'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.navigateToUrl(GlobalVariable.assessment15fq)
 

@@ -1,5 +1,9 @@
 Test Execution Results
 
+7/29
+CN-RE-LI-003 - Rerun passed
+CN-RE-LI-010 - Rerun passed
+
 7/15 - PROD-CN
 CN-RE-LI-003 - Fixed
 RE-LI-005 (Fixed with 004)

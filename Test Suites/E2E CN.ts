@@ -22,7 +22,7 @@
       <guid>22430a9c-9fac-4918-ab1e-646946092ca7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CN/CN-Respondents/CN-List/CN-RE-LI-001-Invite respondent to assessment</testCaseId>
+      <testCaseId>Test Cases/CN/CN-Respondents/CN-List/CN-RE-LI-010-Invite respondent to assessment</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -184,27 +184,6 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/All Languages/Respondents/List/RE-LI-017-Administer assessment</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>e387911c-6a14-48b5-b931-0ba0b6ba17e0</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/All Languages/Respondents/List/RE-LI-Import respondents with duplicates (TODO)</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>732b9b64-a2df-4c69-859c-410bf84db6e7</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/All Languages/Respondents/List/RE-LI-Import respondents with errors (TODO)</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>254e865d-16d1-4963-8583-365fd3a1cda8</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/All Languages/Respondents/List/RE-LI-Import respondents without errors and duplicates (TODO)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
