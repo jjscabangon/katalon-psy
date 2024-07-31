@@ -39,8 +39,12 @@ if (WebUI.verifyElementVisible(findTestObject('Object Repository/Page-CN/CN-Resp
 
     WebUI.click(findTestObject('Object Repository/Page-CN/CN-Respondents/CN-OR-Complete 15FQ Assessment from Email/b_End of Privacy Policy'))
 	
+	WebUI.click(findTestObject('Object Repository/Page-CN/CN-Respondents/CN-OR-Complete 15FQ Assessment from Email/input__Accept Checkbox'))
+	
+	WebUI.click(findTestObject('Object Repository/Page-CN/CN-Respondents/CN-OR-Complete 15FQ Assessment from Email/button_OK'))
+	
 	try {
-		WebUI.click(findTestObject('Object Repository/Page-CN/CN-Respondents/CN-OR-Complete 15FQ Assessment from Email/input__Accept Checkbox'))
+		WebUI.click(findTestObject('Object Repository/Page-CN/CN-Respondents/CN-OR-Complete 15FQ Assessment from Email/button_OK'))
 	} catch (Exception e) {
 		WebUI.scrollToElement(findTestObject('Object Repository/Page-CN/CN-Respondents/CN-OR-Complete 15FQ Assessment from Email/b_End of Privacy Policy'),
 			10)
@@ -48,9 +52,9 @@ if (WebUI.verifyElementVisible(findTestObject('Object Repository/Page-CN/CN-Resp
 		WebUI.click(findTestObject('Object Repository/Page-CN/CN-Respondents/CN-OR-Complete 15FQ Assessment from Email/b_End of Privacy Policy'))
 		
 		WebUI.click(findTestObject('Object Repository/Page-CN/CN-Respondents/CN-OR-Complete 15FQ Assessment from Email/input__Accept Checkbox'))
+		
+		WebUI.click(findTestObject('Object Repository/Page-CN/CN-Respondents/CN-OR-Complete 15FQ Assessment from Email/button_Privacy Data Next'))
 	}
-
-    WebUI.click(findTestObject('Object Repository/Page-CN/CN-Respondents/CN-OR-Complete 15FQ Assessment from Email/button_OK'))
 
     WebUI.click(findTestObject('Object Repository/Page-CN/CN-Respondents/CN-OR-Complete 15FQ Assessment from Email/button_OK'))
 
