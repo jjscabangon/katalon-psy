@@ -18,12 +18,12 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import java.io.File as File
 
-WebUI.callTestCase(findTestCase('CN/CN-Respondents/CN-List/CN-RE-LI-010-Invite respondent to assessment'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('All Languages/Respondents/List/RE-LI-012-Invite respondent with default biodata'), [:], 
+    FailureHandling.STOP_ON_FAILURE)
 
 //WebUI.openBrowser('')
 //
 //WebUI.maximizeWindow()
-
 WebUI.navigateToUrl(GlobalVariable.assessment15fq)
 
 WebUI.waitForPageLoad(30)

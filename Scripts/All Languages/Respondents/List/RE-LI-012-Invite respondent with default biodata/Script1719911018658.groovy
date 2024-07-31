@@ -40,6 +40,11 @@ WebUI.waitForPageLoad(3)
 GlobalVariable.assessment15fq = WebUI.getAttribute(findTestObject('Object Repository/Page-CN/CN-Respondents/CN-OR-Invite respondent to assessment/input_Search'), 
     'value')
 
+if (GlobalVariable.assessment15fq == '') {
+	WebUI.sendKeys(findTestObject('Object Repository/Page-CN/CN-Respondents/CN-OR-Invite respondent to assessment/input_Search'),
+		Keys.chord(Keys.HOME, 'v'))
+}
+
 println(GlobalVariable.assessment15fq)
 
 WebUI.navigateToUrl(GlobalVariable.assessment15fq)
