@@ -39,7 +39,7 @@ if (WebUI.verifyElementVisible(findTestObject('Object Repository/Page-All Langua
 
     try {
 		WebUI.click(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Complete 15FQ Assessment from Email/input__Accept Checkbox'))
-	} catch (exception e) {
+	} catch (Exception e) {
 		WebUI.scrollToElement(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Complete 15FQ Assessment from Email/b_End of Privacy Policy'),
 			10)
 	
