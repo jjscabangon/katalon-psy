@@ -35,10 +35,16 @@ while (ctr <= 5) {
     WebUI.callTestCase(findTestCase('All Languages/Respondents/List/RE-LI-Methods/RE-LI-Method-Randomize First and Last Names'), 
         [:], FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.setText(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Add new respondent/input_Group Membership_firstName'), 
-        GlobalVariable.firstname + ' Auto Bulk ')
+    WebUI.waitForPageLoad(10)
 
-    WebUI.setText(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Add new respondent/input_First Name_familyName'), 
+	WebUI.click(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Add new respondent/input_Group Membership_firstName'))
+	
+	WebUI.setText(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Add new respondent/input_Group Membership_firstName'), 
+        GlobalVariable.firstname + ' Auto Bulk ')
+	
+	WebUI.click(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Add new respondent/input_Family name'))
+	
+    WebUI.setText(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Add new respondent/input_Family name'), 
         GlobalVariable.lastname)
 
     //Get Current Timestamp for Email

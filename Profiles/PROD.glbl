@@ -74,4 +74,9 @@
       <initValue>''</initValue>
       <name>groupTimestamp</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>groupName</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>RE-LI-18-Import respondents without errors and duplicates</name>
+   <name>RE-GR-005-Administer managed group assessment</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>330adce6-06b0-48d9-9c97-ddd6fd3f974b</testCaseGuid>
+   <testCaseGuid>f0df91e3-5927-4335-8b4e-a38b0f5c9b0d</testCaseGuid>
 </TestCaseEntity>

@@ -40,7 +40,7 @@ while (ctr <= 5) {
 	WebUI.setText(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Add new respondent/input_Group Membership_firstName'),
 		GlobalVariable.firstname)
 
-    WebUI.setText(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Add new respondent/input_First Name_familyName'), 
+    WebUI.setText(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Add new respondent/input_Family name'), 
         GlobalVariable.lastname)
 
 	//Get Current Timestamp for Email

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Bitly link</name>
+   <tag></tag>
+   <elementGuidId>7da63675-1abd-46de-b1d7-83a0d4c92d25</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.ManagedGroupView__Pair-sc-hhabh3-5.gQxxWD > span:nth-of-type(2)</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[contains(@class,'ManagedGroupView')]//span[contains(text(),'Session link')]/following-sibling::span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>6a0a7ad8-5488-4524-bf8f-b2d022408578</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>https://bit.ly/3yJZVuF</value>
+      <webElementGuid>cf80d0fd-8a5f-42ba-8ee7-af7df4defa10</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[2]/div[@class=&quot;ContentRouter__Container-sc-ayudpc-0 kFILiX&quot;]/div[@class=&quot;ContentRouter__ContentContainer-sc-ayudpc-1 bDzahg&quot;]/div[@class=&quot;ContentRouter__StyledRouter-sc-ayudpc-2 cdCFNr&quot;]/div[@class=&quot;ContentRouter__RouteWrapper-sc-ayudpc-3 fVaimK&quot;]/div[1]/div[@class=&quot;PageWrapper__Container-sc-10mepnc-0 eLXHhm ManagedGroupView__StyledPageWrapper-sc-hhabh3-0 dvSaVl&quot;]/div[@class=&quot;ManagedGroupView__CopyLinkContainer-sc-hhabh3-7 jCYIlZ&quot;]/div[@class=&quot;ManagedGroupView__Pair-sc-hhabh3-5 gQxxWD&quot;]/span[2]</value>
+      <webElementGuid>c4daac77-7621-4a17-9255-a9b9dfc52fc6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/div/div/div/div/div/div/div[6]/div/span[2]</value>
+      <webElementGuid>3acc2e95-c0b4-484d-bd61-6656203c8a48</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Session link'])[1]/following::span[1]</value>
+      <webElementGuid>1884781a-a87d-4dce-a12a-79697d054085</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='End session'])[2]/following::span[2]</value>
+      <webElementGuid>67da6e71-fd53-446c-91d6-c66792f318ce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='https://bit.ly/3yJZVuF']/parent::*</value>
+      <webElementGuid>9226dd7f-e880-41cf-b89b-913623c3e04c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/div/span[2]</value>
+      <webElementGuid>7b49582d-fef5-42f4-a276-61267efce3bb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'https://bit.ly/3yJZVuF' or . = 'https://bit.ly/3yJZVuF')]</value>
+      <webElementGuid>847e60f8-9476-4443-bad5-b258376e40b5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

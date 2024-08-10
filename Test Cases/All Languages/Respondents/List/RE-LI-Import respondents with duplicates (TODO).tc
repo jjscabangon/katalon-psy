@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>RE-LI-Import respondents with duplicates (TODO)</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>c6777292-e9fa-46a3-97e9-7a1ca3a3ffa9</testCaseGuid>
-</TestCaseEntity>
