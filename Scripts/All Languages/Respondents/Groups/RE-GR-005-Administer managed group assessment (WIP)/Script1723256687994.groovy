@@ -24,7 +24,7 @@ firstEmail = WebUI.getText(findTestObject('Page-All Languages/Respondents/Groups
 WebUI.callTestCase(findTestCase('All Languages/Respondents/Groups/RE-GR-001-Navigate to Groups'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Add new respondent/input_Search Respondent'), 
-    GlobalVariable.groupTimestamp)
+    GlobalVariable.groupName)
 
 WebUI.waitForElementVisible(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Add new respondent/span_Loading respondents'), 
     3)
@@ -32,8 +32,7 @@ WebUI.waitForElementVisible(findTestObject('Object Repository/Page-All Languages
 WebUI.waitForElementNotVisible(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Add new respondent/span_Loading respondents'), 
     3)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Add new group from selection/div_Groups column'), 
-    GlobalVariable.groupName)
+WebUI.click(findTestObject('Page-All Languages/Respondents/Groups/OR-GR-Administer managed group assessment/div_Toggle all rows'))
 
 WebUI.click(findTestObject('Object Repository/Page-All Languages/Respondents/Groups/OR-GR-Administer managed group assessment/span_Administer Managed Group Session'))
 
@@ -61,4 +60,23 @@ WebUI.click(findTestObject('Object Repository/Page-All Languages/Respondents/Gro
 
 WebUI.setText(findTestObject('Object Repository/Page-All Languages/Respondents/Groups/OR-GR-Administer managed group assessment/input_Email address'), 
     firstEmail)
+
+WebUI.click(findTestObject('Page-All Languages/Respondents/Groups/OR-GR-Administer managed group assessment/button_Continue'))
+
+WebUI.click(findTestObject('Page-All Languages/Respondents/Groups/OR-GR-Administer managed group assessment/button_Continue'))
+
+WebUI.callTestCase(findTestCase('All Languages/Authentication/AU-001-Login'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('All Languages/Respondents/Groups/RE-GR-001-Navigate to Groups'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Add new respondent/input_Search Respondent'), 
+    GlobalVariable.groupName)
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Add new respondent/span_Loading respondents'), 
+    3)
+
+WebUI.waitForElementNotVisible(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Add new respondent/span_Loading respondents'), 
+    3)
+
+WebUI.click(findTestObject('Page-All Languages/Respondents/Groups/OR-GR-Administer managed group assessment/td_First group'))
 
