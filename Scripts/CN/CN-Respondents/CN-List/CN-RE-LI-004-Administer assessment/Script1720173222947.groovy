@@ -36,12 +36,20 @@ WebUI.click(findTestObject('Object Repository/Page-CN/CN-Respondents/CN-OR-Admin
 
 WebUI.waitForPageLoad(10)
 
-WebUI.scrollToElement(findTestObject('Object Repository/Page-CN/CN-Respondents/CN-OR-Administer Assessment/b_End of Privacy'), 
-    0)
+screenCtr = 1
 
-WebUI.click(findTestObject('Object Repository/Page-CN/CN-Respondents/CN-OR-Administer Assessment/input__Privacy Checkbox'))
-
-WebUI.click(findTestObject('Object Repository/Page-CN/CN-Respondents/CN-OR-Administer Assessment/button_Privacy Biodata Submit'))
+while (WebUI.verifyElementPresent(findTestObject('Object Repository/Page-CN/CN-Respondents/CN-OR-Administer Assessment/b_End of Privacy'), 
+    3, FailureHandling.OPTIONAL)) {
+	println("Privacy Screen: " + screenCtr)
+	
+	WebUI.scrollToElement(findTestObject('Object Repository/Page-CN/CN-Respondents/CN-OR-Administer Assessment/b_End of Privacy'), 3)
+	
+	WebUI.click(findTestObject('Object Repository/Page-CN/CN-Respondents/CN-OR-Administer Assessment/input__Privacy Checkbox'))
+	
+	WebUI.click(findTestObject('Object Repository/Page-CN/CN-Respondents/CN-OR-Administer Assessment/button_Privacy Biodata Submit'))
+	
+	screenCtr = screenCtr + 1
+}
 
 WebUI.click(findTestObject('Object Repository/Page-CN/CN-Respondents/CN-OR-Administer Assessment/button_Privacy Biodata Submit'))
 
