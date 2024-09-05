@@ -31,8 +31,11 @@ WebUI.click(findTestObject('Object Repository/Page-All Languages/Respondents/Lis
 
 WebUI.delay(2)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Add to existing group/div_Groups column'), 
-    groupName)
+WebUI.click(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Add to existing group/div_Groups column'))
+
+WebUI.click(findTestObject('Page-All Languages/Respondents/List/OR-RE-LI-Add to existing group/div_Groups tab'))
+
+WebUI.verifyTextPresent(groupName, false)
 
 WebUI.closeBrowser()
 

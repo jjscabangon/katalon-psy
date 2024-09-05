@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('All Languages/Respondents/List/RE-LI-004-Administer answer sheet'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('EN/EN-Respondents/EN-List/EN-RE-LI-004-Administer answer sheet'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.refresh()
 
