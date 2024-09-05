@@ -36,12 +36,15 @@ WebUI.click(findTestObject('Object Repository/Page-CN/CN-Respondents/CN-OR-Admin
 
 WebUI.waitForPageLoad(10)
 
-WebUI.scrollToElement(findTestObject('Object Repository/Page-CN/CN-Respondents/CN-OR-Administer Assessment/b_End of Privacy'), 
-    0)
-
-WebUI.click(findTestObject('Object Repository/Page-CN/CN-Respondents/CN-OR-Administer Assessment/input__Privacy Checkbox'))
-
-WebUI.click(findTestObject('Page-All Languages/Respondents/List/OR-RE-LI-Administer assessment/button_Privacy continue'))
+while (WebUI.verifyElementPresent(findTestObject('Object Repository/Page-CN/CN-Respondents/CN-OR-Administer Assessment/b_End of Privacy'), 
+    3, FailureHandling.OPTIONAL)) {
+	WebUI.scrollToElement(findTestObject('Object Repository/Page-CN/CN-Respondents/CN-OR-Administer Assessment/b_End of Privacy'),
+		0)
+	
+	WebUI.click(findTestObject('Object Repository/Page-CN/CN-Respondents/CN-OR-Administer Assessment/input__Privacy Checkbox'))
+	
+	WebUI.click(findTestObject('Page-All Languages/Respondents/List/OR-RE-LI-Administer assessment/button_Privacy continue'))
+}
 
 WebUI.click(findTestObject('Page-All Languages/Respondents/List/OR-RE-LI-Administer assessment/button_Biodata continue'))
 
