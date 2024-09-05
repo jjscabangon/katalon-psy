@@ -89,10 +89,10 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>8f8c7b03-45a4-4da4-bdeb-cce28ebe8f75</guid>
+      <guid>bef29395-e6a0-4ec8-b369-f250421bc449</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/EN/EN-Respondents/EN-List/EN-RE-LI-003-Complete 15FQ assessment from email</testCaseId>
+      <testCaseId>Test Cases/CN/CN-Respondents/CN-List/CN-RE-LI-003-Complete 15FQ assessment from email</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
