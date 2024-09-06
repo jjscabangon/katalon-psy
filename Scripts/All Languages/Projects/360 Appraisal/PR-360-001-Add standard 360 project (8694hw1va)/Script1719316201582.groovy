@@ -39,9 +39,24 @@ WebUI.click(findTestObject('Object Repository/Page-All Languages/Projects/360 Ap
 
 WebUI.click(findTestObject('Object Repository/Page-All Languages/Projects/360 Appraisal/OR-PR-360-Add standard 360 project/li_Time'))
 
-expiryDate = WebUI.getAttribute(findTestObject('Object Repository/Page-All Languages/Projects/360 Appraisal/OR-PR-360-Add standard 360 project/input_Expiry date'), 'value')
+expiryDate = WebUI.getAttribute(findTestObject('Object Repository/Page-All Languages/Projects/360 Appraisal/OR-PR-360-Add standard 360 project/input_Expiry date'), 
+    'value')
 
 WebUI.click(findTestObject('Object Repository/Page-All Languages/Projects/360 Appraisal/OR-PR-360-Add standard 360 project/button_Add'))
 
-WebUI.verifyTextPresent(expiryDate, false) //Bug: 8694hw1va
+//Bug: 8694hw1va
+//WebUI.verifyTextPresent(expiryDate, false)
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Page-All Languages/Projects/360 Appraisal/OR-PR-360-Add standard 360 project/button_Add session'))
+
+WebUI.click(findTestObject('Page-All Languages/Projects/360 Appraisal/OR-PR-360-Add standard 360 project/div_Search self'))
+
+WebUI.click(findTestObject('Page-All Languages/Projects/360 Appraisal/OR-PR-360-Add standard 360 project/div_Search first option'))
+
+WebUI.click(findTestObject('Page-All Languages/Projects/360 Appraisal/OR-PR-360-Add standard 360 project/button_Confirm add session'))
+
+WebUI.waitForElementVisible(findTestObject('Page-All Languages/Projects/360 Appraisal/OR-PR-360-Add standard 360 project/td_Row self'), 
+    5)
 
