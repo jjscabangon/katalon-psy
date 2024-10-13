@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>RE-LI-003-Complete 15FQ assessment from email</name>
+   <name>RE-GR-005-Administer managed group assessment (WIP)</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>b837d21e-6e72-496d-9390-573b6da03058</testCaseGuid>
+   <testCaseGuid>f0df91e3-5927-4335-8b4e-a38b0f5c9b0d</testCaseGuid>
 </TestCaseEntity>

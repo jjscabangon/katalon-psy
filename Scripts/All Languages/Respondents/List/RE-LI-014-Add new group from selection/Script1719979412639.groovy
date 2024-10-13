@@ -21,10 +21,10 @@ WebUI.callTestCase(findTestCase('All Languages/Respondents/List/RE-LI-013-Add bu
 
 WebUI.click(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Add new group from selection/span_Add new group from selection'))
 
-groupName = ('Auto Group ' + GlobalVariable.timestamp)
+GlobalVariable.groupName = ('Auto Group ' + GlobalVariable.timestamp)
 
 WebUI.setText(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Add new group from selection/input_Group name'), 
-    groupName)
+    GlobalVariable.groupName)
 
 groupDescription = 'Auto add new group from selection'
 
@@ -45,7 +45,5 @@ WebUI.waitForElementNotVisible(findTestObject('Object Repository/Page-All Langua
     3)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Add new group from selection/div_Groups column'), 
-    groupName)
-
-WebUI.closeBrowser()
+    GlobalVariable.groupName)
 

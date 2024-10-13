@@ -17,3 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('All Languages/Projects/360 Appraisal/PR-360-001-Add standard 360 project (8694hw1va)'), 
+    [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Page-All Languages/Projects/360 Appraisal/OR-PR-360-Send invites to 360 project raters/td_First row'))
+
+WebUI.scrollToElement(findTestObject('Page-All Languages/Projects/360 Appraisal/OR-PR-360-Send invites to 360 project raters/span_Send invite to selected raters'), 
+    3)
+
+WebUI.click(findTestObject('Page-All Languages/Projects/360 Appraisal/OR-PR-360-Send invites to 360 project raters/span_Send invite to selected raters'))
+
+WebUI.click(findTestObject('Page-All Languages/Projects/360 Appraisal/OR-PR-360-Send invites to 360 project raters/button_Send invites'))
+
+WebUI.verifyElementVisible(findTestObject('Page-All Languages/Projects/360 Appraisal/OR-PR-360-Send invites to 360 project raters/div_Invited status column'))
+

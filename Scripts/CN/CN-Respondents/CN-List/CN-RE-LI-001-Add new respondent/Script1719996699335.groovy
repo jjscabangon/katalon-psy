@@ -37,7 +37,7 @@ WebUI.callTestCase(findTestCase('CN/CN-Respondents/CN-List/CN-RE-LI Methods/CN-R
 WebUI.setText(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Add new respondent/input_Group Membership_firstName'), 
     GlobalVariable.firstname + ' Auto ')
 
-WebUI.setText(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Add new respondent/input_First Name_familyName'), 
+WebUI.setText(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Add new respondent/input_Family name'), 
     GlobalVariable.lastname)
 
 WebUI.click(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Add new respondent/svg_Sex'))

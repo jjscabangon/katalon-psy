@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>RE-LI-Import respondents with errors (TODO)</name>
+   <name>EN-RE-LI-003-Complete 15FQ assessment from email</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>d00d43d4-a40c-4520-b971-d719638a9e5f</testCaseGuid>
+   <testCaseGuid>b837d21e-6e72-496d-9390-573b6da03058</testCaseGuid>
 </TestCaseEntity>

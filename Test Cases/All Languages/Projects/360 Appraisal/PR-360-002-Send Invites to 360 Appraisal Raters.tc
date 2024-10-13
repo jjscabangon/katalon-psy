@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>RE-LI-18-Import respondents without errors and duplicates</name>
+   <name>PR-360-002-Send Invites to 360 Appraisal Raters</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>330adce6-06b0-48d9-9c97-ddd6fd3f974b</testCaseGuid>
+   <testCaseGuid>2cd70d2d-e6c4-4ab4-bf13-3123b6191e9b</testCaseGuid>
 </TestCaseEntity>
