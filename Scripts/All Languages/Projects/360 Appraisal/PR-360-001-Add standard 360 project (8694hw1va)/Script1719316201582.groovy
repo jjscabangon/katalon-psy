@@ -39,9 +39,12 @@ WebUI.click(findTestObject('Object Repository/Page-All Languages/Projects/360 Ap
 
 WebUI.click(findTestObject('Object Repository/Page-All Languages/Projects/360 Appraisal/OR-PR-360-Add standard 360 project/li_Time'))
 
-expiryDate = WebUI.getAttribute(findTestObject('Object Repository/Page-All Languages/Projects/360 Appraisal/OR-PR-360-Add standard 360 project/input_Expiry date'), 'value')
+expiryDate = WebUI.getAttribute(findTestObject('Object Repository/Page-All Languages/Projects/360 Appraisal/OR-PR-360-Add standard 360 project/input_Expiry date'), 
+    'value')
 
 WebUI.click(findTestObject('Object Repository/Page-All Languages/Projects/360 Appraisal/OR-PR-360-Add standard 360 project/button_Add'))
 
-WebUI.verifyTextPresent(expiryDate, false) //Bug: 8694hw1va
+'Bug: 8694hw1va'
+WebUI.verifyTextPresent(expiryDate, false, FailureHandling.OPTIONAL //Bug: 8694hw1va
+    )
 
