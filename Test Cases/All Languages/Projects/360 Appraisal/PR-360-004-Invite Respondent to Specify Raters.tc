@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PR-360-004-Invite Respondent to Specify Raters</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>465c51bb-cd50-4bfd-812c-db0becb742b3</testCaseGuid>
+</TestCaseEntity>
