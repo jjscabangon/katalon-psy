@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>PR-360-002-Send Invites to 360 Appraisal Raters</name>
+   <name>PR-360-002-Add raters to 360 project</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>2cd70d2d-e6c4-4ab4-bf13-3123b6191e9b</testCaseGuid>
+   <testCaseGuid>ed871df6-0f3e-4d1a-b21f-eb58ac20d6e6</testCaseGuid>
 </TestCaseEntity>

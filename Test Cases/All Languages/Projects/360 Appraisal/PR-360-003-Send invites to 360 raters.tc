@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PR-360-003-Send invites to 360 raters</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2cd70d2d-e6c4-4ab4-bf13-3123b6191e9b</testCaseGuid>
+</TestCaseEntity>
