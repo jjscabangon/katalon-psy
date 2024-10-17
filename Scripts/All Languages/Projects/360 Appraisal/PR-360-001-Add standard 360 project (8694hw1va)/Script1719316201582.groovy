@@ -44,10 +44,13 @@ expiryDate = WebUI.getAttribute(findTestObject('Object Repository/Page-All Langu
 
 WebUI.click(findTestObject('Object Repository/Page-All Languages/Projects/360 Appraisal/OR-PR-360-Add standard 360 project/button_Add'))
 
-//Bug: 8694hw1va
-//WebUI.verifyTextPresent(expiryDate, false)
-
 WebUI.delay(3)
+
+WebUI.verifyTextPresent(expiryDate, false, FailureHandling.OPTIONAL //Bug: 8694hw1va
+    )
+
+WebUI.waitForElementClickable(findTestObject('Page-All Languages/Projects/360 Appraisal/OR-PR-360-Add standard 360 project/button_Add session'), 
+    3)
 
 WebUI.click(findTestObject('Page-All Languages/Projects/360 Appraisal/OR-PR-360-Add standard 360 project/button_Add session'))
 
@@ -58,5 +61,5 @@ WebUI.click(findTestObject('Page-All Languages/Projects/360 Appraisal/OR-PR-360-
 WebUI.click(findTestObject('Page-All Languages/Projects/360 Appraisal/OR-PR-360-Add standard 360 project/button_Confirm add session'))
 
 WebUI.waitForElementVisible(findTestObject('Page-All Languages/Projects/360 Appraisal/OR-PR-360-Add standard 360 project/td_Row self'), 
-    5)
+    3)
 

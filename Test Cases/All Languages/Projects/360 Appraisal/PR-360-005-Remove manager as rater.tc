@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PR-360-005-Remove manager as rater</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5a6360e9-0dea-497a-bbcb-37c723cb4b48</testCaseGuid>
+</TestCaseEntity>

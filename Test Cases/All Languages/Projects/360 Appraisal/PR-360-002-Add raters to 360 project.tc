@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PR-360-002-Add raters to 360 project</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ed871df6-0f3e-4d1a-b21f-eb58ac20d6e6</testCaseGuid>
+</TestCaseEntity>
