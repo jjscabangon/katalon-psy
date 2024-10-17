@@ -19,11 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('All Languages/Respondents/List/RE-LI-009-Add new group from selection'), [:], FailureHandling.STOP_ON_FAILURE)
 
-firstEmail = WebUI.getText(findTestObject('Page-All Languages/Respondents/Groups/OR-GR-Administer managed group assessment/td_First email address'))
+GlobalVariable.firstEmail = WebUI.getText(findTestObject('Page-All Languages/Respondents/Groups/OR-GR-Administer managed group assessment/td_First email address'))
 
 println('Group: ' + GlobalVariable.groupName)
 
-println('Email: ' + firstEmail)
+println('Email: ' + GlobalVariable.firstEmail)
 
 WebUI.callTestCase(findTestCase('All Languages/Respondents/Groups/RE-GR-001-Navigate to Groups'), [:], FailureHandling.STOP_ON_FAILURE)
 

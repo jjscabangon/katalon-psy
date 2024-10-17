@@ -84,4 +84,9 @@
       <initValue>''</initValue>
       <name>bitlyLink</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>firstEmail</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
