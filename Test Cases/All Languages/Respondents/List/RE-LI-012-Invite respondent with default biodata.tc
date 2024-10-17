@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>RE-LI-012-Invite respondent with default biodata</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>066157b8-c023-459a-82fd-2e4cd3253b48</testCaseGuid>
-</TestCaseEntity>

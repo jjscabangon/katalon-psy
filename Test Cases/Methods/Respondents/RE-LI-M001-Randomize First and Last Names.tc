@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RE-LI-M001-Randomize First and Last Names</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>258b6181-1e51-4b25-a5e5-4c4882c83176</testCaseGuid>
+</TestCaseEntity>

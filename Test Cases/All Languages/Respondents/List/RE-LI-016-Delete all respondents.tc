@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>RE-LI-016-Delete all respondents</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>0b5b4a51-314a-4976-9234-e31726f1cf14</testCaseGuid>
-</TestCaseEntity>

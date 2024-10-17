@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>RE-LI-014-Add new group from selection</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>c95bd9d5-5f10-454f-bc6f-475a0ab81ffd</testCaseGuid>
-</TestCaseEntity>

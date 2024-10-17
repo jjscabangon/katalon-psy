@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RE-LI-005-Manage tags for selected respondents</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b87a8f64-0b0a-458d-ac53-ba09cfcb1960</testCaseGuid>
+</TestCaseEntity>

@@ -31,7 +31,7 @@ GlobalVariable.timestamp = new Date().format('MMddhhmmss')
 
 println(GlobalVariable.timestamp)
 
-WebUI.callTestCase(findTestCase('CN/CN-Respondents/CN-List/CN-RE-LI Methods/CN-RE-LI-Method-Randomize First and Last Names'), 
+WebUI.callTestCase(findTestCase('Methods/CN-Respondents/CN-RE-LI-Method-Randomize First and Last Names'), 
     [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Add new respondent/input_Group Membership_firstName'), 

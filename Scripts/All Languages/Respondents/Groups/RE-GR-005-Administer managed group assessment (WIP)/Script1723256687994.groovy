@@ -17,9 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('All Languages/Respondents/List/RE-LI-014-Add new group from selection'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('All Languages/Respondents/List/RE-LI-009-Add new group from selection'), [:], FailureHandling.STOP_ON_FAILURE)
 
 firstEmail = WebUI.getText(findTestObject('Page-All Languages/Respondents/Groups/OR-GR-Administer managed group assessment/td_First email address'))
+
+println('Group: ' + GlobalVariable.groupName)
+
+println('Email: ' + firstEmail)
 
 WebUI.callTestCase(findTestCase('All Languages/Respondents/Groups/RE-GR-001-Navigate to Groups'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -43,27 +47,11 @@ WebUI.click(findTestObject('Object Repository/Page-All Languages/Respondents/Gro
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page-All Languages/Respondents/Groups/OR-GR-Administer managed group assessment/span_Bitly link'), 
     10)
 
-bitlyLink = WebUI.getText(findTestObject('Object Repository/Page-All Languages/Respondents/Groups/OR-GR-Administer managed group assessment/span_Bitly link'))
+GlobalVariable.bitlyLink = WebUI.getText(findTestObject('Object Repository/Page-All Languages/Respondents/Groups/OR-GR-Administer managed group assessment/span_Bitly link'))
 
-println('Managed Group Session Link: ' + bitlyLink)
+println('Managed Group Session Link: ' + GlobalVariable.bitlyLink)
 
-WebUI.navigateToUrl(bitlyLink)
-
-WebUI.scrollToElement(findTestObject('Object Repository/Page-All Languages/Respondents/Groups/OR-GR-Administer managed group assessment/b_End of Privacy Policy'), 
-    10)
-
-WebUI.click(findTestObject('Object Repository/Page-All Languages/Respondents/Groups/OR-GR-Administer managed group assessment/b_End of Privacy Policy'))
-
-WebUI.click(findTestObject('Object Repository/Page-All Languages/Respondents/Groups/OR-GR-Administer managed group assessment/input_Accept Privacy Policy'))
-
-WebUI.click(findTestObject('Object Repository/Page-All Languages/Respondents/Groups/OR-GR-Administer managed group assessment/button_Continue from Privacy Policy'))
-
-WebUI.setText(findTestObject('Object Repository/Page-All Languages/Respondents/Groups/OR-GR-Administer managed group assessment/input_Email address'), 
-    firstEmail)
-
-WebUI.click(findTestObject('Page-All Languages/Respondents/Groups/OR-GR-Administer managed group assessment/button_Continue'))
-
-WebUI.click(findTestObject('Page-All Languages/Respondents/Groups/OR-GR-Administer managed group assessment/button_Continue'))
+WebUI.callTestCase(findTestCase('Methods/Respondents/RE-LI-M003-Access Managed Group Session'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('All Languages/Authentication/AU-001-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -79,4 +67,14 @@ WebUI.waitForElementNotVisible(findTestObject('Object Repository/Page-All Langua
     3)
 
 WebUI.click(findTestObject('Page-All Languages/Respondents/Groups/OR-GR-Administer managed group assessment/td_First group'))
+
+WebUI.click(findTestObject('Page-All Languages/Respondents/Groups/OR-GR-Administer managed group assessment/td_First email address'))
+
+WebUI.click(findTestObject('Page-All Languages/Respondents/Groups/OR-GR-Administer managed group assessment/div_Authorize'))
+
+WebUI.click(findTestObject('Page-All Languages/Respondents/Groups/OR-GR-Administer managed group assessment/button_Confirm Authorize'))
+
+WebUI.callTestCase(findTestCase('Methods/Respondents/RE-LI-M003-Access Managed Group Session'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Methods/Respondents/RE-LI-M002-Complete 15FQ'), [:], FailureHandling.STOP_ON_FAILURE)
 

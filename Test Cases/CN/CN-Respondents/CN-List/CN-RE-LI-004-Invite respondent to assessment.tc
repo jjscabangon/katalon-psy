@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CN-RE-LI-004-Invite respondent to assessment</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>521ae85d-2495-4486-9814-9647ce22b9a3</testCaseGuid>
+</TestCaseEntity>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>RE-LI-015-Add to existing group</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>5c4fb75c-6901-4f5a-9d7e-4ef521a9501f</testCaseGuid>
-</TestCaseEntity>

@@ -39,11 +39,8 @@ WebUI.click(findTestObject('Object Repository/Page-All Languages/Respondents/Gro
 
 WebUI.waitForPageLoad(5)
 
-<<<<<<< Updated upstream:Scripts/Respondents/Groups/RE-GR-003-Edit group details (Bugged)/Script1720169533154.groovy
 WebUI.waitForElementClickable(findTestObject('Page-All Languages/Respondents/Groups/OR-RE-GR-Add group/input_Search'), 3)
 
-=======
->>>>>>> Stashed changes:Scripts/Respondents/Groups/RE-GR-003-Edit group details/Script1719820315351.groovy
 WebUI.clearText(findTestObject('Object Repository/Respondents/Groups/OR-Add group/input_Search'))
 
 WebUI.setText(findTestObject('Object Repository/Respondents/Groups/OR-Add group/input_Search'), groupName)
@@ -59,15 +56,12 @@ WebUI.setText(findTestObject('Object Repository/Page-All Languages/Respondents/G
 
 WebUI.waitForPageLoad(5)
 
-<<<<<<< Updated upstream:Scripts/Respondents/Groups/RE-GR-003-Edit group details (Bugged)/Script1720169533154.groovy
 WebUI.verifyElementText(findTestObject('Object Repository/Page-All Languages/Respondents/Groups/OR-RE-GR-Edit group/td_Row name'), 
     groupName)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page-All Languages/Respondents/Groups/OR-RE-GR-Edit group/td_Row description'), 
     groupDescription)
-=======
+
 WebUI.verifyElementText(findTestObject('Object Repository/Page-All Languages/Respondents/Groups/OR-RE-GR-Edit group/td_Row name'), groupName)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page-All Languages/Respondents/Groups/OR-RE-GR-Edit group/td_Row description'), groupDescription)
->>>>>>> Stashed changes:Scripts/Respondents/Groups/RE-GR-003-Edit group details/Script1719820315351.groovy
-

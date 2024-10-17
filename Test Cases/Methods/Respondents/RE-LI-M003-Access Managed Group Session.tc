@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RE-LI-M003-Access Managed Group Session</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e1da2d6e-5b12-4454-9d6d-e982dd4a9a1f</testCaseGuid>
+</TestCaseEntity>

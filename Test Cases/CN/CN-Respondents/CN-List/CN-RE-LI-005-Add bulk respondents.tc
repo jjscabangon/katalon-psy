@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CN-RE-LI-005-Add bulk respondents</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6e1d361c-06c6-482d-ba2a-c19422934a99</testCaseGuid>
+</TestCaseEntity>

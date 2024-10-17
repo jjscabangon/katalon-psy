@@ -24,7 +24,8 @@ WebUI.maximizeWindow()
 //Switch Lanuguage
 switch (GlobalVariable.language) {
     case 'en':
-        WebUI.setText(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Login/input_email'), GlobalVariable.loginEmail)
+        WebUI.setText(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Login/input_email'), 
+            GlobalVariable.loginEmail)
 
         WebUI.click(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Login/button_Login'))
 
@@ -34,37 +35,44 @@ switch (GlobalVariable.language) {
 
         WebUI.click(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Login/div_Chinese(Simplified)'))
 
-        WebUI.setText(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Login/input_email'), GlobalVariable.loginEmail)
+        WebUI.setText(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Login/input_email'), 
+            GlobalVariable.loginEmail)
 
         WebUI.click(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Login/button_Login SC'))
 
         break
-	case 'pre-prod-cn':
-		WebUI.click(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Login/button_Continue'))
-		break
+    case 'pre-prod-cn':
+        WebUI.click(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Login/button_Continue'))
+
+        break
     default:
-        WebUI.setText(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Login/input_email'), GlobalVariable.loginEmail)
+        WebUI.setText(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Login/input_email'), 
+            GlobalVariable.loginEmail)
 
         WebUI.click(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Login/button_Login'))
 
         break
 }
 
-
 switch (GlobalVariable.language) {
-	case 'pre-prod-cn':
-		break
-	default:
-		//Get Current Timestamp
-		GlobalVariable.timestamp = new Date().format('MMddhhmmss')
-		
-		println(GlobalVariable.timestamp)
-		
-		WebUI.setText(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Login/input_password'), GlobalVariable.loginPassword)
-		
-		WebUI.click(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Login/button_Continue'))
-		
-		WebUI.waitForElementVisible(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Login/leftside_menu'), 30)
-		break
+    case 'pre-prod-cn':
+        break
+    //Get Current Timestamp
+    default:
+        GlobalVariable.timestamp = new Date().format('MMddhhmmss')
+
+        println(GlobalVariable.timestamp)
+
+        WebUI.setText(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Login/input_password'), 
+            GlobalVariable.loginPassword)
+
+        WebUI.click(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Login/button_Continue'))
+
+        WebUI.waitForElementVisible(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Login/leftside_menu'), 
+            30)
+
+        break
 }
+
+WebUI.waitForPageLoad(5)
 

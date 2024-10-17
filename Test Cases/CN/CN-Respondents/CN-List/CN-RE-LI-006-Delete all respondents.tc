@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CN-RE-LI-006-Delete all respondents</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>19ebd2ec-6dd2-49f2-8ae8-9a890c7d79d8</testCaseGuid>
+</TestCaseEntity>

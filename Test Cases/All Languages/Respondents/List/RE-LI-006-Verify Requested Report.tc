@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>RE-LI-006-Verify Requested Report</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>effeb512-dbd6-4dd6-bf85-e40308ebe86e</testCaseGuid>
-</TestCaseEntity>

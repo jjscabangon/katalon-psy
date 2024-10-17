@@ -6,7 +6,7 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://admin-staging.genesysonline.net/'</initValue>
+      <initValue>'https://admin.genesysonline.cn/'</initValue>
       <name>url</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -16,12 +16,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'ghy72da2hj72'</initValue>
+      <initValue>'qwerty!2345@'</initValue>
       <name>loginPassword</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>en=English, sc=ChineseSimpified</description>
-      <initValue>'en'</initValue>
+      <initValue>'sc'</initValue>
       <name>language</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -45,7 +45,7 @@
       <name>timestamp</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
+      <description>Invite respondent > Copy Link</description>
       <initValue>'https://genesys2020.genesysonline.cn/login/042010018629/QR5JPU37/CH'</initValue>
       <name>assessment15fq</name>
    </GlobalVariableEntity>
@@ -65,7 +65,7 @@
       <name>assessmentPin</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
+      <description>File Directory for storing Assessment Responses</description>
       <initValue>'C:\\\\Katalon\\\\Katalon-Psytech\\\\katalon-psy\\\\Data Files\\\\QALogs'</initValue>
       <name>fileDir</name>
    </GlobalVariableEntity>
@@ -78,5 +78,10 @@
       <description></description>
       <initValue>''</initValue>
       <name>groupName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>bitlyLink</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

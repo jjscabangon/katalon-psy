@@ -79,4 +79,9 @@
       <initValue>''</initValue>
       <name>groupName</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>bitlyLink</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
