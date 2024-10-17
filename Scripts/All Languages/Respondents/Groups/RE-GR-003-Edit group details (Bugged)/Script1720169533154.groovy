@@ -27,13 +27,15 @@ GlobalVariable.timestamp = new Date().format('MMddhhmmss')
 
 groupName = ('EDIT Auto Group ' + GlobalVariable.timestamp)
 
-WebUI.setText(findTestObject('Object Repository/Page-All Languages/Respondents/Groups/OR-RE-GR-Edit group/input_Name'), groupName)
+WebUI.setText(findTestObject('Object Repository/Page-All Languages/Respondents/Groups/OR-RE-GR-Edit group/input_Name'), 
+    groupName)
 
 WebUI.clearText(findTestObject('Object Repository/Page-All Languages/Respondents/Groups/OR-RE-GR-Edit group/input_Description'))
 
 groupDescription = ('Description for ' + groupName)
 
-WebUI.setText(findTestObject('Object Repository/Page-All Languages/Respondents/Groups/OR-RE-GR-Edit group/input_Description'), groupDescription)
+WebUI.setText(findTestObject('Object Repository/Page-All Languages/Respondents/Groups/OR-RE-GR-Edit group/input_Description'), 
+    groupDescription)
 
 WebUI.click(findTestObject('Object Repository/Page-All Languages/Respondents/Groups/OR-RE-GR-Edit group/button_Save'))
 
@@ -41,20 +43,26 @@ WebUI.waitForPageLoad(5)
 
 WebUI.waitForElementClickable(findTestObject('Page-All Languages/Respondents/Groups/OR-RE-GR-Add group/input_Search'), 3)
 
-WebUI.clearText(findTestObject('Object Repository/Respondents/Groups/OR-Add group/input_Search'))
+WebUI.clearText(findTestObject('Page-All Languages/Respondents/Groups/OR-RE-GR-Add group/input_Search'))
 
-WebUI.setText(findTestObject('Object Repository/Respondents/Groups/OR-Add group/input_Search'), groupName)
+WebUI.setText(findTestObject('Page-All Languages/Respondents/Groups/OR-RE-GR-Add group/input_Search'), groupName)
 
 WebUI.waitForPageLoad(5)
 
 //To allow row to be properly displayed
 WebUI.delay(3)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Respondents/Groups/OR-Edit group/td_Row name'), groupName)
+WebUI.verifyElementText(findTestObject('Page-All Languages/Respondents/Groups/OR-RE-GR-Edit group/td_Row name'), groupName)
 
-WebUI.setText(findTestObject('Object Repository/Page-All Languages/Respondents/Groups/OR-RE-GR-Add group/input_Search'), groupName)
+WebUI.setText(findTestObject('Object Repository/Page-All Languages/Respondents/Groups/OR-RE-GR-Add group/input_Search'), 
+    groupName)
 
 WebUI.waitForPageLoad(5)
+
+WebUI.verifyElementText(findTestObject('Page-All Languages/Respondents/Groups/OR-RE-GR-Edit group/td_Row name'), groupName)
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page-All Languages/Respondents/Groups/OR-RE-GR-Edit group/td_Row description'), 
+    groupDescription)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page-All Languages/Respondents/Groups/OR-RE-GR-Edit group/td_Row name'), 
     groupName)
@@ -62,6 +70,3 @@ WebUI.verifyElementText(findTestObject('Object Repository/Page-All Languages/Res
 WebUI.verifyElementText(findTestObject('Object Repository/Page-All Languages/Respondents/Groups/OR-RE-GR-Edit group/td_Row description'), 
     groupDescription)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page-All Languages/Respondents/Groups/OR-RE-GR-Edit group/td_Row name'), groupName)
-
-WebUI.verifyElementText(findTestObject('Object Repository/Page-All Languages/Respondents/Groups/OR-RE-GR-Edit group/td_Row description'), groupDescription)
