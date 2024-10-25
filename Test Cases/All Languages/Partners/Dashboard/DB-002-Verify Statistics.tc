@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DB-002-Verify Statistics</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>dadc52a0-1b15-4fb5-8264-76de8c20eb47</testCaseGuid>
+</TestCaseEntity>
