@@ -84,4 +84,14 @@
       <initValue>''</initValue>
       <name>bitlyLink</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://partners-staging.genesysonline.net/login'</initValue>
+      <name>partnersUrl</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'ghy72da2hj72'</initValue>
+      <name>partnersPassword</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
