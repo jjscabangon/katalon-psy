@@ -17,17 +17,12 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(GlobalVariable.partnersUrl)
+WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-SearchClient/input_Search client'))
 
-WebUI.maximizeWindow()
+WebUI.setText(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-SearchClient/input_Search client'), GlobalVariable.partnersClientName)
 
-WebUI.waitForPageLoad(5)
+result = WebUI.getText(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-SearchClient/div_First result'), 
+    FailureHandling.STOP_ON_FAILURE)
 
-GlobalVariable.timestamp = new Date().format('MMddhhmmss')
-
-WebUI.setText(findTestObject('Page-All Languages/Partners/Dashboard/OR-DB-NavigateToDashboard/input_Email'), GlobalVariable.loginEmail)
-
-WebUI.setText(findTestObject('Page-All Languages/Partners/Dashboard/OR-DB-NavigateToDashboard/input_Password'), GlobalVariable.partnersPassword)
-
-WebUI.click(findTestObject('Page-All Languages/Partners/Dashboard/OR-DB-NavigateToDashboard/button_Submit'))
+WebUI.verifyMatch(result, GlobalVariable.partnersClientName, false)
 

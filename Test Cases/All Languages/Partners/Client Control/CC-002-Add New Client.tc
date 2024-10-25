@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CC-002-Add New Client</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>95dfe8b3-7fac-41ad-b07c-9c2cba630611</testCaseGuid>
+</TestCaseEntity>

@@ -94,4 +94,9 @@
       <initValue>'ghy72da2hj72'</initValue>
       <name>partnersPassword</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>partnersClientName</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

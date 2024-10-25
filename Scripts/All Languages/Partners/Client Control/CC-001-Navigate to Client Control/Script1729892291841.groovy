@@ -17,17 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(GlobalVariable.partnersUrl)
+WebUI.callTestCase(findTestCase('All Languages/Partners/Dashboard/DB-001-Navigate to Dashboard'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.maximizeWindow()
-
-WebUI.waitForPageLoad(5)
-
-GlobalVariable.timestamp = new Date().format('MMddhhmmss')
-
-WebUI.setText(findTestObject('Page-All Languages/Partners/Dashboard/OR-DB-NavigateToDashboard/input_Email'), GlobalVariable.loginEmail)
-
-WebUI.setText(findTestObject('Page-All Languages/Partners/Dashboard/OR-DB-NavigateToDashboard/input_Password'), GlobalVariable.partnersPassword)
-
-WebUI.click(findTestObject('Page-All Languages/Partners/Dashboard/OR-DB-NavigateToDashboard/button_Submit'))
+WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-NavigateToClientControl/a_Client control menu'))
 

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CC-001-Navigate to Client Control</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>efccdaf0-7588-419e-9656-a105cd6ab931</testCaseGuid>
+</TestCaseEntity>
