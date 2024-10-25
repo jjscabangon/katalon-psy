@@ -17,25 +17,27 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.waitForPageLoad(3)
+WebUI.callTestCase(findTestCase('All Languages/Partners/Client Control/CC-001-Navigate to Client Control'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-SearchClient/input_Search client'))
+GlobalVariable.keyword = 'Auto'
+search = 'ON'
+ctr = 0
 
-if (GlobalVariable.keyword == '') {
-    WebUI.setText(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-SearchClient/input_Search client'), GlobalVariable.partnersClientName)
+while (search=='ON') {
+	WebUI.callTestCase(findTestCase('Methods/Partners/Client Control/CC-M001-Search Client'), [:], FailureHandling.STOP_ON_FAILURE)
 	
-	result = WebUI.getText(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-SearchClient/div_First result'),
-		FailureHandling.STOP_ON_FAILURE)
-	
-	WebUI.verifyMatch(result, GlobalVariable.partnersClientName, false)
-} else {
-    WebUI.setText(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-SearchClient/input_Search client'), GlobalVariable.keyword)
-	
-	result = WebUI.getText(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-SearchClient/div_First result'),
-		FailureHandling.STOP_ON_FAILURE)
-	
-	if (result.contains(GlobalVariable.keyword)) {
-		println('Searched Keyword Found: ' + GlobalVariable.keyword)
+	try {
+		ctr = ctr + 1
+		
+		println('Deleted Account # ' + ctr + ': ' + WebUI.getText(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-SearchClient/div_First result')))
+		
+		WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-SearchClient/div_First result'))
+		
+		WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-DeleteAllAccounts/div_Delete account'))
+		
+		WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-DeleteAllAccounts/button_Yes'))
+	} catch (Exception e) {
+		search = 'OFF'
 	}
 }
 

@@ -99,4 +99,9 @@
       <initValue>''</initValue>
       <name>partnersClientName</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>keyword</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
