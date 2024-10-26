@@ -23,7 +23,12 @@ WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-Add
 
 WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewClient/input_Client name'))
 
-GlobalVariable.partnersClientName = ('Auto Client ' + GlobalVariable.timestamp)
+if (GlobalVariable.override == '') {
+	GlobalVariable.partnersClientName = ('Auto Client ' + GlobalVariable.timestamp)
+} else {
+	GlobalVariable.partnersClientName = GlobalVariable.override + GlobalVariable.timestamp
+}
+
 
 WebUI.setText(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewClient/input_Client name'), GlobalVariable.partnersClientName)
 

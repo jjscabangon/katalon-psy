@@ -119,4 +119,9 @@
       <initValue>''</initValue>
       <name>element</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>override</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
