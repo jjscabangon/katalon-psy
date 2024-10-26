@@ -25,7 +25,7 @@ WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-Sea
 WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/button_Add user'))
 
 //Step: User Details
-WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC-AddNewUser-Step1/input_User type professional'))
+WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC-AddNewUser-Step1/input_User type solution'))
 
 GlobalVariable.firstname = 'Auto FName'
 
@@ -41,7 +41,7 @@ WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-Add
 WebUI.sendKeys(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC-AddNewUser-Step1/input_Family name'), 
     GlobalVariable.lastname)
 
-GlobalVariable.email = (('jjscabangon+prof' + GlobalVariable.timestamp) + '@gmail.com')
+GlobalVariable.email = (('jjscabangon+sol' + GlobalVariable.timestamp) + '@gmail.com')
 
 WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC-AddNewUser-Step1/input_Email address'))
 
@@ -63,43 +63,6 @@ WebUI.sendKeys(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-
     GlobalVariable.pin)
 
 WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC-AddNewUser-Step1/input_Receive email no'))
-
-'Go to Training Selection'
-WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/button_Next step'))
-
-//Step: Training Selection
-//Randomize the Qualification Type
-int randomInt = new Random().nextInt((5 - 1) + 1) + 1
-
-//Click by WebElement
-GlobalVariable.element = (('(//div[p[contains(text(),"Qualification")]]//input)[' + randomInt.toString()) + ']')
-
-if (randomInt == 5) {
-    WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC-AddNewUser-Step2/input_Other details'))
-
-    WebUI.sendKeys(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC-AddNewUser-Step2/input_Other details'), 
-        'Other Qualification Type')
-}
-
-WebUI.callTestCase(findTestCase('Methods/Partners/PRTN-001-Click by WebElement'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC-AddNewUser-Step2/input_Training provider name dropdown'))
-
-WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC-AddNewUser-Step2/li_Training provider psytech'))
-
-WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC-AddNewUser-Step2/input_Training provider year dropdown'))
-
-WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC-AddNewUser-Step2/li_Training provider first year'))
-
-WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC-AddNewUser-Step2/textarea_Training details'))
-
-trainingDetails = ('Training Details for ' + GlobalVariable.email)
-
-WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC-AddNewUser-Step2/textarea_Training details'), 
-    FailureHandling.STOP_ON_FAILURE)
-
-WebUI.sendKeys(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC-AddNewUser-Step2/textarea_Training details'), 
-    trainingDetails)
 
 'Go to Assessments'
 WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/button_Next step'))

@@ -6,12 +6,12 @@
    <elementGuidId>dfcfb4af-c0b4-4101-9cd5-386b75b57ad7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//div[p[contains(text(),'User Type')]]//span[contains(text(),'Test admin')]/preceding-sibling::input</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[p[contains(text(),'User Type')]]//span[contains(text(),'Training')]/preceding-sibling::input</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
