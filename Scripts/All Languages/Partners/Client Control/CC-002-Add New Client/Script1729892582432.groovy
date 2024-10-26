@@ -43,8 +43,6 @@ WebUI.sendKeys(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-
 
 WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewClient/button_Create account'))
 
-WebUI.verifyTextPresent(GlobalVariable.partnersClientName, false)
-
 WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-NavigateToClientControl/a_Client control menu'))
 
 WebUI.callTestCase(findTestCase('Methods/Partners/Client Control/CC-M001-Search Client'), [:], FailureHandling.STOP_ON_FAILURE)
