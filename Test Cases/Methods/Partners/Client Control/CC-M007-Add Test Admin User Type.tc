@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CC-M007-Add Test Admin User Type</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>47b147fd-dca1-48df-900b-f6e3a72526da</testCaseGuid>
+</TestCaseEntity>

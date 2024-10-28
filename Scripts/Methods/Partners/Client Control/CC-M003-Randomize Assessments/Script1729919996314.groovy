@@ -25,14 +25,14 @@ while (totalCtr>0) {
 	GlobalVariable.element = (('(//div[span[contains(text(),"Tests")]]/following-sibling::div//span[@class="check"]/preceding-sibling::input[@type="checkbox"])[' +
 	randomInt) + ']')
 	
-	println('Qualification to Locate #' + totalCtr + ': ' + GlobalVariable.element)
+	println('Assessment to Locate #' + totalCtr + ': ' + GlobalVariable.element)
 	
 	try {
 		WebUI.callTestCase(findTestCase('Methods/GEN-001-Click by WebElement'), [:], FailureHandling.STOP_ON_FAILURE)
 		
 		totalCtr = totalCtr - 1
 	} catch (Exception e) {
-		println('Qualification Cannot Be Located #' + totalCtr + ': ' + GlobalVariable.element)
+		println('Assessment Cannot Be Located #' + totalCtr + ': ' + GlobalVariable.element)
 		
 		totalCtr = totalCtr - 1
 	}
