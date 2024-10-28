@@ -27,71 +27,72 @@ WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-Sea
 WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/button_Add user'))
 
 //Step: User Details
-WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC-AddNewUser-Step1/input_User type solution'))
+WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC-AddNewUser-UserDetails/input_User type solution'))
 
 GlobalVariable.firstname = 'Auto FName'
 
-WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC-AddNewUser-Step1/input_First name'))
+WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC-AddNewUser-UserDetails/input_First name'))
 
-WebUI.sendKeys(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC-AddNewUser-Step1/input_First name'), 
+WebUI.sendKeys(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC-AddNewUser-UserDetails/input_First name'), 
     GlobalVariable.firstname)
 
 GlobalVariable.lastname = 'Auto FamName'
 
-WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC-AddNewUser-Step1/input_Family name'))
+WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC-AddNewUser-UserDetails/input_Family name'))
 
-WebUI.sendKeys(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC-AddNewUser-Step1/input_Family name'), 
+WebUI.sendKeys(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC-AddNewUser-UserDetails/input_Family name'), 
     GlobalVariable.lastname)
 
 GlobalVariable.email = (('jjscabangon+sol' + GlobalVariable.timestamp) + '@gmail.com')
 
-WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC-AddNewUser-Step1/input_Email address'))
+WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC-AddNewUser-UserDetails/input_Email address'))
 
-WebUI.sendKeys(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC-AddNewUser-Step1/input_Email address'), 
+WebUI.sendKeys(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC-AddNewUser-UserDetails/input_Email address'), 
     GlobalVariable.email)
 
 GlobalVariable.password = 'Test1234'
 
-WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC-AddNewUser-Step1/input_Password'))
+WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC-AddNewUser-UserDetails/input_Password'))
 
-WebUI.sendKeys(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC-AddNewUser-Step1/input_Password'), 
+WebUI.sendKeys(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC-AddNewUser-UserDetails/input_Password'), 
     GlobalVariable.password)
 
 GlobalVariable.pin = '1111'
 
-WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC-AddNewUser-Step1/input_Pin'))
+WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC-AddNewUser-UserDetails/input_Pin'))
 
-WebUI.sendKeys(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC-AddNewUser-Step1/input_Pin'), 
+WebUI.sendKeys(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC-AddNewUser-UserDetails/input_Pin'), 
     GlobalVariable.pin)
 
-WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC-AddNewUser-Step1/input_Receive email yes'))
+WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC-AddNewUser-UserDetails/input_Receive email yes'))
 
 'Go to Assessments'
 WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/button_Next step'))
 
 //Step: Assessments
-//Select only the defaults
+WebUI.callTestCase(findTestCase('Methods/Partners/Client Control/CC-M003-Randomize Assessments'), [:], FailureHandling.STOP_ON_FAILURE)
+
 'Go to Credit Control'
 WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/button_Next step'))
 
 //Step: Credit Control
-WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC_AddNewUser-Step4/button_Update credits'))
+WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC_AddNewUser-CreditControl/button_Update credits'))
 
 amount = ('1' + new Date().format('ss'))
 
-WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC_AddNewUser-Step4/input_Update amount'))
+WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC_AddNewUser-CreditControl/input_Update amount'))
 
-WebUI.sendKeys(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC_AddNewUser-Step4/input_Update amount'), 
+WebUI.sendKeys(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC_AddNewUser-CreditControl/input_Update amount'), 
     amount)
 
 notes = ((('Test Credit of ' + amount) + ' for ') + GlobalVariable.email)
 
-WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC_AddNewUser-Step4/textarea_Purchase note'))
+WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC_AddNewUser-CreditControl/textarea_Purchase note'))
 
-WebUI.sendKeys(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC_AddNewUser-Step4/textarea_Purchase note'), 
+WebUI.sendKeys(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC_AddNewUser-CreditControl/textarea_Purchase note'), 
     notes)
 
-WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC_AddNewUser-Step4/button_Create user'))
+WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC_AddNewUser-CreditControl/button_Create user'))
 
 savedEmail = WebUI.getText(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/div_Email'))
 

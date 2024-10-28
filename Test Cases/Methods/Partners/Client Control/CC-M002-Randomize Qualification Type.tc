@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>PRTN-001-Click by WebElement</name>
+   <name>CC-M002-Randomize Qualification Type</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>672aa363-1e90-4127-9a05-9f3a40811803</testCaseGuid>
+   <testCaseGuid>5e09d6b1-3700-44bf-9903-7b383a6c04d9</testCaseGuid>
 </TestCaseEntity>

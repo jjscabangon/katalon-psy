@@ -27,108 +27,104 @@ WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-Sea
 WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/button_Add user'))
 
 //Step: User Details
-WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC-AddNewUser-Step1/input_User type training'))
+WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC-AddNewUser-UserDetails/input_User type training'))
 
 GlobalVariable.firstname = 'Auto FName'
 
-WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC-AddNewUser-Step1/input_First name'))
+WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC-AddNewUser-UserDetails/input_First name'))
 
-WebUI.sendKeys(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC-AddNewUser-Step1/input_First name'), 
+WebUI.sendKeys(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC-AddNewUser-UserDetails/input_First name'), 
     GlobalVariable.firstname)
 
 GlobalVariable.lastname = 'Auto FamName'
 
-WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC-AddNewUser-Step1/input_Family name'))
+WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC-AddNewUser-UserDetails/input_Family name'))
 
-WebUI.sendKeys(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC-AddNewUser-Step1/input_Family name'), 
+WebUI.sendKeys(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC-AddNewUser-UserDetails/input_Family name'), 
     GlobalVariable.lastname)
 
 GlobalVariable.email = (('jjscabangon+train' + GlobalVariable.timestamp) + '@gmail.com')
 
-WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC-AddNewUser-Step1/input_Email address'))
+WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC-AddNewUser-UserDetails/input_Email address'))
 
-WebUI.sendKeys(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC-AddNewUser-Step1/input_Email address'), 
+WebUI.sendKeys(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC-AddNewUser-UserDetails/input_Email address'), 
     GlobalVariable.email)
 
 GlobalVariable.password = 'Test1234'
 
-WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC-AddNewUser-Step1/input_Password'))
+WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC-AddNewUser-UserDetails/input_Password'))
 
-WebUI.sendKeys(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC-AddNewUser-Step1/input_Password'), 
+WebUI.sendKeys(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC-AddNewUser-UserDetails/input_Password'), 
     GlobalVariable.password)
 
 GlobalVariable.pin = '1111'
 
-WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC-AddNewUser-Step1/input_Pin'))
+WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC-AddNewUser-UserDetails/input_Pin'))
 
-WebUI.sendKeys(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC-AddNewUser-Step1/input_Pin'), 
+WebUI.sendKeys(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC-AddNewUser-UserDetails/input_Pin'), 
     GlobalVariable.pin)
 
-WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC-AddNewUser-Step1/input_Receive email no'))
+WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC-AddNewUser-UserDetails/input_Receive email no'))
 
 'Go to Training Selection'
 WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/button_Next step'))
 
 //Step: Training Selection
 //Randomize the Qualification Type
-int randomInt = new Random().nextInt((5 - 1) + 1) + 1
+WebUI.callTestCase(findTestCase('Methods/Partners/Client Control/CC-M002-Randomize Qualification Type'), [:], FailureHandling.STOP_ON_FAILURE)
 
-//Click by WebElement
-GlobalVariable.element = (('(//div[p[contains(text(),"Qualification")]]//input)[' + randomInt.toString()) + ']')
+WebUI.callTestCase(findTestCase('Methods/GEN-001-Click by WebElement'), [:], FailureHandling.STOP_ON_FAILURE)
 
-if (randomInt == 5) {
-    WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC-AddNewUser-Step2/input_Other details'))
+WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC-AddNewUser-TrainingSelection/input_Training provider name dropdown'))
 
-    WebUI.sendKeys(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC-AddNewUser-Step2/input_Other details'), 
-        'Other Qualification Type')
-}
+WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC-AddNewUser-TrainingSelection/li_Training provider psytech'))
 
-WebUI.callTestCase(findTestCase('Methods/Partners/PRTN-001-Click by WebElement'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC-AddNewUser-TrainingSelection/input_Training provider year dropdown'))
 
-WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC-AddNewUser-Step2/input_Training provider name dropdown'))
+WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC-AddNewUser-TrainingSelection/li_Training provider first year'))
 
-WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC-AddNewUser-Step2/li_Training provider psytech'))
-
-WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC-AddNewUser-Step2/input_Training provider year dropdown'))
-
-WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC-AddNewUser-Step2/li_Training provider first year'))
-
-WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC-AddNewUser-Step2/textarea_Training details'))
+WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC-AddNewUser-TrainingSelection/textarea_Training details'))
 
 trainingDetails = ('Training Details for ' + GlobalVariable.email)
 
-WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC-AddNewUser-Step2/textarea_Training details'), 
+WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC-AddNewUser-TrainingSelection/textarea_Training details'), 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.sendKeys(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC-AddNewUser-Step2/textarea_Training details'), 
+WebUI.sendKeys(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC-AddNewUser-TrainingSelection/textarea_Training details'), 
     trainingDetails)
 
 'Go to Assessments'
 WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/button_Next step'))
 
+if (WebUI.verifyElementVisible(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC-AddNewUser-TrainingSelection/div_Qualification missing'), FailureHandling.OPTIONAL)) {
+	WebUI.callTestCase(findTestCase('Methods/Partners/Client Control/CC-M002-Randomize Qualification Type'), [:], FailureHandling.STOP_ON_FAILURE)
+	WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/button_Next step'))
+}
+
 //Step: Assessments
-//Select only the defaults
+WebUI.callTestCase(findTestCase('Methods/Partners/Client Control/CC-M003-Randomize Assessments'), [:], FailureHandling.STOP_ON_FAILURE)
+
 'Go to Credit Control'
 WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/button_Next step'))
 
 //Step: Credit Control
-WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC_AddNewUser-Step4/button_Update credits'))
+WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC_AddNewUser-CreditControl/button_Update credits'))
 
 amount = ('1' + new Date().format('ss'))
 
-WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC_AddNewUser-Step4/input_Update amount'))
+WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC_AddNewUser-CreditControl/input_Update amount'))
 
-WebUI.sendKeys(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC_AddNewUser-Step4/input_Update amount'), 
+WebUI.sendKeys(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC_AddNewUser-CreditControl/input_Update amount'), 
     amount)
 
 notes = ((('Test Credit of ' + amount) + ' for ') + GlobalVariable.email)
 
-WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC_AddNewUser-Step4/textarea_Purchase note'))
+WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC_AddNewUser-CreditControl/textarea_Purchase note'))
 
-WebUI.sendKeys(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC_AddNewUser-Step4/textarea_Purchase note'), 
+WebUI.sendKeys(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC_AddNewUser-CreditControl/textarea_Purchase note'), 
     notes)
 
-WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC_AddNewUser-Step4/button_Create user'))
+WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC_AddNewUser-CreditControl/button_Create user'))
 
 savedEmail = WebUI.getText(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/div_Email'))
 
