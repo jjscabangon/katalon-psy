@@ -24,7 +24,7 @@ WebUI.callTestCase(findTestCase('All Languages/Partners/Client Control/CC-002-Ad
 
 WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-SearchClient/div_First result'))
 
-WebUI.callTestCase(findTestCase('Methods/Partners/Client Control/CC-M004-Add Profession User Type'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Methods/Partners/Client Control/CC-M004-Add Professional User Type'), [:], FailureHandling.STOP_ON_FAILURE)
 
 savedEmail = WebUI.getText(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/div_Email'))
 

@@ -51,8 +51,11 @@ switch (randomInt) {
 
         break
     case 5:
-        WebUI.scrollToElement(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC-AddNewUser-TrainingSelection/input_Other details'), 
+        WebUI.scrollToElement(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC-AddNewUser-TrainingSelection/input_Qualification type Other'), 
             3)
+
+        WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC-AddNewUser-TrainingSelection/input_Qualification type Other'), 
+            FailureHandling.STOP_ON_FAILURE)
 
         WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC-AddNewUser-TrainingSelection/input_Other details'))
 
