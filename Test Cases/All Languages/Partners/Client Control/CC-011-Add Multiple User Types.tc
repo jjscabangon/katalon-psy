@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>CC-010-Add Multiple User Types</name>
+   <name>CC-011-Add Multiple User Types</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>

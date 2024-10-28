@@ -75,6 +75,22 @@ WebUI.callTestCase(findTestCase('Methods/Partners/Client Control/CC-M003-Randomi
 'Go to Credit Control'
 WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/button_Next step'))
 
-'Go to Credit Control'
+WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC_AddNewUser-CreditControl/button_Update credits'))
+
+amount = ('1' + new Date().format('ss'))
+
+WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC_AddNewUser-CreditControl/input_Update amount'))
+
+WebUI.sendKeys(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC_AddNewUser-CreditControl/input_Update amount'),
+	amount)
+
+notes = ((('Update Test Credit of ' + amount) + ' for ') + GlobalVariable.email)
+
+WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC_AddNewUser-CreditControl/textarea_Purchase note'))
+
+WebUI.sendKeys(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-AddNewUser/OR-CC_AddNewUser-CreditControl/textarea_Purchase note'),
+	notes)
+
+'Update User Details'
 WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CC-EditUserDetails/button_Update'))
 
