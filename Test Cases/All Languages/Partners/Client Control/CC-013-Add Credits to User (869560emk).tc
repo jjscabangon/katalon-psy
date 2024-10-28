@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>CC-012-Change Master User</name>
+   <name>CC-013-Add Credits to User (869560emk)</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>00e50da3-76a0-453e-85f5-84dfed1a8b0e</testCaseGuid>
+   <testCaseGuid>8deb2c68-e148-48be-9a37-53062a3020f6</testCaseGuid>
 </TestCaseEntity>
