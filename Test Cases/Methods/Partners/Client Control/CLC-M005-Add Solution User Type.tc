@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CLC-M005-Add Solution User Type</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>84e41d63-3fd8-48fb-9fed-41f3574e6ea5</testCaseGuid>
+</TestCaseEntity>

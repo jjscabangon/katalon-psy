@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>CC-M008-Add Integration User Type</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>9e7ae3db-4901-47c1-acda-3e9f03a7ff38</testCaseGuid>
-</TestCaseEntity>

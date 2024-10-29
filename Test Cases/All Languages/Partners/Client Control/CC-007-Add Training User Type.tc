@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>CC-007-Add Training User Type</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>dcbe6971-bd2d-4ce9-925d-4c0a313137bc</testCaseGuid>
-</TestCaseEntity>

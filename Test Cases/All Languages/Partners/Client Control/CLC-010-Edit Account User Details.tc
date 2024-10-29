@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CLC-010-Edit Account User Details</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5d7eaef2-79b0-4eb5-9d54-c89c9605616f</testCaseGuid>
+</TestCaseEntity>

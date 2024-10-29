@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CLC-004-Delete All Accounts</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>22df5fa5-be35-4cad-8970-e2f3d361d96e</testCaseGuid>
+</TestCaseEntity>

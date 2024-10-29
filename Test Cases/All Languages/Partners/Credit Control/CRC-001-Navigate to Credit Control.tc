@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CRC-001-Navigate to Credit Control</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7925814e-e793-4964-bf31-94a2be68fb6d</testCaseGuid>
+</TestCaseEntity>

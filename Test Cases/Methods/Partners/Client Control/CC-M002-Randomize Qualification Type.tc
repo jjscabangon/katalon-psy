@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>CC-M002-Randomize Qualification Type</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>5e09d6b1-3700-44bf-9903-7b383a6c04d9</testCaseGuid>
-</TestCaseEntity>
