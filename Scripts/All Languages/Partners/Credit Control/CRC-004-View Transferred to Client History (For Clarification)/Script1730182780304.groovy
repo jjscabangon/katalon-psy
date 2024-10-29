@@ -17,11 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('All Languages/Partners/Client Control/CLC-013-Add Credits to User (869560emk)'), [:], FailureHandling.OPTIONAL)
-
-WebUI.click(findTestObject('Page-All Languages/Partners/Credit Control/OR-CRC-NavigateToCreditControl/a_Credit control menu'))
-
-WebUI.click(findTestObject('Page-All Languages/Partners/Credit Control/OR-CRC-NavigateToCreditControl/div_Credit history tab'))
-
-WebUI.click(findTestObject('Page-All Languages/Partners/Credit Control/OR-CRC-ViewUserCreditUpdateHistory/button_User credit updates tab'))
-

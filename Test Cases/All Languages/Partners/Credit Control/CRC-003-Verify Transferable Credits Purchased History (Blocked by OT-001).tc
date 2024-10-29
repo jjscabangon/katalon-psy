@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CRC-003-Verify Transferable Credits Purchased History (Blocked by OT-001)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4530f147-3ec7-4c2e-93d8-131e54b8a11a</testCaseGuid>
+</TestCaseEntity>
