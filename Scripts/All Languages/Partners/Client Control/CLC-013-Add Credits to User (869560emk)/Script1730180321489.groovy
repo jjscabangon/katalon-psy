@@ -27,16 +27,16 @@ println('Current Credits: ' + currentCredits)
 
 WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CLC-AddCreditsToUser/button_Add credits'))
 
-amount = ('1' + new Date().format('ss'))
+GlobalVariable.amount = ('1' + new Date().format('ss'))
 
-println('Additional Credits: ' + amount)
+println('Additional Credits: ' + GlobalVariable.amount)
 
 WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CLC-AddCreditsToUser/input_Credit amount'))
 
 WebUI.sendKeys(findTestObject('Page-All Languages/Partners/Client Control/OR-CLC-AddCreditsToUser/input_Credit amount'), 
-    amount)
+    GlobalVariable.amount)
 
-notes = ((('Test Credit of ' + amount) + ' for ') + GlobalVariable.email)
+notes = ((('Test Credit of ' + GlobalVariable.amount) + ' for ') + GlobalVariable.email)
 
 WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CLC-AddCreditsToUser/textarea_Purchase notes'))
 

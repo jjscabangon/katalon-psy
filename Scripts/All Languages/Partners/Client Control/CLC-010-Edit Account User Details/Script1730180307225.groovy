@@ -77,14 +77,14 @@ WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CLC-Ad
 
 WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CLC-AddNewUser/OR-CLC-AddNewUser-CreditControl/button_Update credits'))
 
-amount = ('1' + new Date().format('ss'))
+GlobalVariable.amount = ('1' + new Date().format('ss'))
 
 WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CLC-AddNewUser/OR-CLC-AddNewUser-CreditControl/input_Update amount'))
 
 WebUI.sendKeys(findTestObject('Page-All Languages/Partners/Client Control/OR-CLC-AddNewUser/OR-CLC-AddNewUser-CreditControl/input_Update amount'),
-	amount)
+	GlobalVariable.amount)
 
-notes = ((('Update Test Credit of ' + amount) + ' for ') + GlobalVariable.email)
+notes = ((('Update Test Credit of ' + GlobalVariable.amount) + ' for ') + GlobalVariable.email)
 
 WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CLC-AddNewUser/OR-CLC-AddNewUser-CreditControl/textarea_Purchase note'))
 

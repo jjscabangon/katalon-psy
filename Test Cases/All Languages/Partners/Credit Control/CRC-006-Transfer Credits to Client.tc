@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CRC-006-Transfer Credits to Client</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2c1aaea9-3521-4aab-86c9-3671e5864c71</testCaseGuid>
+</TestCaseEntity>

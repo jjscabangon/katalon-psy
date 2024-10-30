@@ -124,4 +124,9 @@
       <initValue>''</initValue>
       <name>override</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>amount</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
