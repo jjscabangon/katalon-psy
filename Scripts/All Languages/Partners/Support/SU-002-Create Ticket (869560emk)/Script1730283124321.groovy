@@ -17,26 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-totalCtr = 5
-
-while (totalCtr>0) {
-	int randomInt = new Random().nextInt((61 - 1) + 1) + 1
-	
-	GlobalVariable.element = (('(//div[span[contains(text(),"Tests")]]/following-sibling::div//span[@class="check"]/preceding-sibling::input[@type="checkbox"])[' +
-	randomInt) + ']')
-	
-	println('Assessment to Locate #' + totalCtr + ': ' + GlobalVariable.element)
-	
-	try {
-		WebUI.callTestCase(findTestCase('Methods/GEN-001-Click by WebElement'), [:], FailureHandling.STOP_ON_FAILURE)
-		
-		totalCtr = totalCtr - 1
-	} catch (Exception e) {
-		println('Assessment Cannot Be Located #' + totalCtr + ': ' + GlobalVariable.element)
-		
-		totalCtr = totalCtr - 1
-	}
-}
-
-
-

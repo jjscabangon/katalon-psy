@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>OT-002-Switch Language to EN (TODO)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ee5f7409-b97c-4506-9f0e-628a067cd5d3</testCaseGuid>
+</TestCaseEntity>

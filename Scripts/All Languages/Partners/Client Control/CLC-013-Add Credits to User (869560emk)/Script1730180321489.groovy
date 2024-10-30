@@ -45,7 +45,7 @@ WebUI.sendKeys(findTestObject('Page-All Languages/Partners/Client Control/OR-CLC
 
 WebUI.click(findTestObject('Page-All Languages/Partners/Client Control/OR-CLC-AddCreditsToUser/button_Submit'))
 
-newCredits = (Integer.parseInt(currentCredits) + Integer.parseInt(amount))
+newCredits = (Integer.parseInt(currentCredits) + Integer.parseInt(GlobalVariable.amount))
 
 println('New Credits: ' + newCredits)
 
