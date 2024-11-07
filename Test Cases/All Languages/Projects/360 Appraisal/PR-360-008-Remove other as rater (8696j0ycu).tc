@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PR-360-008-Remove other as rater (8696j0ycu)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>cc6dc2a4-f1ff-4b14-b394-bd3373818da7</testCaseGuid>
+</TestCaseEntity>
