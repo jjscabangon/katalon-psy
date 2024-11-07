@@ -6,7 +6,7 @@
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://admin.genesysonline.cn/'</initValue>
+      <initValue>'https://admin.genesysonline.cn/login-region?email=jjscabangon%40gmail.com&amp;langId=en'</initValue>
       <name>url</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -20,8 +20,8 @@
       <name>loginPassword</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>en=English, sc=ChineseSimpified</description>
-      <initValue>'en'</initValue>
+      <description></description>
+      <initValue>'prod-cn'</initValue>
       <name>language</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

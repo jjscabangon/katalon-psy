@@ -6,7 +6,7 @@
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://cn-preprod.genesysonline.cn/login-region?email=demoaccount%40ciicmc.com&amp;langId=en'</initValue>
+      <initValue>'https://ciicmc-preprod.genesysonline.cn/ '</initValue>
       <name>url</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -21,7 +21,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>en=English, sc=ChineseSimpified</description>
-      <initValue>'pre-prod-cn'</initValue>
+      <initValue>'en'</initValue>
       <name>language</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

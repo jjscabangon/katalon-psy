@@ -6,22 +6,22 @@
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://ciicmc-preprod.genesysonline.cn/ '</initValue>
+      <initValue>'https://cn-preprod.genesysonline.cn/login-region?email=jjscabangon%40gmail.com&amp;langId=en'</initValue>
       <name>url</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'demoaccount@ciicmc.com'</initValue>
+      <initValue>'jjscabangon@gmail.com'</initValue>
       <name>loginEmail</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'qwerty123'</initValue>
+      <initValue>'qwerty!2345@'</initValue>
       <name>loginPassword</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>en=English, sc=ChineseSimpified</description>
-      <initValue>'en'</initValue>
+      <initValue>'pre-prod-cn'</initValue>
       <name>language</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

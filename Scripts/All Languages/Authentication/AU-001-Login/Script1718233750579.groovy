@@ -42,6 +42,10 @@ switch (GlobalVariable.language) {
 
         break
     case 'pre-prod-cn':
+		WebUI.click(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Login/button_Continue'))
+	
+		break
+	case 'prod-cn':
         WebUI.click(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Login/button_Continue'))
 
         break
@@ -54,25 +58,15 @@ switch (GlobalVariable.language) {
         break
 }
 
-switch (GlobalVariable.language) {
-    case 'pre-prod-cn':
-        break
-    //Get Current Timestamp
-    default:
-        GlobalVariable.timestamp = new Date().format('MMddhhmmss')
+GlobalVariable.timestamp = new Date().format('MMddhhmmss')
 
-        println(GlobalVariable.timestamp)
+println(GlobalVariable.timestamp)
 
-        WebUI.setText(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Login/input_password'), 
-            GlobalVariable.loginPassword)
+WebUI.setText(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Login/input_password'), GlobalVariable.loginPassword)
 
-        WebUI.click(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Login/button_Continue'))
+WebUI.click(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Login/button_Continue'))
 
-        WebUI.waitForElementVisible(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Login/leftside_menu'), 
-            30)
-
-        break
-}
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page-All Languages/Respondents/List/OR-RE-LI-Login/leftside_menu'), 30)
 
 WebUI.waitForPageLoad(5)
 
