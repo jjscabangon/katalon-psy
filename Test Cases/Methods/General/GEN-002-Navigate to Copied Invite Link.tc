@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>GEN-002-Navigate to Copied Invite Link</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c1c34731-1a4f-4bf9-8927-c2c54217d8c0</testCaseGuid>
+</TestCaseEntity>

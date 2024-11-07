@@ -18,7 +18,7 @@ WebUI.click(findTestObject('Page-All Languages/Partners/Credit Control/OR-CRC-Tr
 
 GlobalVariable.element = (('//li[contains(normalize-space(),"' + GlobalVariable.partnersClientName) + '")]')
 
-WebUI.callTestCase(findTestCase('Methods/GEN-001-Click by WebElement'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Methods/General/GEN-001-Click by WebElement'), [:], FailureHandling.STOP_ON_FAILURE)
 
 additionalAmount = ('1' + new Date().format('ss'))
 

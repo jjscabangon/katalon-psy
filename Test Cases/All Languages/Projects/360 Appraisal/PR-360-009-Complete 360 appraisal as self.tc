@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PR-360-009-Complete 360 appraisal as self</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>37e26f77-a899-4c69-83d6-d8f453d9edfe</testCaseGuid>
+</TestCaseEntity>

@@ -17,26 +17,16 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-totalCtr = 5
+WebUI.click(findTestObject('Page-All Languages/Projects/360 Appraisal/OR-PR-360-Complete 360 appraisal/input_Search'))
 
-while (totalCtr>0) {
-	int randomInt = new Random().nextInt((61 - 1) + 1) + 1
-	
-	GlobalVariable.element = (('(//div[span[contains(text(),"Tests")]]/following-sibling::div//span[@class="check"]/preceding-sibling::input[@type="checkbox"])[' +
-	randomInt) + ']')
-	
-	println('Assessment to Locate #' + totalCtr + ': ' + GlobalVariable.element)
-	
-	try {
-		WebUI.callTestCase(findTestCase('Methods/General/GEN-001-Click by WebElement'), [:], FailureHandling.STOP_ON_FAILURE)
-		
-		totalCtr = totalCtr - 1
-	} catch (Exception e) {
-		println('Assessment Cannot Be Located #' + totalCtr + ': ' + GlobalVariable.element)
-		
-		totalCtr = totalCtr - 1
-	}
-}
+WebUI.sendKeys(findTestObject('Page-All Languages/Projects/360 Appraisal/OR-PR-360-Complete 360 appraisal/input_Search'), 
+    Keys.chord(Keys.CONTROL, 'v'))
 
+WebUI.sendKeys(findTestObject('Page-All Languages/Projects/360 Appraisal/OR-PR-360-Complete 360 appraisal/input_Search'), 
+    Keys.chord(Keys.CONTROL, 'a'))
 
+GlobalVariable.url = WebUI.getAttribute(findTestObject('Page-All Languages/Projects/360 Appraisal/OR-PR-360-Complete 360 appraisal/input_Search'), 
+    'value')
+
+WebUI.navigateToUrl(GlobalVariable.url)
 
