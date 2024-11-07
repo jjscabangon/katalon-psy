@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PR-360-0067-Remove direct report as rater (8696j0ycu)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a8c5d02d-8c34-4b10-a98e-2e1a3038a63a</testCaseGuid>
+</TestCaseEntity>
