@@ -25,6 +25,7 @@ WebUI.click(findTestObject('Page-All Languages/Projects/360 Appraisal/OR-PR-360-
 
 WebUI.click(findTestObject('Page-All Languages/Projects/360 Appraisal/OR-PR-360-Add raters to 360 project/div_Role manager'))
 
+'BUG: PROD-CN 8696j0ycu'
 WebUI.click(findTestObject('Page-All Languages/Projects/360 Appraisal/OR-PR-360-Remove respondent as rater/button_Apply filter'))
 
 WebUI.delay(2)
