@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PR-360-006-Remove peer as rater (8696j0ycu)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>cb2e3a7e-0621-4118-b05c-503fb0e6cdf3</testCaseGuid>
+</TestCaseEntity>
